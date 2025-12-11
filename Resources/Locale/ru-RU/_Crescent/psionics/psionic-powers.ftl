@@ -1,4 +1,4 @@
-action-name-summon-mothroach = Summon Mothroach
-action-description-summon-mothroach = Calls upon the fog to summon a mothroach. You can summon as many as you'd like.
+action-name-summon-mothroach = Призвать мотылькотаракана
+action-description-summon-mothroach = Призывает туман, чтобы призвать мотылькотаракана. Вы можете призвать столько, сколько пожелаете.
 summon-mothroach-power-description = { action-description-summon-mothroach }
-summon-mothroach-power-initialization-feedback = You feel as if an army of mothroaches awaits you in your future.
+summon-mothroach-power-initialization-feedback = Вы чувствуете, что армия мотылькотараканов ждёт вас в будущем.
