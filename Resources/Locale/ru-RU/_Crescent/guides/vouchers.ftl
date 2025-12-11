@@ -1,1 +1,1 @@
-guide-frontier-combat = Naval Warfare
+guide-frontier-combat = Морская война
