@@ -1,3 +1,3 @@
-advertisement-miningdrobe-1 = Protects you against any megafauna!
-advertisement-miningdrobe-2 = Providing comfort in every swing of a pickaxe!
-advertisement-miningdrobe-3 = Get your nontear clothing right here!!!
+advertisement-miningdrobe-1 = Защитит вас от любой мегафауны!
+advertisement-miningdrobe-2 = Обеспечивает комфорт при каждом ударе киркой!
+advertisement-miningdrobe-3 = Получите свою непорванную одежду здесь!!!
