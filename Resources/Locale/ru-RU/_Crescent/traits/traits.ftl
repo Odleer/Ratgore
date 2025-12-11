@@ -1,39 +1,39 @@
-trait-name-Dockta = Crescent Creole
+trait-name-Dockta = Креольский Полумесяца
 trait-description-Dockta =
     [color = green]
-    This is the primary language of the NCWL faction. All NCWL members are able to speak and understand it. [/color]
-    A language developed by the Crescent Workers League over time as an effort to eliminate the repressive old ways and welcome the new;
-    a mishmash of Solarian Basic, Low Imperial and much from other languages that immigrated to Sector Crescent, integrated to be used
-    with aggressive hand gestures to communicate with others in zero-atmosphere, zero-gravity space. [color = red]
-    A translator device for this language is available as a T1 research for all factions, and printable at a Pristine Microforge. [/color]
-trait-name-HighImperial = High Imperial
-trait-description-HighImperial = A language primarily used by the nobility of Old Terra. With influences primarily from European linguistics, High Imperial is considered a dead language today, kept alive only by the small population of devoted Imperial citizenry and nobility.
-trait-name-Clarizian = Clarizian Common
-trait-description-Clarizian = Clarizian Common is the official tongue of the Free Clarizian Duchies. Constructed using elements of Farsi - Arabic - and Turkish, used by both highborn and commoners.
-trait-name-SolBasic = Solarian Basic
-trait-description-SolBasic = A derived form of High Imperial and Tau Ceti Basic, distilled down to it's base components to make the language easier to understand for foreign merchants and immigrants. Solarian Basic was used by the lower caste of Imperial society long before the Authority's coup d'etat, but it was declared the official mother tongue of the fledgling nation during their declaration of sovereignty.
-trait-name-Kaishago = Kaishago
+    Это основной язык фракции NCWL. Все члены NCWL могут говорить на нём и понимать его. [/color]
+    Язык, разработанный Лигой рабочих Полумесяца со временем как попытка устранить репрессивные старые обычаи и приветствовать новые;
+    смесь солярианского базового, низкого имперского и многого из других языков, прибывших в сектор Полумесяца, интегрированный для использования
+    с агрессивными жестами рук для общения с другими в космосе без атмосферы и гравитации. [color = red]
+    Переводчик для этого языка доступен как исследование T1 для всех фракций и печатается на нетронутой микрокузнице. [/color]
+trait-name-HighImperial = Высокий имперский
+trait-description-HighImperial = Язык, используемый в основном дворянством Старой Терры. С влиянием преимущественно европейской лингвистики, Высокий имперский считается мёртвым языком сегодня, поддерживаемый в живых только небольшой популяцией преданных имперских граждан и дворян.
+trait-name-Clarizian = Кларизийский общий
+trait-description-Clarizian = Кларизийский общий является официальным языком Свободных кларизийских герцогств. Созданный с использованием элементов фарси, арабского и турецкого, используется как высшими слоями, так и простолюдинами.
+trait-name-SolBasic = Солярианский базовый
+trait-description-SolBasic = Производная форма Высокого имперского и базового Тау Цети, дистиллированная до базовых компонентов, чтобы сделать язык легче для понимания иностранными торговцами и иммигрантами. Солярианский базовый использовался низшей кастой имперского общества задолго до переворота Власти, но был объявлен официальным родным языком новой нации во время их декларации суверенитета.
+trait-name-Kaishago = Кайшаго
 trait-description-Kaishago =
     [color = green]
-    This is the primary language of the SHI faction. All SHI members are able to speak and understand it. [/color]
-    A bizzare compaction of ancient Japanese, made to deliver the most information in the shortest amount of time.
-    Most Shinohara Heavy Industries employees have a brainchip that engrains this form of communication involuntarily.[color = red]
-    A translator device for this language is available as a T1 research for all factions, and printable at a Pristine Microforge.[/color]
-trait-name-LowImperial = Low Imperial
+    Это основной язык фракции SHI. Все члены SHI могут говорить на нём и понимать его. [/color]
+    Бизарное сжатие древнего японского, созданное для передачи максимума информации за кратчайшее время.
+    У большинства сотрудников Shinohara Heavy Industries есть мозговой чип, который закрепляет эту форму общения невольно.[color = red]
+    Переводчик для этого языка доступен как исследование T1 для всех фракций и печатается на нетронутой микрокузнице.[/color]
+trait-name-LowImperial = Низкий имперский
 trait-description-LowImperial =
     [color = green]
-    This is the primary language of the DSM faction. All DSM members are able to speak and understand it. [/color]
-    The language spoken in the majority of Mandate space. A butchering of ancient romance languages like French and Romanian, 
-    colored in multiple dialects that are still somehow mutually understood. [color = red]
-    A translator device for this language is available as a T1 research for all factions, and printable at a Pristine Microforge. [/color]
-trait-name-Freespeak = Freespeak
+    Это основной язык фракции DSM. Все члены DSM могут говорить на нём и понимать его. [/color]
+    Язык, на котором говорят в большинстве пространства Мандата. Искажение древних романских языков, таких как французский и румынский, 
+    окрашенное множеством диалектов, которые как-то всё ещё взаимно понимаются. [color = red]
+    Переводчик для этого языка доступен как исследование T1 для всех фракций и печатается на нетронутой микрокузнице. [/color]
+trait-name-Freespeak = Свободная речь
 trait-description-Freespeak =
     [color = green]
-    This is the primary language of the TFSC faction. All TFSC members are able to speak and understand it. [/color]
-    A language of renegades and frontiersmen descending from various languages from Earth-- like Hindi,
-    combined into a multi-rooted jumble that sounds incoherent or even barbarian to non-native speakers.[color = red]
-    A translator device for this language is available as a T1 research for all factions, and printable at a Pristine Microforge. [/color]
-trait-name-OldTaypani = Old Taypani
-trait-description-OldTaypani = Formed out of desperation and constant migration - Old Taypani is a language descended from various Unathi and Atyrian dialects. Glottal and guttural at times, speaking this language is a mark of piety in the circles of the Matron and a sign of destitution to many.
-trait-name-American = American
-trait-description-American = An amalgamation of various ancient languages originating from Old Terra, spoken by those of the New American Protectorate.
+    Это основной язык фракции TFSC. Все члены TFSC могут говорить на нём и понимать его. [/color]
+    Язык ренегатов и фронтирсменов, происходящий из различных языков Земли — таких как хинди,
+    объединённых в многокорневую смесь, которая звучит несвязно или даже варварски для неносителей.[color = red]
+    Переводчик для этого языка доступен как исследование T1 для всех фракций и печатается на нетронутой микрокузнице. [/color]
+trait-name-OldTaypani = Древнетайпанский
+trait-description-OldTaypani = Сформированный из отчаяния и постоянной миграции — Древнетайпанский является языком, происходящим из различных диалектов Унати и Атирия. Глоттальный и гуттуральный временами, говорение на этом языке является знаком побожности в кругах Матроны и признаком нищеты для многих.
+trait-name-American = Американский
+trait-description-American = Амальгама различных древних языков, берущих начало из Старой Терры, на котором говорят жители Новоамериканского протектората.

@@ -1,1 +1,1 @@
-skilldeck-slot-name = Skilldeck slot
+skilldeck-slot-name = Слот скилдека

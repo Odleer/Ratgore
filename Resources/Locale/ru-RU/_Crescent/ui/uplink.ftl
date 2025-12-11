@@ -1,1 +1,1 @@
-announcer-menu-title = Speak and They Will Listen
+announcer-menu-title = Говорите, и они услышат

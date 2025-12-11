@@ -1,1 +1,1 @@
-ship-voucher-examine = This LPC prints: [bold]{ $ship }[/bold]
+ship-voucher-examine = Этот LPC печатает: [bold]{ $ship }[/bold]

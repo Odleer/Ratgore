@@ -1,8 +1,8 @@
 # ONION
 
-advertisement-onion-1 = Psst. You. Come over here.
-advertisement-onion-2 = Stick a needle in me. Stick a needle in you.
-advertisement-onion-3 = AKMS74-U Krinkov, Mayflower, Cobra... oh, sorry. Just taking inventory. Come on over.
-advertisement-onion-4 = Say, why don't we have some fun?
-advertisement-onion-5 = Gunpowder. Brimstone.
-advertisement-onion-6 = I'm- *BZZZT* City-Sector 9 will rise again.
+advertisement-onion-1 = Псст. Ты. Подойди сюда.
+advertisement-onion-2 = Воткни иглу в меня. Воткни иглу в себя.
+advertisement-onion-3 = AKMS74-U Кринков, Mayflower, Cobra... ой, извини. Просто проверяю инвентарь. Заходи.
+advertisement-onion-4 = Слушай, почему бы нам не развлечься?
+advertisement-onion-5 = Порох. Сера.
+advertisement-onion-6 = Я- *БЗЗЗ* Городской сектор 9 восстанет снова.
