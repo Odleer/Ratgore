@@ -1,5 +1,5 @@
 reagent-effect-guidebook-cure-changeling =
     { $chance ->
-        [1] Removes any
-       *[other] remove any
-    } parasitic infection
+        [1] Удаляет любую
+       *[other] удаляет любую
+    } паразитарную инфекцию
