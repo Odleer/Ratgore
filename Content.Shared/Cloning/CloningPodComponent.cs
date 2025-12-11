@@ -63,15 +63,6 @@ public sealed partial class CloningPodComponent : Component
     [DataField]
     public EntProtoId MobSpawnId = "MobAbomination";
 
-    /// <summary>
-    ///     Emag sound effects
-    /// </summary>
-    [DataField]
-    public SoundSpecifier SparkSound = new SoundCollectionSpecifier("sparks")
-    {
-        Params = AudioParams.Default.WithVolume(8),
-    };
-
     // TODO: Remove this from here when cloning and/or zombies are refactored
     [DataField]
     public SoundSpecifier ScreamSound = new SoundCollectionSpecifier("ZombieScreams")
@@ -153,7 +144,7 @@ public sealed partial class CloningPodComponent : Component
     ///     A failed roll poduces a random NonHumanoid.
     /// </summary>
     [DataField]
-    public float HumanoidBaseChance = 1;
+    public float HumanoidBaseChance = 1f;
 
     /// <summary>
     ///     The proto that the Metem Machine picks a random Humanoid from

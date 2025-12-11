@@ -8,6 +8,13 @@
   icon: "JobIconMarshal"
   supervisors: job-supervisors-gliess
   requirements:
+    - !type:FactionRequirement
+      inverted: true
+      factionID: "SRM"
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Voidborn
     - !type:CharacterWhitelistRequirement
     - !type:CharacterOverallTimeRequirement
       min: 25000
@@ -16,6 +23,8 @@
     components:
       - type: ChatRank
         rank: crescent-rank-ind-gliess-sheriff
+      - type: HullrotFaction
+        faction: GS
       - type: LanguageAdder
         addSpoken:
           - Tradeband
@@ -34,8 +43,16 @@
     shoes: ClothingShoesBootsCombat
     head: ClothingHeadHatCMMMarshal
     gloves: ClothingHandsGlovesCombat
-    belt: ClothingBeltMinutemanPouches
     pocket1: WeaponRevolverSnubnose
     id: GliessSheriffPDA
     ears: ClothingHeadsetCMM
     outerClothing: ClothingOuterArmorCMMCarapace
+    belt: ClothingBeltMinutemanPouches
+  storage:
+    belt:
+      - Flash
+      - Tourniquet
+      - BaseSpeedLoaderMagnum
+      - BaseSpeedLoaderMagnum
+      - CombatKnife
+      - Zipties

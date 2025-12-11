@@ -22,6 +22,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using YamlDotNet.Serialization.TypeInspectors;
 
+
 namespace Content.Client.Gameplay
 {
     // OH GOD.
@@ -115,7 +116,8 @@ namespace Content.Client.Gameplay
 
         public IEnumerable<EntityUid> GetClickableEntities(EntityCoordinates coordinates)
         {
-            return GetClickableEntities(coordinates.ToMap(_entityManager, _entitySystemManager.GetEntitySystem<SharedTransformSystem>()));
+            var transformSystem = _entitySystemManager.GetEntitySystem<SharedTransformSystem>();
+            return GetClickableEntities(transformSystem.ToMapCoordinates(coordinates));
         }
 
         public IEnumerable<EntityUid> GetClickableEntities(MapCoordinates coordinates)
@@ -206,7 +208,7 @@ namespace Content.Client.Gameplay
 
             EntityCoordinates coordinates = default;
             EntityUid? entityToClick = null;
-            if (args.Viewport is IViewportControl vp)
+            if (args.Viewport is IViewportControl vp && kArgs.PointerLocation.IsValid)
             {
                 var mousePosWorld = vp.PixelToMap(kArgs.PointerLocation.Position);
 
@@ -222,6 +224,10 @@ namespace Content.Client.Gameplay
                 coordinates = _mapManager.TryFindGridAt(mousePosWorld, out _, out var grid) ?
                     grid.MapToGrid(mousePosWorld) :
                     EntityCoordinates.FromMap(_mapManager, mousePosWorld);
+            }
+            else
+            {
+                coordinates = EntityCoordinates.Invalid;
             }
 
             var message = new ClientFullInputCmdMessage(_timing.CurTick, _timing.TickFraction, funcId)

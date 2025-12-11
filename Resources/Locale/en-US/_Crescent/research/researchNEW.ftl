@@ -53,19 +53,25 @@ research-technology-interdyne-pryarms = TT-42 Pryarms
 # CYBERDAWN
 research-technology-cyberdawn-clothing = Cyberdawn Clothing
 research-technology-cyberdawn-basicballistics = Basic Syndicate Ballistics
-research-technology-cyberdawn-powersink = Power Sink
-research-technology-cyberdawn-radiojammer = Radio Jammer
-research-technology-cyberdawn-ewar = Electronic Warfare
-research-technology-cyberdawn-emag = Cryptographic Sequencer Card
-research-technology-cyberdawn-advancedballistics = Advanced Ballistics
-research-technology-cyberdawn-dnascram = DNA Scrambler
-research-technology-cyberdawn-emp = Electromagnetic Pulse Implant
+research-technology-cyberdawn-advancedballistics = Advanced Syndicate Ballistics
+research-technology-cyberdawn-T1-Infiltration = Basic infiltration technology
+research-technology-cyberdawn-T2-Infiltration = Advanced infiltration technology
+research-technology-cyberdawn-T3-Infiltration = Experimental infiltration technology
 research-technology-cyberdawn-energydagger = Concealable Hardlight Dagger
 research-technology-cyberdawn-zhongyao = Zhongyao Tacsuit
 research-technology-cyberdawn-egui = Egui Stealth Tacsuit
 research-technology-cyberdawn-psybreaker = Anti-Psionic Armaments
 research-technology-cyberdawn-thermals = Thermal Vision Goggles
 research-technology-cyberdawn-advancedlaunchers = Advanced Launchers
+research-technology-cyberdawn-CDTAdvancedComponents = Advanced components
+research-technology-cyberdawn-CDTAdvancedFirearmcomponents = Advanced Firearm components
+research-technology-cyberdawn-CDTPhoronBlade = PhoronBlade
+research-technology-cyberdawn-CDTDualPhoronBlade = DualPhoronBlade
+research-technology-cyberdawn-CDTCombatcyborgs = Combat cyborgs
+research-technology-cyberdawn-CDTMedicalcyborgs = Medical cyborgs
+research-technology-cyberdawn-CDTSaboteurcyborgs = Saboteur cyborgs
+research-technology-cyberdawn-CDTShipT1LPC = Basic stealth ship production
+
 
 # DSM
 research-technology-imperial-basicclothes = Basic Tailoring
@@ -80,15 +86,19 @@ research-technology-imperial-laelaps = Imperial Assault Frigate
 research-technology-imperial-nobleweapons = Imperial Nobility Swords
 research-technology-imperial-sunesis = Imperial Exploration Cruiser
 research-technology-imperial-frigate = Imperial Assault Frigate
+research-technology-imperial-antiinfantrymechguns = Anti Infantry Mechasuit Weaponry
 research-technology-imperial-plasmamechguns = Plasma Mechasuit Weaponry
+research-technology-imperial-plasmaguns = Infantry Plasma Weaponry
 research-technology-imperial-paladin = Imperial Combat Exosuit
 research-technology-imperial-wanderer = Imperial Scout Exosuit
 research-technology-imperial-carrion = Imperial Utility Exosuit
 research-technology-imperial-advancedrifling = Advanced Rifling
-research-technology-imperial-srmimitation = Sixth Fireteam Imitation
 research-technology-imperial-bomblauncher = M320 Launcher
 research-technology-imperial-triumphant = Imperial Cruiser
-research-technology-imperial-padparadscha = Imperial Siege Battlecruiser
+research-technology-imperial-suzerain = Imperial Siege Battlecruiser
+research-technology-imperial-nemesis = Imperial Artillery Carrier
+research-technology-imperial-torturer = Imperial Stealth Bomber
+research-technology-imperial-magnate = Imperial Fire Support Vessel
 
 # NCWL
 research-technology-communard-clothes = Communard Clothes
@@ -145,3 +155,7 @@ research-technology-shinohara-gilgamesh = mR-815 Prototype Exosuit
 research-technology-shinohara-ballisticfab = TF-22 Armaments Foundry
 research-technology-shinohara-dermalarmor = KOURINDO-U Dermal Armor
 research-technology-shinohara-shiverblade = SHI-RIP9 Shiver Blade
+research-technology-shinohara-advance-armor = Svbt Experimental Armors
+research-technology-shinohara-light-destroyer = SHI Light Destroyers
+research-technology-shinohara-oldntballistics = Old NT Gun Schematics
+research-technology-shinohara-ntartillery = NT Artillery Patent

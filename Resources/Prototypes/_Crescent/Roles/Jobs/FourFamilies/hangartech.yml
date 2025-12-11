@@ -27,8 +27,8 @@
     components:
       - type: ChatRank
         rank: crescent-rank-hangartech
-  - !type:AddComponentSpecial
-    components:
+      - type: HullrotFaction
+        faction: TAP
       - type: Telepathic
       - type: LanguageAdder
         addSpoken:
@@ -82,7 +82,7 @@
   id: HangarTechGear
   equipment:
     jumpsuit:  ClothingUniformJumpsuitHangarTechnician
-    back: ClothingBackpackSatchelFilled
+    back: ClothingBackpackSatchel
     shoes: ClothingShoesBootsJack
     head: ClothingHeadHatBeretQM
     id: HangarTechPDA

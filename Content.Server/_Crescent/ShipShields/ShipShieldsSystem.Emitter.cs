@@ -8,6 +8,7 @@ using Content.Server.Station.Systems;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Examine;
 using Content.Server.Explosion.Components;
+using Content.Shared.Explosion.Components;
 
 namespace Content.Server._Crescent.ShipShields;
 public partial class ShipShieldsSystem
@@ -42,7 +43,7 @@ public partial class ShipShieldsSystem
 
         if (TryComp<ExplosiveComponent>(args.Deflected, out var exp))
         {
-            component.Damage += exp.TotalIntensity;
+            component.Damage += exp.TotalIntensity / 15; //after mlg intensity explosion changes, 1 intensity = 1 dmg, instead of 1 intensity = 15 dmg;
         }
 
         if (TryComp<ProjectileComponent>(args.Deflected, out var proj))
@@ -69,21 +70,20 @@ public partial class ShipShieldsSystem
             return;
         }
 
-        var additionalLoad = (float) Math.Clamp(Math.Pow(component.Damage, component.DamageExp), 0f, component.MaxDraw);
-        var ratio = additionalLoad / component.BaseDraw;
-        ratio = (float) Math.Ceiling(ratio * 100);
+        var ratio = component.Damage / component.DamageLimit;
 
         args.PushMarkup(Loc.GetString("shield-emitter-examine-damaged", ("percent", ratio)));
     }
 
-    private void AdjustEmitterLoad(EntityUid uid, ShipShieldEmitterComponent? emitter = null, ApcPowerReceiverComponent? receiver = null)
-    {
-        if (!Resolve(uid, ref emitter, ref receiver))
-            return;
+    // .2 - 2025. commented out because shields draw a fixed amount of power now
+    // private void AdjustEmitterLoad(EntityUid uid, ShipShieldEmitterComponent? emitter = null, ApcPowerReceiverComponent? receiver = null)
+    // {
+    //     if (!Resolve(uid, ref emitter, ref receiver))
+    //         return;
 
-        /// Raise damage to the power of the growth exponent
-        var additionalLoad = (float) Math.Clamp(Math.Pow(emitter.Damage, emitter.DamageExp), 0f, emitter.MaxDraw);
+    //     /// Raise damage to the power of the growth exponent
+    //     var additionalLoad = (float) Math.Clamp(Math.Pow(emitter.Damage, emitter.DamageExp), 0f, emitter.MaxDraw);
 
-        receiver.Load = emitter.BaseDraw + additionalLoad;
-    }
+    //     receiver.Load = emitter.BaseDraw + additionalLoad;
+    // }
 }

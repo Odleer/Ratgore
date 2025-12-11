@@ -20,6 +20,12 @@
             "name": "Minigun"
         },
         {
+            "name": "chaingun"
+        },
+        {
+            "name": "fist"
+        },
+        {
             "name": "autoshotgun"
         },
         {
@@ -45,6 +51,15 @@
         },
         {
             "name": "plasmacannon"
+        },
+        {
+            "name": "plasmalaser"
+        },
+        {
+            "name": "imperialsmg"
+        },
+        {
+            "name": "gustavmodified"
         }
     ]
 }

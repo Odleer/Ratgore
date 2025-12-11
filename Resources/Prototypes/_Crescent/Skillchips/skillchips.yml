@@ -1,13 +1,13 @@
 - type: entity
   parent: BaseItem
   id: SkillchipHackDoor
-  name: door sequencer skillchip
-  description: Contains a fragment of code that abuses a bug in standard airlocks to force them open.
+  name: makeshift door sequencer quickhack datashard
+  description: Contains a fragment of code that abuses a bug in standard airlocks to force them open. Seems cobbled together from a variety of scrap electronics.
   components:
     - type: Sprite
-      sprite: Objects/Devices/encryption_keys.rsi
+      sprite: _Crescent/Objects/Misc/skillchips.rsi
       layers:
-        - state: crypt_gray
+        - state: makeshiftchip
     - type: Skillchip
 
 - type: entity

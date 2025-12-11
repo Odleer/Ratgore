@@ -9,6 +9,8 @@
     - Vanguard
     - Zorniy
     - Lodka
+    - Cherenzikov
+    - Ivarod
 
 - type: entity
   id: JackalMothershipComputer
@@ -32,11 +34,13 @@
   - type: ShipyardListing
     shuttles:
     - Redemptor
-    - Torturer
     - Ibis
     - Impel
     - Gnosis
     - Praxis
+    - Imparator
+    - Praetorian
+    - Laelaps
 
 - type: entity
   id: NemesisMothershipComputer
@@ -45,8 +49,11 @@
   components:
   - type: ShipyardListing
     shuttles:
-    - Praxis
-    - Torturer
+    - Janissary
+    - Redemptor
+    - Imparator
+    - Perigale
+    - Voruna
 
 - type: entity
   id: UnionfallNemesisMothershipComputer
@@ -70,6 +77,7 @@
     - Meatwagon
     - Harpy
     - Matabele
+    - Fridge
 
 - type: entity
   id: SawsMothershipComputer
@@ -84,7 +92,7 @@
     - Scabrak
     - Geode
     - Thanapod
-    - Rattler
+    - Mercurymk2
 
 - type: entity
   id: TatsumotoMothershipComputer
@@ -100,6 +108,7 @@
     - Flea
     - Bison
     - Nazaar
+    - colossus
 
 - type: entity
   id: RamziMothershipComputer
@@ -111,6 +120,8 @@
     - Velator
     - Taipan
     - Wreck
+    - Spriggan
+    - Lungspot
 
 - type: entity
   id: ZhipovMothershipComputer
@@ -146,7 +157,7 @@
 - type: entity
   id: CMMMothershipComputer
   parent: BaseMothershipComputer
-  name: TSP internal shipyard
+  name: Gliessian internal shipyard
   components:
   - type: ShipyardListing
     shuttles:
@@ -161,9 +172,6 @@
   name: refuge shipyard
   components:
   - type: ShipyardListing
-    shuttles:
-    - Saintsfall
-    - Spider
 
 - type: entity
   id: AnathemaMothershipComputer
@@ -222,6 +230,8 @@
     shuttles:
     - Tick
     - Gnat
+    - Piranha
+    - Scuttlefish
 
 - type: entity
   id: NAPMothershipComputer
@@ -240,3 +250,15 @@
   - type: ShipyardListing
     shuttles:
     - Wasp
+    - Bee
+    - Hornet
+
+- type: entity
+  id: CockroachMothershipComputer
+  parent: BaseMothershipComputer
+  name: cockroach internal shipyard
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Roachling
+    - Dungbeetle

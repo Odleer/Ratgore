@@ -8,6 +8,13 @@
   icon: "JobIconMinuteman"
   supervisors: job-supervisors-gliess
   requirements:
+    - !type:FactionRequirement
+      inverted: true
+      factionID: "SRM"
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Voidborn
     - !type:CharacterOverallTimeRequirement
       min: 20000
   special:
@@ -15,6 +22,8 @@
     components:
       - type: ChatRank
         rank: crescent-rank-ind-gliess-deputy
+      - type: HullrotFaction
+        faction: GS
       - type: LanguageAdder
         addSpoken:
           - Tradeband
@@ -31,11 +40,18 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitCMM
     shoes: ClothingShoesBootsCombat
-    head: ClothingHeadHatMinuteman
+    head: ClothingHeadHatCMMDeputyMarshal
     gloves: ClothingHandsGlovesCombat
-    belt: ClothingBeltMinutemanPouches
     pocket1: WeaponPistolHKUSP
     id: GliessDeputyPDA
     ears: ClothingHeadsetCMM
     neck: ClothingNeckScarfCMMCloak
-    outerClothing: ClothingOuterArmorCMM
+    outerClothing: ClothingOuterArmorCMMDeputyCarapace
+    belt: ClothingBeltMinutemanPouches
+  storage:
+    belt:
+      - Flash
+      - Tourniquet
+      - MagazinePistol
+      - CombatKnife
+      - Zipties

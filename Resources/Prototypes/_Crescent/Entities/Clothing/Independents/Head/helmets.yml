@@ -1,12 +1,11 @@
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitIndependentsEVA
   categories: [ HideSpawnMenu ]
   name: spacionaut helmet
   description: Spaceworthy protection for your fragile skull. A Northrop-Martin design.
   components:
   - type: BreathMask
-  - type: FlashImmunity
   - type: Sprite
     sprite: _Crescent/Clothing/Independents/Head/spacionaut.rsi
   - type: Clothing
@@ -32,14 +31,13 @@
         Caustic: 5
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitFishbed
   categories: [ HideSpawnMenu ]
   name: fishbed helmet
   description: Spaceworthy protection for your fragile skull. A Northrop-Martin Suit design.
   components:
   - type: BreathMask
-  - type: FlashImmunity
   - type: Sprite
     sprite: _Crescent/Clothing/Independents/Head/fishbed.rsi
   - type: Clothing
@@ -65,14 +63,13 @@
         Caustic: 5
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitCenobite
   categories: [ HideSpawnMenu ]
   name: cenobite helmet
   description: Spaceworthy protection for your fragile skull. A Northrop-Martin design.
   components:
   - type: BreathMask
-  - type: FlashImmunity
   - type: Sprite
     sprite: _Crescent/Clothing/Independents/Head/cenobite.rsi
   - type: Clothing

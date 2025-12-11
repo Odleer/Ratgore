@@ -95,12 +95,16 @@
     - Captain
     - HeadOfSecurity
     - Security
+    - NanotrasenRepresentative #EE
+    - BlueshieldOfficer #EE
+    - Magistrate #EE
     - Borg
     - BasicSilicon
   - type: DeployableTurretController
     accessGroups:
     - Cargo
     - Command
+    - Dignitary #EE
     - Engineering
     - General
     - Medical
@@ -113,6 +117,8 @@
     - Atmospherics
     - Bar
     - BasicSilicon
+    - BlueshieldOfficer #EE
+    - Boxer #EE
     - Borg
     - Brig
     - Detective
@@ -122,7 +128,9 @@
     - Chemistry
     - ChiefEngineer
     - ChiefMedicalOfficer
+    - Clown #EE
     - Command
+    - Corpsman #EE
     - Cryogenics
     - Engineering
     - External
@@ -132,9 +140,18 @@
     - Janitor
     - Kitchen
     - Lawyer
+    - Mail #EE
     - Maintenance
+    - Mantis #EE
+    - Magistrate #EE
     - Medical
+    - Mime #EE
+    - Musician #EE
+    - NanotrasenRepresentative #EE
+    - Paramedic #EE
+    - Psychologist #EE
     - Quartermaster
+    - Reporter #EE
     - Research
     - ResearchDirector
     - Salvage
@@ -204,8 +221,40 @@
     exemptAccessLevels:
     - Captain
     - ResearchDirector
+    - NanotrasenRepresentative #EE
+    - BlueshieldOfficer #EE
+    - Magistrate #EE
     - BasicSilicon
     - Borg
+  - type: DeviceNetwork
+    receiveFrequencyId: TurretAI
+    transmitFrequencyId: TurretControlAI
+  - type: ContainerFill
+    containers:
+      board: [ WeaponEnergyTurretAIControlPanelElectronics ]
+
+- type: entity
+  parent: WeaponEnergyTurretStationControlPanel
+  id: WeaponCSAEnergyTurretControlPanel
+  name: CSA - 240 turret control panel
+  description: A wall-mounted interface that allows a local artifical intelligence to adjust the operational parameters of linked sentry turrets.
+  components:
+  - type: AccessReader
+    access: [["SyndicateRamzi"], ["SyndicateCommand"]]
+  - type: TurretTargetSettings
+    exemptAccessLevels:
+    - SyndicateRamzi
+    - SyndicateCommand
+  - type: DeployableTurretController
+    accessGroups:
+      - Syndicate
+    accessLevels:
+    - SyndicateBasic
+    - SyndicateInterdyne
+    - SyndicateGorlex
+    - SyndicateRamzi
+    - SyndicateCommand
+    - SyndicateSaws
   - type: DeviceNetwork
     receiveFrequencyId: TurretAI
     transmitFrequencyId: TurretControlAI

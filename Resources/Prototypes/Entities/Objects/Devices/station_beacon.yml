@@ -141,6 +141,14 @@
 
 - type: entity
   parent: DefaultStationBeaconCommand
+  id: DefaultStationBeaconGateway
+  suffix: Gateway
+  components:
+  - type: NavMapBeacon
+    defaultText: station-beacon-gateway
+
+- type: entity
+  parent: DefaultStationBeaconCommand
   id: DefaultStationBeaconCaptainsQuarters
   suffix: Captain's Quarters
   components:
@@ -353,19 +361,19 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconSupply
-  suffix: Manufacturing #Delta V - Renamed
+  suffix: Logistics #Delta V - Renamed
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-manufacturing #Delta V - Renamed
+    defaultText: station-beacon-logistics #Delta V - Renamed
     color: "#A46106"
 
 - type: entity
   parent: DefaultStationBeaconSupply
   id: DefaultStationBeaconCargoReception
-  suffix: Logistics #Delta V - Renamed
+  suffix: Logistics Reception #Delta V - Renamed
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-logistics #Delta V - Renamed
+    defaultText: station-beacon-logistics-reception #Delta V - Renamed
 
 - type: entity
   parent: DefaultStationBeaconSupply
@@ -536,7 +544,7 @@
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-ai
-    color: "#2ed2fd"
+    color: "#5ed7aa"
 
 - type: entity
   parent: DefaultStationBeaconAI
@@ -641,3 +649,11 @@
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-escape-pod
+
+- type: entity
+  parent: DefaultStationBeacon
+  id: DefaultStationBeaconVox
+  suffix: Vox
+  components:
+  - type: NavMapBeacon
+    defaultText: station-beacon-vox

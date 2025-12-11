@@ -1,13 +1,14 @@
 # Empty mags
 - type: entity
   id: BaseMagazineLightRifle
-  name: "magazine (5.56x45mm Imperial)"
-  parent: BaseItem
+  name: "magazine (.30 rifle)"
+  parent: [ BaseItem, BaseRestrictedContraband ]
   abstract: true
   components:
   - type: Tag
     tags:
       - MagazineLightRifle
+      - Magazine
   - type: BallisticAmmoProvider
     mayTransfer: true
     whitelist:
@@ -21,7 +22,7 @@
     containers:
       ballistic-ammo: !type:Container
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi
+    sprite: _Crescent/Objects/Weapons/Ammunition/Magazine/5.56mm_mag.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -29,50 +30,52 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
     magState: mag
-    steps: 2
+    steps: 8
     zeroVisible: false
   - type: Appearance
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Interact/mag_pick.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Interact/mag_drop.ogg
 
 # Magazines
 - type: entity
   id: MagazineLightRifleBox
-  name: "box magazine (5.56x45mm Imperial)"
+  name: "100-round box magazine (5.56x45mm Imperial)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
     tags:
       - MagazineLightRifleBox
+      - Magazine
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
     capacity: 100
   - type: Item
+    size: Normal
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
+    sprite: _Crescent/Objects/Weapons/Ammunition/Magazine/5.56mm_box.rsi
   - type: MagazineVisuals
     magState: mag
-    steps: 8
+    steps: 3
     zeroVisible: false
   - type: Appearance
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Interact/big_mag_pick.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Interact/big_mag_drop.ogg
 
 - type: entity
   id: MagazineLightRifleBoxPractice
-  name: "box magazine (5.56x45mm Imperial practice)"
+  name: "100-round box magazine (5.56x45mm Imperial practice)"
   parent: MagazineLightRifleBox
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
 
 - type: entity
-  id: MagazineLightRifleBoxRubber
-  name: "box magazine (5.56x45mm Imperial rubber)"
-  parent: MagazineLightRifleBox
-  components:
-  - type: BallisticAmmoProvider
-    proto: CartridgeLightRifleRubber
-
-- type: entity
   id: MagazineLightRifleBoxIncendiary
-  name: "box magazine (5.56x45mm Imperial incendiary)"
+  name: "100-round box magazine (5.56x45mm Imperial incendiary)"
   parent: MagazineLightRifleBox
   components:
   - type: BallisticAmmoProvider
@@ -80,7 +83,7 @@
 
 - type: entity
   id: MagazineLightRifleBoxUranium
-  name: "box magazine (5.56x45mm Imperial black-tip)"
+  name: "100-round box magazine (5.56x45mm Imperial black-tip)"
   parent: MagazineLightRifleBox
   components:
   - type: BallisticAmmoProvider
@@ -88,7 +91,7 @@
 
 - type: entity
   id: MagazineLightRifleBoxShrapnel
-  name: "L6 SAW magazine box (5.56x45mm Imperial shrapnel)"
+  name: "100-round  magazine box (5.56x45mm Imperial shrapnel)"
   parent: MagazineLightRifleBox
   components:
   - type: BallisticAmmoProvider
@@ -96,76 +99,40 @@
 
 - type: entity
   id: MagazineLightRifle
-  name: "magazine (5.56x45mm Imperial)"
+  name: "30-round magazine (5.56x45mm Imperial)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
-  - type: Sprite
-    layers:
-    - state: red
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
   id: MagazineLightRifleEmpty
-  name: "magazine (5.56x45mm Imperial any)"
+  name: "30-round magazine (5.56x45mm Imperial any)"
   suffix: empty
   parent: MagazineLightRifle
   components:
   - type: BallisticAmmoProvider
     proto: null
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
 
 - type: entity
   id: MagazineLightRiflePractice
-  name: "magazine (5.56x45mm Imperial practice)"
+  name: "30-round magazine (5.56x45mm Imperial practice)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
-  - type: Sprite
-    layers:
-    - state: practice
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
-- type: entity
-  id: MagazineLightRifleRubber
-  name: "magazine (5.56x45mm Imperial rubber)"
-  parent: BaseMagazineLightRifle
-  components:
-  - type: BallisticAmmoProvider
-    proto: CartridgeLightRifleRubber
-  - type: Sprite
-    layers:
-    - state: rubber
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
   id: MagazineLightRifleUranium
-  name: "magazine (5.56x45mm Imperial uranium)"
+  name: "30-round magazine (5.56x45mm Imperial uranium)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium
-  - type: Sprite
-    layers:
-    - state: uranium
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
   id: MagazineLightRifleIncendiary
-  name: "magazine (5.56x45mm Imperial incendiary)"
+  name: "30-round magazine (5.56x45mm Imperial incendiary)"
   parent: MagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -173,7 +140,7 @@
 
 - type: entity
   id: MagazineLightRifleShrapnel
-  name: "magazine (5.56x45mm Imperial shrapnel)"
+  name: "30-round magazine (5.56x45mm Imperial shrapnel)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -181,12 +148,13 @@
 
 - type: entity
   id: MagazineLightRifleMaxim
-  name: "pan magazine (5.56x45mm Imperial rifle)"
+  name: "pan magazine (.30 rifle)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
     tags:
       - MagazineLightRiflePan
+      - Magazine
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
     capacity: 96
@@ -195,12 +163,13 @@
 
 - type: entity
   id: MagazineLightRiflePkBox
-  name: "PK munitions box (5.56x45mm Imperial rifle)"
+  name: "PK munitions box (.30 rifle)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
     tags:
       - MagazineLightRifleBox
+      - Magazine
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
     capacity: 80

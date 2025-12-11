@@ -59,6 +59,7 @@
   id: ResearchDiskDebug
   name: research point disk
   suffix: DEBUG, DO NOT MAP
+  categories: [ DoNotMap ]
   description: A disk for the R&D server containing all the points you could ever need.
   components:
   - type: ResearchDisk
@@ -81,8 +82,33 @@
     - enum.DamageStateVisualLayers.Base:
         datadisk_base: Sixteen
   - type: TechnologyDisk
+    excludedRecipes:
+    # Advanced crafting components 
+    - AdvancedMechatronics1Craft
+    - AdvancedElectronics1Craft
+    - AdvancedMechatronics1
+    - AdvancedElectronics1
+    # Weapon components 
+    - BallisticCycler1Craft
+    - TubeLoader1Craft
+    - LaserLocus1Craft
+    - HardlightGenerator1Craft
+    - BallisticCycler1
+    - TubeLoader1
+    - LaserLocus1
+    - HardlightGenerator1
+   # AutoFabs for components
+    - VariableCommodityFabricatorFlatpack
+    - AdvancedVariableCommodityFablatheFlatpack
+   # Tier 3 Faction specific
+    - ClothingOuterHardsuitNCWLJuggernaut
+    - EnergySwordDouble
+    - ClothingOuterHardsuitCybersunStealthCyberdawn
+    - SRMKhopesh
+    - ClothingOuterHardsuitSHIJuggernaut
+    - ClothingOuterHardsuitSHISpeedsuit
   - type: StaticPrice
-    price: 100
+    price: 2000
   - type: StealTarget
     stealGroup: TechnologyDisk
 

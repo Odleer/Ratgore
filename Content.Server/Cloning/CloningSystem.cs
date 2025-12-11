@@ -83,6 +83,7 @@ public sealed partial class CloningSystem : EntitySystem
     [Dependency] private readonly ThirstSystem _thirst = default!;
     [Dependency] private readonly SharedDrunkSystem _drunk = default!;
     [Dependency] private readonly MobThresholdSystem _thresholds = default!;
+    [Dependency] private readonly EmagSystem _emag = default!;
     public readonly Dictionary<MindComponent, EntityUid> ClonesWaitingForMind = new();
 
     // <summary>
@@ -163,13 +164,18 @@ public sealed partial class CloningSystem : EntitySystem
     /// </summary>
     private void OnEmagged(EntityUid uid, CloningPodComponent clonePod, ref GotEmaggedEvent args)
     {
+        if (!_emag.CompareFlag(args.Type, EmagType.Interaction))
+            return;
+
+        if (_emag.CheckFlag(uid, EmagType.Interaction))
+            return;
+
         if (!this.IsPowered(uid, EntityManager))
             return;
 
         if (clonePod.ActivelyCloning)
             CauseCloningFail(uid, clonePod);
 
-        _audio.PlayPvs(clonePod.SparkSound, uid);
         _popupSystem.PopupEntity(Loc.GetString("cloning-pod-component-upgrade-emag-requirement"), uid);
         args.Handled = true;
     }
@@ -357,7 +363,7 @@ public sealed partial class CloningSystem : EntitySystem
             changeProfile = false;
             return oldSpecies.Prototype;
         }
-        var chance = (component.HumanoidBaseChance - karma * component.KarmaOffset) * _contests.MindContest(oldBody, true);
+        var chance = component.HumanoidBaseChance - karma * component.KarmaOffset;
 
 
         var ev = new ReincarnatingEvent(oldBody, chance);
@@ -370,13 +376,6 @@ public sealed partial class CloningSystem : EntitySystem
         switch (ev.ForcedType)
         {
             case ForcedMetempsychosisType.None:
-                if (!ev.NeverTrulyClone
-                    && chance > 1
-                    && _random.Prob(chance - 1))
-                {
-                    changeProfile = false;
-                    return oldSpecies.Prototype;
-                }
 
                 chance = Math.Clamp(chance, 0, 1);
                 if (_random.Prob(chance))

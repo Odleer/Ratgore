@@ -1,12 +1,13 @@
 - type: entity
   id: BaseMagazineHeavyRifle
-  name: "magazine (12.7×99mm USM)"
-  parent: BaseItem
+  name: "magazine (.20 rifle)"
+  parent: [ BaseItem, BaseRestrictedContraband ]
   abstract: true
   components:
   - type: Tag
     tags:
       - MagazineHeavyRifle
+      - Magazine
   - type: Item
     size: Small
   - type: BallisticAmmoProvider
@@ -29,15 +30,20 @@
     steps: 2
     zeroVisible: false
   - type: Appearance
+  - type: EmitSoundOnPickup
+    sound: /Audio/_Crescent/Weapons/Interact/mag_pick.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/_Crescent/Weapons/Interact/mag_drop.ogg
 
 - type: entity
   id: MagazineBoxRifleMinigun
-  name: "Minigun Ammo Box (.10 rifle)"
+  name: "500-round Minigun Ammo Box (.10 rifle)"
   parent: BaseMagazineHeavyRifle
   components:
   - type: Tag
     tags:
       - MagazineBoxRifleMinigun
+      - Magazine
   - type: BallisticAmmoProvider
     proto: CartridgeMinigun
     capacity: 500

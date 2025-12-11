@@ -20,7 +20,7 @@
       traits:
         - Spearmaster
         - WeaponsGeneralist
-        - Mystic
+     
 
 
 - type: trait
@@ -45,7 +45,7 @@
       traits:
         - Swashbuckler
         - WeaponsGeneralist
-        - Mystic
+      
 
 - type: trait
   id: WeaponsGeneralist
@@ -69,38 +69,37 @@
       traits:
         - Swashbuckler
         - Spearmaster
-        - Mystic
 
-- type: trait
-  id: Mystic
-  category: Mental
-  points: 0
-  functions:
-    - !type:TraitReplaceComponent
-      components:
-      - type: OniDamageModifier
-        modifiers:
-          coefficients:
-            Blunt: 1.1
-            Slash: 1.1
-            Piercing: 1.1
-      - type: PotentiaModifier
-        potentiaMultiplier: 1.15
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Oni
-    - !type:CharacterTraitRequirement
-      inverted: true
-      traits:
-        - Swashbuckler
-        - Spearmaster
-        - WeaponsGeneralist
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterTraitRequirement
-          traits:
-            - LatentPsychic
+       
+#- type: trait
+#  category: Mental
+#  points: 0
+#  functions:
+#    - !type:TraitReplaceComponent
+#      components:
+#      - type: OniDamageModifier
+#        modifiers:
+#          coefficients:
+#            Blunt: 1.1
+#            Slash: 1.1
+#            Piercing: 1.1
+#      - type: PotentiaModifier
+#        potentiaMultiplier: 1.15
+#  requirements:
+#    - !type:CharacterSpeciesRequirement
+#      species:
+#        - Oni
+#    - !type:CharacterTraitRequirement
+#      inverted: true
+#      traits:
+#        - Swashbuckler
+#        - Spearmaster
+#        - WeaponsGeneralist
+#    - !type:CharacterLogicOrRequirement
+#      requirements:
+#        - !type:CharacterTraitRequirement
+#          traits:
+#           - LatentPsychic
 
 - type: trait
   id: VoidbornBlackeye
@@ -142,7 +141,7 @@
   category: Physical
   points: 3
   functions:
-    - !type:TraitReplaceComponent
+    - !type:TraitModifyComponent
       components:
         - type: Silicon
           entityType: enum.SiliconType.Player
@@ -158,9 +157,14 @@
             1: 0.45
             0: 0.00
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - IPC
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - IPC
+        - !type:CharacterTraitRequirement
+          traits:
+            - Shell
 
 - type: trait
   id: IPCBrittleBoneDisease
@@ -176,9 +180,14 @@
         - type: DeadModifier
           deadThresholdModifier: -60
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - IPC
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - IPC
+        - !type:CharacterTraitRequirement
+          traits:
+            - Shell
 
 - type: trait
   id: IPCFragileCircuits
@@ -189,9 +198,14 @@
       components:
         - type: KillOnDamage
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - IPC
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - IPC
+        - !type:CharacterTraitRequirement
+          traits:
+            - Shell
 
 - type: trait
   id: IPCFaultyWaterproofing
@@ -224,6 +238,15 @@
                   messages: [ "faultyWaterproofing-damage-popup" ]
                   probability: 1
   requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - IPC
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          species:
+            - IPC
+        - !type:CharacterTraitRequirement
+          traits:
+            - Shell
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - HardenedCircuits

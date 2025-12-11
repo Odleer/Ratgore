@@ -3,12 +3,12 @@
 
 - type: vessel
   id: Termitemk2
-  name: Termite MKII
-  description: | 
+  name: TS Termite MKII
+  description: |
     The Termite MKII has undergone some questionable combat retrofits, capable of fitting 3 guns in it's meager hold. Guns sold seperately.
     LOADOUT: 3x Fixed Universal hardpoints
-    MINIMUM CREW: 1x Pilot 
-  price: 18000
+    MINIMUM CREW: 1x Pilot
+  price: 16000
   category: Small
   group: Civilian
   path: /Maps/_Crescent/Shuttles/Civilian/termitemk2.yml

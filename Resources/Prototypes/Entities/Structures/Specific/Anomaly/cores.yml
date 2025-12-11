@@ -49,6 +49,9 @@
   - type: IgnitionSource
     temperature: 400
     ignited: true
+  - type: Spellbook
+    spellActions:
+      ActionFireball: -1
 
 - type: entity
   parent: BaseAnomalyCore
@@ -62,6 +65,9 @@
     energy: 10
     color: "#1e070e"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionLesserKnockdown: -1
 
 - type: entity
   parent: BaseAnomalyCore
@@ -75,10 +81,14 @@
     energy: 1.5
     color: "#befaff"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionForceWall: -1
 
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreFlesh
+  description: The core of a destroyed flesh anomaly. Pulsates sickeningly, but might be a hearty meal if cooked.
   suffix: Flesh
   components:
   - type: Sprite
@@ -88,6 +98,9 @@
     energy: 3.5
     color: "#cb5b7e"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionSpawnMagicarpSpell: -1
 
 - type: entity
   parent: BaseAnomalyCore
@@ -114,6 +127,10 @@
     energy: 3.5
     color: "#ffffff"
     castShadows: false
+  - type: Spellbook
+    learnTime: 6
+    spellActions:
+      ActionLesserSuppress: -1
 
 - type: entity
   parent: BaseAnomalyCore
@@ -127,6 +144,10 @@
     energy: 3.5
     color: "#00ccff"
     castShadows: false
+  - type: Spellbook
+    learnTime: 2
+    spellActions:
+      ActionBlink: -1
 
 - type: entity
   parent: BaseAnomalyCore
@@ -141,12 +162,17 @@
     color: "#ffffaa"
     castShadows: false
   - type: Electrified
+  - type: Spellbook
+    spellActions:
+      ActionKnock: -1
 
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreFlora
   suffix: Flora
   components:
+  - type: Seed
+    seedId: anomalyBerry
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/flora_core.rsi
   - type: PointLight
@@ -154,6 +180,10 @@
     energy: 2.0
     color: "#6270bb"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionSpawnFlouraSpell: -1
+
 
 - type: entity
   parent: [ BaseAnomalyCore, BaseShadow ]
@@ -166,6 +196,32 @@
     radius: 1.5
     energy: 2.0
     color: "#793a80"
+    castShadows: false
+
+- type: entity
+  parent: BaseAnomalyCore
+  id: AnomalyCoreTech
+  suffix: Tech
+  components:
+  - type: Sprite
+    sprite: Structures/Specific/Anomalies/Cores/tech_core.rsi
+  - type: PointLight
+    radius: 1.5
+    energy: 2.0
+    color: "#56c1e8"
+    castShadows: false
+
+- type: entity
+  parent: BaseAnomalyCore
+  id: AnomalyCoreSanta
+  suffix: Santa
+  components:
+  - type: Sprite
+    sprite: Structures/Specific/Anomalies/Cores/santa_core.rsi
+  - type: PointLight
+    radius: 1.5
+    energy: 2.0
+    color: "#fc0303"
     castShadows: false
 
 # Inert cores
@@ -197,6 +253,9 @@
     energy: 1.5
     color: "#fca3c0"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionFireball: -1
 
 - type: entity
   parent: BaseAnomalyInertCore
@@ -210,6 +269,9 @@
     energy: 10
     color: "#1e070e"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionLesserKnockdown: -1
 
 - type: entity
   parent: BaseAnomalyInertCore
@@ -223,10 +285,14 @@
     energy: 1.5
     color: "#befaff"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionForceWall: -1
 
 - type: entity
   parent: BaseAnomalyInertCore
-  id: AnomalyCoreFleshInert
+  id: AnomalyCoreFleshInert # Can be microwaved to turn it into a massive piece of meat
+  description: The inert core of a destroyed flesh anomaly. Pulsates sickeningly, but might be good food in the right hands?
   suffix: Flesh, Inert
   components:
   - type: Sprite
@@ -236,6 +302,9 @@
     energy: 3.5
     color: "#cb5b7e"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionSpawnMagicarpSpell: -1
 
 - type: entity
   parent: BaseAnomalyInertCore
@@ -262,6 +331,10 @@
     energy: 3.5
     color: "#ffffff"
     castShadows: false
+  - type: Spellbook
+    learnTime: 6
+    spellActions:
+      ActionLesserSuppress: -1
 
 - type: entity
   parent: BaseAnomalyInertCore
@@ -275,6 +348,10 @@
     energy: 3.5
     color: "#00ccff"
     castShadows: false
+  - type: Spellbook
+    learnTime: 2
+    spellActions:
+      ActionBlink: -1
 
 - type: entity
   parent: BaseAnomalyInertCore
@@ -288,12 +365,17 @@
     energy: 2.0
     color: "#ffffaa"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionKnock: -1
 
 - type: entity
   parent: BaseAnomalyInertCore
-  id: AnomalyCoreFloraInert
+  id: AnomalyCoreFloraInert #Turns into a seed that grows into artifexium
   suffix: Flora, Inert
   components:
+  - type: Seed
+    seedId: anomalyBerry
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/flora_core.rsi
   - type: PointLight
@@ -301,6 +383,9 @@
     energy: 2.0
     color: "#6270bb"
     castShadows: false
+  - type: Spellbook
+    spellActions:
+      ActionSpawnFlouraSpell: -1
 
 - type: entity
   parent: [ BaseAnomalyInertCore, BaseShadow ]
@@ -313,4 +398,30 @@
     radius: 1.5
     energy: 2.0
     color: "#793a80"
+    castShadows: false
+
+- type: entity
+  parent: BaseAnomalyInertCore
+  id: AnomalyCoreTechInert
+  suffix: Tech, Inert
+  components:
+  - type: Sprite
+    sprite: Structures/Specific/Anomalies/Cores/tech_core.rsi
+  - type: PointLight
+    radius: 1.5
+    energy: 2.0
+    color: "#56c1e8"
+    castShadows: false
+
+- type: entity
+  parent: BaseAnomalyInertCore
+  id: AnomalyCoreSantaInert
+  suffix: Santa, Inert
+  components:
+  - type: Sprite
+    sprite: Structures/Specific/Anomalies/Cores/santa_core.rsi
+  - type: PointLight
+    radius: 1.5
+    energy: 2.0
+    color: "#fc0303"
     castShadows: false

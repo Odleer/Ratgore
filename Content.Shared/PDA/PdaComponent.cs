@@ -14,6 +14,9 @@ namespace Content.Shared.PDA
         public const string PdaPaiSlotId = "PDA-pai";
         public const string PdaPassportSlotId = "PDA-passport";
         public const string PdaShipDeedSlotId = "PDA-shipdeed";
+        public const string PdaManual1SlotId = "PDA-manual1";
+        public const string PdaManual2SlotId = "PDA-manual2";
+        public const string PdaManual3SlotId = "PDA-manual3";
 
         /// <summary>
         /// The base PDA sprite state, eg. "pda", "pda-clown"
@@ -32,6 +35,12 @@ namespace Content.Shared.PDA
         public ItemSlot PassportSlot = new();
         [DataField]
         public ItemSlot ShipDeedSlot = new();
+        [DataField]
+        public ItemSlot Manual1Slot = new();
+        [DataField]
+        public ItemSlot Manual2Slot = new();
+        [DataField]
+        public ItemSlot Manual3Slot = new();
 
         // Really this should just be using ItemSlot.StartingItem. However, seeing as we have so many different starting
         // PDA's and no nice way to inherit the other fields from the ItemSlot data definition, this makes the yaml much
@@ -43,6 +52,10 @@ namespace Content.Shared.PDA
         [ViewVariables] public bool FlashlightOn;
 
         [ViewVariables(VVAccess.ReadWrite)] public string? OwnerName;
+        // The Entity that "owns" the PDA, usually a player's character.
+        // This is useful when we are doing stuff like renaming a player and want to find their PDA to change the name
+        // as well.
+        [ViewVariables(VVAccess.ReadWrite)] public EntityUid? PdaOwner;
         [ViewVariables] public string? StationName;
         [ViewVariables] public string? StationAlertLevel;
         [ViewVariables] public Color StationAlertColor = Color.White;

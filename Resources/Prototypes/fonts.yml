@@ -95,6 +95,10 @@
   path: /Fonts/Megrim/Megrim.ttf
 
 - type: font
+  id: Aliensatemymum
+  path: /Fonts/Aliensatemymum.ttf
+
+- type: font
   id: YoureGone
   path: /Fonts/YoureGone.otf
 
@@ -113,6 +117,10 @@
 - type: font
   id: MedievalSharp
   path: /Fonts/MedievalSharp/MedievalSharp.ttf
+
+- type: font
+  id: IMFellEnglish #hullrot high imp
+  path: /Fonts/IMFellEnglish-Regular.ttf
 
 - type: font
   id: Silkscreen

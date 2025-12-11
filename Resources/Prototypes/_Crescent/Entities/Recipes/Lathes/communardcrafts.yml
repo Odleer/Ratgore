@@ -185,6 +185,24 @@
     BallisticCycler: 500
 
 - type: latheRecipe
+  id: WeaponShotgunProletar
+  result: WeaponShotgunProletar
+  completetime: 2
+  materials:
+    Steel: 1500
+    Plasteel: 300
+    BallisticCycler: 500
+
+- type: latheRecipe
+  id: WeaponShotgunToz123
+  result: WeaponShotgunToz123
+  completetime: 2
+  materials:
+    Steel: 1500
+    Plasteel: 500
+    BallisticCycler: 1000
+
+- type: latheRecipe
   id: WeaponRifleNCWLBatanya
   result: WeaponRifleNCWLBatanya
   completetime: 2
@@ -192,6 +210,15 @@
     Steel: 1500
     Plasteel: 500
     BallisticCycler: 1000
+
+- type: latheRecipe
+  id: WeaponSniperNCWLNovomosin
+  result: WeaponSniperNCWLNovomosin
+  completetime: 2
+  materials:
+    Steel: 2000
+    Plasteel: 500
+    BasicMechatronics: 1000
 
 - type: latheRecipe
   id: WeaponSubMachineGunBloodhound
@@ -227,7 +254,7 @@
   materials:
     StarshipEngineComponents: 1500
     ShipComponents: 1500
-    ShipHull: 2500
+    ShipHull: 4000
 
 - type: latheRecipe
   id: ZorniyLPC
@@ -235,8 +262,17 @@
   completetime: 1
   materials:
     StarshipEngineComponents: 1500
-    ShipComponents: 1500
-    ShipHull: 2500
+    ShipComponents: 2000
+    ShipHull: 3000
+
+- type: latheRecipe
+  id: CherenzikovLPC
+  result: ShipVoucherCherenzikov
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 2500
+    ShipComponents: 2000
+    ShipHull: 4000
 
 - type: latheRecipe
   id: LodkaLPC
@@ -244,26 +280,26 @@
   completetime: 1
   materials:
     StarshipEngineComponents: 1500
-    ShipComponents: 1500
-    ShipHull: 2500
+    ShipComponents: 2000
+    ShipHull: 3000
 
 - type: latheRecipe
   id: MolotLPC
   result: ShipVoucherMolot
   completetime: 1
   materials:
-    StarshipEngineComponents: 2000
-    ShipComponents: 2500
-    ShipHull: 3000
+    StarshipEngineComponents: 2500
+    ShipComponents: 4500
+    ShipHull: 4000
 
 - type: latheRecipe
   id: KrechetLPC
   result: ShipVoucherKrechet
   completetime: 1
   materials:
-    StarshipEngineComponents: 2000
-    ShipComponents: 2000
-    ShipHull: 2000
+    StarshipEngineComponents: 1500
+    ShipComponents: 1500
+    ShipHull: 1000
 
 - type: latheRecipe
   id: IvarodLPC
@@ -272,7 +308,7 @@
   materials:
     StarshipEngineComponents: 4000
     ShipComponents: 4000
-    ShipHull: 6000
+    ShipHull: 9000
 
 - type: latheRecipe
   id: VanguardMarkTwoLPC
@@ -281,14 +317,14 @@
   materials:
     StarshipEngineComponents: 2000
     ShipComponents: 2000
-    ShipHull: 2500
+    ShipHull: 4000
 
 - type: latheRecipe
   id: HindLPC
   result: ShipVoucherHind
   completetime: 1
   materials:
-    StarshipEngineComponents: 5000
+    StarshipEngineComponents: 4000
     ShipComponents: 5000
     ShipHull: 6000
 
@@ -299,25 +335,25 @@
   materials:
     StarshipEngineComponents: 7000
     ShipComponents: 8000
-    ShipHull: 12000
+    ShipHull: 11000
 
 - type: latheRecipe
   id: SternLPC
   result: ShipVoucherStern
   completetime: 1
   materials:
-    StarshipEngineComponents: 12500
-    ShipComponents: 10000
-    ShipHull: 17500
+    StarshipEngineComponents: 7000
+    ShipComponents: 8000
+    ShipHull: 13000
 
 - type: latheRecipe
   id: SunderLPC
   result: ShipVoucherSunder
   completetime: 1
   materials:
-    StarshipEngineComponents: 7000
-    ShipComponents: 8000
-    ShipHull: 8000
+    StarshipEngineComponents: 5000
+    ShipComponents: 6000
+    ShipHull: 11000
 
 - type: latheRecipe
   id: BogatyrLPC
@@ -325,7 +361,7 @@
   completetime: 1
   materials:
     StarshipEngineComponents: 6000
-    ShipComponents: 6000
+    ShipComponents: 4500
     ShipHull: 8000
 
 - type: latheRecipe
@@ -368,3 +404,12 @@
   completetime: 2
   materials:
     Cloth: 750
+#- type: latheRecipe
+#  id: NCWLRGD55M13
+#  result: RGD55M13Hendgrenade
+#  completetime: 2
+# materials:
+#   Plasma: 500
+#    Steel: 100
+
+

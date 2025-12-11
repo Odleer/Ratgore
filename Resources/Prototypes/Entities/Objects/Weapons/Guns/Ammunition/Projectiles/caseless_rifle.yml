@@ -7,9 +7,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 17
-    harmorPenetration: 30
-    stoppingPower: 2
+        Piercing: 27
+    harmorPenetration: 20
 
 - type: entity
   id: BulletCaselessRiflePractice
@@ -21,17 +20,6 @@
     damage:
       types:
         Blunt: 2
-
-- type: entity
-  id: BulletCaselessRifleRubber
-  name: bullet (9x39mm caseless rubber)
-  parent: BaseBulletRubber
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Blunt: 3
 
 - type: entity
   id: BulletCaselessRifleIncendiary
@@ -54,8 +42,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 17
-    harmorPenetration: 45
+        Piercing: 27
+    harmorPenetration: 40
 
 - type: entity
   id: BulletCaselessRifleShrapnel

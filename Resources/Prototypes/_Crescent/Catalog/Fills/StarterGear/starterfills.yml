@@ -123,7 +123,8 @@
     contents:
       - id: BoxSurvival
       - id: Flash
-      - id: SpeedLoaderMagnumAP
+      - id: MagazineMagnumUranium
+        amount: 2
       - id: Tourniquet
       - id: Zipties
 
@@ -289,6 +290,7 @@
   - type: StorageFill
     contents:
       - id: BoxSurvival
+      - id: PietyRedeemable
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -298,6 +300,7 @@
   - type: StorageFill
     contents:
       - id: BoxSurvival
+      - id: PietyRedeemable
 
 #shi
 
@@ -362,7 +365,7 @@
       - id: BoxSurvival
       - id: Flash
       - id: MagazinePistol
-  
+
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: ClothingBackpackSatchel

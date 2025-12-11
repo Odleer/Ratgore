@@ -39,6 +39,7 @@
   - ClothingOuterCoatImperialGovernor
   - ClothingNeckCloakImperialGovernor
   - ClothingOuterHardsuitImperialWorker
+  - ClothingNeckImperialGreatcoat
 
 - type: technology
   id: BasicImperialArmor
@@ -92,8 +93,10 @@
   cost: 5000
   recipeUnlocks:
   - WeaponRifleMiller
-  - WeaponRevolverArgenti
+  - WeaponSubMachineGunC20rImperial
+  - WeaponSniperDSMLegax
   - WeaponPistolComplianceImperial
+  - WeaponRevolverArgenti
 
 - type: technology
   id: ImperialCarrion
@@ -109,6 +112,19 @@
   - WeaponMechIndustrialKineticAcceleratorImperial
   - MechEquipmentGrabberImperial
   - WeaponMechMeleeDrillImperial
+
+- type: technology
+  id: ImperialAntiInfantryMechGuns
+  name: research-technology-imperial-antiinfantrymechguns
+  icon:
+    sprite: _Crescent/Objects/Specific/mechaweapons.rsi
+    state: plasmalaser
+  discipline: Imperial
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - WeaponMechCombatImperialSMG
+  - WeaponMechCombatImperialAutolaser
 
 - type: technology
   id: ImperialCovetor
@@ -135,6 +151,42 @@
   - IbisLPC
 
 - type: technology
+  id: ImperialTorturer
+  name: research-technology-imperial-torturer
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Imperial
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - TorturerLPC
+
+- type: technology
+  id: ImperialLaelaps
+  name: research-technology-imperial-laelaps
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Imperial
+  tier: 1
+  cost: 8000
+  recipeUnlocks:
+  - LaelapsLPC
+
+- type: technology
+  id: ImperialMagnate
+  name: research-technology-imperial-magnate
+  icon:
+    sprite: _Crescent/Objects/Misc/lpcchip.rsi
+    state: icon
+  discipline: Imperial
+  tier: 2
+  cost: 6000
+  recipeUnlocks:
+  - MagnateLPC
+
+- type: technology
   id: ImperialNobleWeapons
   name: research-technology-imperial-nobleweapons
   icon:
@@ -148,7 +200,9 @@
   - ClothingBeltSheathDSMSabre
   - DSMRapier
   - DSMSabre
+  - DSMZweihander
   - DSMDuelingKhopesh
+  - DSMBaton
 
 - type: technology
   id: ImperialSunesis
@@ -163,16 +217,19 @@
   - SunesisLPC
 
 - type: technology
-  id: ImperialLaelaps
-  name: research-technology-imperial-laelaps
+  id: ImperialNemesis
+  name: research-technology-imperial-nemesis
   icon:
     sprite: _Crescent/Objects/Misc/lpcchip.rsi
     state: icon
   discipline: Imperial
   tier: 2
-  cost: 9000
+  cost: 10000
   recipeUnlocks:
-  - LaelapsLPC
+  - NemesisLPC
+  - JanissaryLPC
+  - VorunaLPC
+  - PerigaleLPC
 
 - type: technology
   id: ImperialPaladinMech
@@ -209,8 +266,10 @@
   cost: 9000
   recipeUnlocks:
   - WeaponRifleDSMLegionnaire
-  - WeaponSubMachineGunC20rImperial
   - WeaponPistolNeoVolker
+  - WeaponLightMachineGunDSMDominion
+  - WeaponShotgunReno
+
 
 - type: technology
   id: ImperialPlasmaMechGuns
@@ -226,20 +285,16 @@
   - WeaponMechCombatPlasmaCannon
 
 - type: technology
-  id: ImperialSRM
-  name: research-technology-imperial-srmimitation
+  id: ImperialPlasmaGuns
+  name: research-technology-imperial-plasmaguns
   icon:
-    sprite: _Crescent/Structures/flagssrm.rsi
+    sprite: _Crescent/Objects/Weapons/Guns/seethe.rsi
     state: icon
   discipline: Imperial
-  tier: 3
-  cost: 18000
+  tier: 2
+  cost: 9000
   recipeUnlocks:
-  - ClothingBeltSheathKhopesh
-  - SRMKhopesh
-  - WeaponSubMachineGunBeetle
-  - WeaponRifleHunter
-  - ClothingOuterHardsuitHunterElite
+  - WeaponPlasmaRifleSeethe
 
 - type: technology
   id: ImperialBomb
@@ -266,8 +321,8 @@
   - TriumphantLPC
 
 - type: technology
-  id: ImperialPadparadscha
-  name: research-technology-imperial-padparadscha
+  id: ImperialSuzerain
+  name: research-technology-imperial-suzerain
   icon:
     sprite: _Crescent/Objects/Misc/lpcchip.rsi
     state: icon
@@ -275,4 +330,4 @@
   tier: 3
   cost: 12000
   recipeUnlocks:
-  - PadparadschaLPC
+  - SuzerainLPC

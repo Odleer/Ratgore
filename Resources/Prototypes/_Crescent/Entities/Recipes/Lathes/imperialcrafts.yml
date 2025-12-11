@@ -1,3 +1,20 @@
+- type: latheRecipe
+  id: WeaponLightMachineGunDSMDominion
+  result: WeaponLightMachineGunDSMDominion
+  completetime: 1.5
+  materials:
+    Steel: 2500
+    Silver: 500
+    BallisticCycler: 2000
+
+- type: latheRecipe
+  id: WeaponShotgunReno
+  result: WeaponShotgunReno
+  completetime: 1.5
+  materials:
+    Steel: 1500
+    Silver: 500
+    BallisticCycler: 1000
 
 - type: latheRecipe
   id: ClothingOuterHardsuitImperialWorker
@@ -8,7 +25,6 @@
     HardsuitElectronics: 500
     Plastic: 500
     Cloth: 1000
-
 
 - type: latheRecipe
   id: ClothingOuterCoatImperialSoftsuit
@@ -90,6 +106,13 @@
   completetime: 2
   materials:
     Cloth: 500
+
+- type: latheRecipe
+  id: ClothingNeckImperialGreatcoat
+  result: ClothingNeckImperialGreatcoat
+  completetime: 2
+  materials:
+    Durathread: 500
 
 - type: latheRecipe
   id: ClothingNeckCloakImperialGovernor
@@ -312,6 +335,27 @@
     BallisticCycler: 1000
 
 - type: latheRecipe
+  id: WeaponPlasmaRifleSeethe
+  result: WeaponDSMPlasmaRifle
+  completetime: 2
+  materials:
+    Steel: 2500
+    Plasma: 1000
+    Copper: 500
+    NanotrasenElectronics: 500
+    BasicMechatronics: 1000
+    WeakLaserLocus: 5000
+
+- type: latheRecipe
+  id: WeaponSniperDSMLegax
+  result: WeaponSniperDSMLegax
+  completetime: 2
+  materials:
+    Steel: 2000
+    Silver: 500
+    BasicMechatronics: 1000
+
+- type: latheRecipe
   id: WeaponRevolverArgenti
   result: WeaponRevolverArgenti
   completetime: 2
@@ -343,7 +387,7 @@
   materials:
     Steel: 1500
     Plastic: 900
-    TubeLoader: 1500
+    BasicMechatronics: 1000
 
 - type: latheRecipe
   id: SRMKhopesh
@@ -385,6 +429,24 @@
   materials:
     Steel: 1500
     Silver: 1000
+
+- type: latheRecipe
+  id: DSMZweihander
+  result: ZweihanderDSM
+  completetime: 2
+  materials:
+    Steel: 2500
+    Silver: 1000
+    Gold: 500
+    Tungsten: 1500
+
+- type: latheRecipe
+  id: DSMBaton
+  result: DSMBaton
+  completetime: 2
+  materials:
+    Steel: 1500
+    Gold: 1000
 
 - type: latheRecipe
   id: ClothingBeltSheathDSMSabre
@@ -445,6 +507,28 @@
     Tungsten: 1500
 
 - type: latheRecipe
+  id: WeaponMechCombatImperialSMG
+  result: WeaponMechCombatImperialSMG
+  completetime: 2
+  materials:
+    Steel: 2000
+    Copper: 1500
+    BasicElectronics: 1250
+    BasicMechatronics: 750
+
+- type: latheRecipe
+  id: WeaponMechCombatImperialAutolaser
+  result: WeaponMechCombatImperialAutolaser
+  completetime: 2
+  materials:
+    Steel: 1500
+    Plasma: 500
+    Copper: 1000
+    BasicElectronics: 1500
+    BasicMechatronics: 750
+    WeakLaserLocus: 2000
+
+- type: latheRecipe
   id: WeaponMechCombatPlasmaRifle
   result: WeaponMechCombatPlasmaRifle
   completetime: 2
@@ -474,8 +558,8 @@
   result: ShipVoucherLaelaps
   completetime: 1
   materials:
-    StarshipEngineComponents: 6250
-    ShipComponents: 4750
+    StarshipEngineComponents: 6000
+    ShipComponents: 5000
     ShipHull: 9000
 
 - type: latheRecipe
@@ -483,35 +567,71 @@
   result: ShipVoucherSunesis
   completetime: 1
   materials:
-    StarshipEngineComponents: 6250
-    ShipComponents: 4750
-    ShipHull: 9000
+    StarshipEngineComponents: 4000
+    ShipComponents: 5000
+    ShipHull: 7500
 
 - type: latheRecipe
-  id: PadparadschaLPC
-  result: ShipVoucherPadparadscha
+  id: SuzerainLPC
+  result: ShipVoucherSuzerain
   completetime: 1
   materials:
-    StarshipEngineComponents: 12500
-    ShipComponents: 9000
-    ShipHull: 16500
+    StarshipEngineComponents: 7000
+    ShipComponents: 6000
+    ShipHull: 11000
+
+- type: latheRecipe
+  id: NemesisLPC
+  result: ShipVoucherNemesis
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 7000
+    ShipComponents: 8000
+    ShipHull: 11000
+
+- type: latheRecipe
+  id: JanissaryLPC
+  result: ShipVoucherJanissary
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 1000
+    ShipComponents: 1000
+    ShipHull: 1500
+
+- type: latheRecipe
+  id: VorunaLPC
+  result: ShipVoucherVoruna
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 1000
+    ShipComponents: 1000
+    ShipHull: 1500
+
+- type: latheRecipe
+  id: PerigaleLPC
+  result: ShipVoucherPerigale
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 1000
+    ShipComponents: 1000
+    ShipHull: 1500
 
 - type: latheRecipe
   id: TriumphantLPC
   result: ShipVoucherTriumphant
   completetime: 1
   materials:
-    StarshipEngineComponents: 8250
-    ShipComponents: 6750
-    ShipHull: 10500
+    StarshipEngineComponents: 7000
+    ShipComponents: 6000
+    ShipHull: 10000
 
 - type: latheRecipe
   id: IbisLPC
   result: ShipVoucherIbis
   completetime: 1
   materials:
-    StarshipEngineComponents: 3250
-    ShipComponents: 1750
+    StarshipEngineComponents: 1500
+    ShipComponents: 1500
     ShipHull: 4000
 
 - type: latheRecipe
@@ -522,3 +642,30 @@
     StarshipEngineComponents: 3000
     ShipComponents: 2750
     ShipHull: 6000
+
+- type: latheRecipe
+  id: TorturerLPC
+  result: ShipVoucherTorturer
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 2000
+    ShipComponents: 4500
+    ShipHull: 4000
+
+- type: latheRecipe
+  id: MagnateLPC
+  result: ShipVoucherMagnate
+  completetime: 1
+  materials:
+    StarshipEngineComponents: 3000
+    ShipComponents: 4500
+    ShipHull: 4000
+
+- type: latheRecipe
+  id: GrenadeDSMG4Twistcap
+  result: DSMG4TwistcapHandgrenade
+  completetime: 2
+  materials:
+    Plasma: 500
+    Steel: 100
+

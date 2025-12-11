@@ -4,6 +4,13 @@
   description: job-description-contractor
   playTimeTracker: JobContractor
   requirements:
+    - !type:FactionRequirement
+      inverted: true
+      factionID: "SRM"
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Voidborn
     - !type:CharacterOverallTimeRequirement
       min: 4000
     - !type:WealthRequirement
@@ -13,3 +20,15 @@
   supervisors: job-supervisors-hire
   accessGroups:
   - GeneralAccess
+
+
+- type: startingGear
+  id: ContractorGear
+  equipment:
+    ears: ClothingHeadsetGrey
+    id: SpacerPDA
+    jumpsuit: ClothingUniformSpacer
+    back: ClothingBackpack
+    shoes: ClothingShoesColorBlack
+  satchel: ClothingBackpackSatchel
+  duffelbag: ClothingBackpackDuffel
