@@ -1,1 +1,1 @@
-item-component-size-Massive = Massive
+item-component-size-Massive = Массивный
