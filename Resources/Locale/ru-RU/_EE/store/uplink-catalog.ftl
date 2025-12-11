@@ -1,9 +1,9 @@
-store-category-faction = Faction Kits
-uplink-faction-san-asset-name = Sol Alliance Asset Bundle
+store-category-faction = Наборы фракций
+uplink-faction-san-asset-name = Набор активов Солярского Альянса
 uplink-faction-san-asset-desc =
-    Contains one uniform for an operative working for the Solarian Alliance, includes a CSA-85x Modsuit
-    ((For use in re-flavoring your antag activity as having a different employer than the Syndicate))
-uplink-faction-san-asset-group-name = Sol Alliance Asset Bundle (Team)
+    Содержит одну униформу для оперативника, работающего на Солярский Альянс, включает модульный скафандр CSA-85x
+    ((Для использования в изменении флейвора вашей антагонистической активности как имеющей другого работодателя, чем Синдикат))
+uplink-faction-san-asset-group-name = Набор активов Солярского Альянса (Команда)
 uplink-faction-san-asset-group-desc =
-    Contains five uniforms for a team of operatives working for the Solarian Alliance, includes five CSA-85x Modsuits
-    ((For use in re-flavoring your antag activity as having a different employer than the Syndicate))
+    Содержит пять униформ для команды оперативников, работающих на Солярский Альянс, включает пять модульных скафандров CSA-85x
+    ((Для использования в изменении флейвора вашей антагонистической активности как имеющей другого работодателя, чем Синдикат))

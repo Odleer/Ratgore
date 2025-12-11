@@ -1,4 +1,4 @@
-reagent-name-acid-blood = acid blood
-reagent-desc-acid-blood = A corrosive type of blood that burns through organic and synthetic matter alike.
-reagent-name-armjuice = Xelthia Arm Juice
-reagent-desc-armjuice = An organic fluid extracted from Xelthian physiology. Rather than sustaining the body, it dramatically increases hunger and thirst.
+reagent-name-acid-blood = кислотная кровь
+reagent-desc-acid-blood = Коррозионный тип крови, который разъедает как органическую, так и синтетическую материю.
+reagent-name-armjuice = Сок руки ксельтии
+reagent-desc-armjuice = Органическая жидкость, извлечённая из физиологии ксельтийцев. Вместо поддержания тела, она значительно увеличивает голод и жажду.

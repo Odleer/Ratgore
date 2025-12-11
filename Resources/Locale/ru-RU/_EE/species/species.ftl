@@ -1,3 +1,3 @@
-species-name-tajaran = Tajaran
-species-name-xelthia = Xelthia
-species-name-synth-human = Bio-synthetic Human
+species-name-tajaran = Таджаран
+species-name-xelthia = Ксельтия
+species-name-synth-human = Био-синтетический человек

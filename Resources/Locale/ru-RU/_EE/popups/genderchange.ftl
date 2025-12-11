@@ -1,1 +1,1 @@
-changeable-gender-component-gender-set = Changed pronouns to "{ $pronouns }"
+changeable-gender-component-gender-set = Местоимения изменены на "{ $pronouns }"

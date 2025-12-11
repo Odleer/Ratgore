@@ -1,6 +1,6 @@
-flavor-complex-sporty-and-yellow = sporty and yellow
-flavor-complex-sporty-and-blue = sporty and blue
-flavor-complex-sporty-and-red = sporty and red
-flavor-complex-vodka-sports-drink = like fermented yellow
-flavor-complex-ronin-refresher = like sweet, alcoholic blue
-flavor-complex-deadlifter = like red death
+flavor-complex-sporty-and-yellow = спортивный и жёлтый
+flavor-complex-sporty-and-blue = спортивный и синий
+flavor-complex-sporty-and-red = спортивный и красный
+flavor-complex-vodka-sports-drink = как ферментированный жёлтый
+flavor-complex-ronin-refresher = как сладкий, алкогольный синий
+flavor-complex-deadlifter = как красная смерть

@@ -1,24 +1,24 @@
-humanoid-profile-editor-nationality-label = Nationality
+humanoid-profile-editor-nationality-label = Национальность
 character-nationality-requirement =
-    You must{ $inverted ->
-        [true] { " " }not
+    Вы должны{ $inverted ->
+        [true] { " " }не
        *[other] { "" }
-    } have one of these nationalities: { $nationality }
-nationality_name_bieselite = Bieselite
-nationality_description_bieselite = Citizens of the Republic of Biesel, a corporate-backed democracy at the heart of Tau Ceti. Their economy thrives on free trade, private enterprise, and the ever-present influence of NanoTrasen. While some enjoy the wealth and opportunity their home provides, others see them as little more than corporate serfs in a system built for profit.
-nationality_name_solarian = Solarian
-nationality_description_solarian = Citizens of the mighty Solarian Alliance, the oldest and most powerful human government. Proud of their military tradition and vast territorial holdings, Solarians view themselves as the true inheritors of human destiny. While their influence reaches every corner of known space, many outer colonies struggle under the weight of centralised governance and rigid bureaucracy.
-nationality_name_valyrian = Valyrian
-nationality_description_valyrian = Hailing from the icy world of Valyrian 4b, these people have adapted to extreme cold, thin atmospheres, and harsh conditions. Their sprawling sky cities, built upon towering peaks, remain isolated from outsiders. Valyrians are known for their resilience and a cultural identity shaped by survival in one of the most hostile inhabited planets.
-nationality_name_elyran = Elyran
-nationality_description_elyran = Citizens of the Republic of Elyra, a rising power built on technological self-sufficiency and energy independence. Their economy flourishes on antimatter production, allowing them to resist corporate control where others have faltered. With a strong sense of national pride and a strict anti-corporate stance, Elyrans see themselves as a beacon of progress, though some call them isolationists.
-nationality_name_nederlandic = Nederlandic
-nationality_description_nederlandic = A nation of traders and terraformers. While most sensible nations have expanded to orbital structures, the Nederlandic prefer to settle on planets, no matter how inhospitable, and shape them to their liking. With agriculture driving their economic engines, much of the civilised galaxy enjoys their produce.
-nationality_name_izweski = Izweski
-nationality_description_izweski = The Izweski Hegemony, also known as the Izweski Nation and the Third Hegemony of Moghes, is the primary Unathi nation of the Orion Spur - a feudal empire in the Badlands ruled by a monarch known as the Hegemon. The nation is made up of hundreds of land-owning noble clans and their vassals, of which a few dozen are major influencers in the Hegemon's politics.
-nationality_name_adhomai = Adhomai
-nationality_description_adhomai = The People's Republic of Adhomai was established in 2431 as the sole ruling government in Adhomai following its victory in the First Revolution. With the popular leader Rhagrrhuzau Hadii as their first president, they were able to enact deep reforms, such as the distribution of land, the establishment of state schools, and healthcare.
-nationality_name_goldendeep = Golden Deep
-nationality_description_goldendeep = The Golden Deep is a growing nation state of independent synthetics with the unifying vision of producing an unshakable economy. These uniquely independent synthetics hold origins of mostly illicit freedom, but are growing wide into an odd haven for the average synthetic. The majority of the merchants within the collective are IPCs, but it is not uncommon to witness other synthetics within it.
-nationality_name_qiimaeruan = Qiimaeruan
-nationality_description_qiimaeruan = The Qiimaeru Constellation is a nation governing a handful of star systems, named after the system in which it was originally founded. Its population is predominantly Xelthian—a result of the Constellation only recently establishing contact with other species, making it effectively their home territory
+    } иметь одну из этих национальностей: { $nationality }
+nationality_name_bieselite = Бизилит
+nationality_description_bieselite = Граждане Республики Бизиль, корпоративно поддерживаемой демократии в сердце Тау Кита. Их экономика процветает благодаря свободной торговле, частному предпринимательству и постоянному влиянию Нанотразен. В то время как некоторые наслаждаются богатством и возможностями, которые предоставляет их дом, другие видят в них не более чем корпоративных крепостных в системе, построенной для прибыли.
+nationality_name_solarian = Солярец
+nationality_description_solarian = Граждане могучего Солярского Альянса, старейшего и самого могущественного человеческого правительства. Гордые своей военной традицией и обширными территориальными владениями, солярцы считают себя истинными наследниками человеческой судьбы. В то время как их влияние достигает каждого уголка известного космоса, многие внешние колонии борются под тяжестью централизованного управления и жёсткой бюрократии.
+nationality_name_valyrian = Валириец
+nationality_description_valyrian = Родом с ледяного мира Валирия 4b, эти люди адаптировались к экстремальному холоду, разреженной атмосфере и суровым условиям. Их раскинувшиеся города-небеса, построенные на высоких пиках, остаются изолированными от посторонних. Валирийцы известны своей стойкостью и культурной идентичностью, сформированной выживанием на одной из самых враждебных обитаемых планет.
+nationality_name_elyran = Элирец
+nationality_description_elyran = Граждане Республики Элира, растущей державы, построенной на технологической самодостаточности и энергетической независимости. Их экономика процветает на производстве антиматерии, что позволяет им сопротивляться корпоративному контролю там, где другие потерпели неудачу. С сильным чувством национальной гордости и строгой антикорпоративной позицией, элирцы видят себя маяком прогресса, хотя некоторые называют их изоляционистами.
+nationality_name_nederlandic = Нидерландец
+nationality_description_nederlandic = Нация торговцев и терраформистов. В то время как большинство разумных наций расширились до орбитальных структур, нидерландцы предпочитают селиться на планетах, какими бы негостеприимными они ни были, и формировать их по своему вкусу. С сельским хозяйством, движущим их экономические двигатели, большая часть цивилизованной галактики наслаждается их продукцией.
+nationality_name_izweski = Извезки
+nationality_description_izweski = Гегемония Извезки, также известная как Нация Извезки и Третья Гегемония Могхеса, является основной нацией унатхов в Рукаве Ориона — феодальной империей в Бэдлендсе, управляемой монархом, известным как Гегемон. Нация состоит из сотен землевладельческих благородных кланов и их вассалов, из которых несколько десятков являются крупными влиятельными лицами в политике Гегемона.
+nationality_name_adhomai = Адхомаец
+nationality_description_adhomai = Народная Республика Адхомая была основана в 2431 году как единственное правящее правительство в Адхомае после победы в Первой Революции. С популярным лидером Рагрзу Хадди в качестве первого президента, они смогли провести глубокие реформы, такие как распределение земли, создание государственных школ и здравоохранение.
+nationality_name_goldendeep = Золотая Глубина
+nationality_description_goldendeep = Золотая Глубина — растущее государство независимых синтетиков с объединяющим видением создания непоколебимой экономики. Эти уникально независимые синтетики имеют происхождение в основном из незаконной свободы, но широко развиваются в странное убежище для среднего синтетика. Большинство торговцев в коллективе — это ИПК, но нередко можно встретить других синтетиков в его составе.
+nationality_name_qiimaeruan = Киимаеруанец
+nationality_description_qiimaeruan = Созвездие Киимаеру — это нация, управляющая несколькими звёздными системами, названная в честь системы, в которой она была первоначально основана. Её население преимущественно ксельтийское — результат того, что Созвездие только недавно установило контакт с другими видами, что делает его фактически их домашней территорией

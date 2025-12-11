@@ -1,38 +1,38 @@
-humanoid-profile-editor-employer-label = Employer
+humanoid-profile-editor-employer-label = Работодатель
 character-employer-requirement =
-    You must{ $inverted ->
-        [true] { " " }not
+    Вы должны{ $inverted ->
+        [true] { " " }не
        *[other] { "" }
-    } be employed by one of these: { $employers }
-employer_name_nanotrasen = Shinohara Heavy Industries
-employer_name_nanotrasen_command = Shinohara Highcomm
-employer_description_nanotrasen = The economic engine of the Known Cluster and the galaxy’s foremost leader in phoron research. With near-total control over the galactic economy and infrastructure, Shinohara presents itself as a champion of progress and prosperity—though critics argue it values profit above all else.
-employer_name_unemployed = Unemployed
-employer_description_unemployed = Whether down on their luck or simply unwilling to work, the unemployed survive however they can. Some live off government subsidies, others turn to freelance work—or less legal alternatives. Either way, society tends to look down on them.
-employer_name_hephaestusindustries = Hephaestus Industries
-employer_name_hephaestusindustries_command = Hephaestus Industries Command
-employer_description_hephaestusindustries = A sprawling manufacturing conglomerate responsible for producing everything from mining drills to military hardware. If it has moving parts, Hephaestus probably made it. Known for their no-nonsense corporate culture and deep ties to industrial and frontier colonies.
-employer_name_einsteinengines = Einstein Engines
-employer_name_einsteinengines_command = Einstein Engines Command
-employer_description_einsteinengines = The galaxy’s premier manufacturer of FTL drives and starship technology. Despite their technical prowess, the company is infamous for harsh working conditions, cutthroat internal politics, and an aggressive legal department that makes their lawsuits as feared as their patents.
-employer_name_zenghupharmaceuticals = Zeng-Hu Pharmaceuticals
-employer_name_zenghupharmaceuticals_command = Zeng-Hu Pharmaceuticals Command
-employer_description_zenghupharmaceuticals = The leading name in biotechnology, cybernetics, and pharmaceuticals. Their cutting-edge medical treatments and cybernetic implants have saved countless lives, but their ethics are often called into question—especially by those who can't afford their exorbitant prices.
-employer_name_zavodskoiinterstellar = Zavodskoi Interstellar
-employer_name_zavodskoiinterstellar_command = Zavodskoi Interstellar Command
-employer_description_zavodskoiinterstellar = Zavodskoi Interstellar, formerly Necropolis Industries, is a weapons and aerospace manufacturing and development conglomerate. Zavodskoi distributes everything from light to heavy arms, space vessel weapons, ship-building, aircraft, ground vehicles, combat spacesuits, and military software. They also produce the Z.I. line of positronics, used for private security and military contracting.
-employer_name_interdyne = Interdyne
-employer_name_interdyne_command = Interdyne Command
-employer_description_interdyne = A leading name in Solarian biomedical research, cybernetics, and pharmaceutical development. Unlike its competitor Zeng-Hu, Interdyne takes a more pragmatic approach, prioritising efficiency and durability over elegance. Its advanced medical implants and combat-grade augmentations are standard issue in the Solarian military, making it the go-to choice for those who expect to take a beating—and keep fighting.
-employer_name_idrisincorporated = Idris Incorporated
-employer_name_idrisincorporated_command = Idris Incorporated Command
-employer_description_idrisincorporated = Idris Incorporated is an interstellar corporate bank headquartered in the Sol Alliance. The bank has begun offering hiring bonuses to those who work for other major interstellar corporations to draw people away from their competitors. However, they are still in a struggle with NanoTrasen due to its large employee base mainly using the company's bank as their method of storing funds, preventing Idris from having a large number of members.
-employer_name_orionexpress = Orion Express
-employer_name_orionexpress_command = Orion Express Command
-employer_description_orionexpress = Orion Express is a manufactured megacorporation designed to handle logistics in the wake of the phoron scarcity, and the sudden entangling of supply lines that left the galaxy struggling for more resources. Its main branch is dedicated to cargo services and transport, but also features a fledgling robotics division mainly focused on industrial synthetics to aid in its logistics missions.
-employer_name_pmcg = PMCG
-employer_name_pmcg_command = PMCG Command
-employer_description_pmcg = A coalition of security contractors, the Private Military Contracting Group is one of the elements born from the necessity of protecting an ever-growing corporate empire. Gathering mercenaries from all across the galaxy, the Private Military Contracting Group deploys a diverse force to anywhere they are needed.
-employer_name_eastorioncompany = East-Orion Company
-employer_name_eastorioncompany_command = East-Orion Company Command
-employer_description_eastorioncompany = A Nederlandic initiative to exploit an untapped market in 2157, the United East-Orion Company was an old idea made new. Rooted in tradition that went back centuries, two large agricultural corporations — the New-Nederic agricultural machinery manufacturer and the Farmer's Civil Union — came together under one banner to offer planet-honed skillsets to a growing number of corporate space stations.
+    } быть трудоустроены в одной из этих организаций: { $employers }
+employer_name_nanotrasen = Тяжёлая промышленность Синхары
+employer_name_nanotrasen_command = Высшее командование Синхары
+employer_description_nanotrasen = Экономический двигатель Известного Кластера и ведущий исследователь форона в галактике. Обладая почти полным контролем над галактической экономикой и инфраструктурой, Синхара позиционирует себя как поборник прогресса и процветания, хотя критики утверждают, что она ставит прибыль превыше всего.
+employer_name_unemployed = Безработный
+employer_description_unemployed = Будь то невезение или простое нежелание работать, безработные выживают как могут. Некоторые живут за счёт государственных субсидий, другие обращаются к фрилансу — или менее законным альтернативам. В любом случае, общество склонно смотреть на них свысока.
+employer_name_hephaestusindustries = Промышленность Гефеста
+employer_name_hephaestusindustries_command = Командование промышленности Гефеста
+employer_description_hephaestusindustries = Обширный производственный конгломерат, ответственный за производство всего — от буровых установок до военной техники. Если у чего-то есть движущиеся части, вероятно, это сделал Гефест. Известны своей серьёзной корпоративной культурой и тесными связями с промышленными и фронтирными колониями.
+employer_name_einsteinengines = Движки Эйнштейна
+employer_name_einsteinengines_command = Командование движков Эйнштейна
+employer_description_einsteinengines = Ведущий производитель СВТ-двигателей и технологий звёздных кораблей в галактике. Несмотря на техническое мастерство, компания печально известна суровыми условиями работы, жёсткой внутренней политикой и агрессивным юридическим отделом, чьи судебные иски страшны не меньше, чем их патенты.
+employer_name_zenghupharmaceuticals = Фармацевтика Цзэн-Ху
+employer_name_zenghupharmaceuticals_command = Командование фармацевтики Цзэн-Ху
+employer_description_zenghupharmaceuticals = Ведущее имя в биотехнологиях, кибернетике и фармацевтике. Их передовые методы лечения и кибернетические имплантаты спасли бесчисленные жизни, но их этика часто ставится под сомнение — особенно теми, кто не может позволить себе их завышенные цены.
+employer_name_zavodskoiinterstellar = Заводской Интерстеллар
+employer_name_zavodskoiinterstellar_command = Командование Заводской Интерстеллар
+employer_description_zavodskoiinterstellar = Заводской Интерстеллар, ранее Некрополис Индастриз, — это конгломерат по производству и разработке оружия и аэрокосмической техники. Заводской поставляет всё — от лёгкого до тяжёлого вооружения, вооружение космических кораблей, судостроение, самолёты, наземные транспортные средства, боевые скафандры и военное программное обеспечение. Они также производят линейку позитроников Z.I., используемых для частной безопасности и военных контрактов.
+employer_name_interdyne = Интердайн
+employer_name_interdyne_command = Командование Интердайн
+employer_description_interdyne = Ведущее имя в солярских биомедицинских исследованиях, кибернетике и фармацевтической разработке. В отличие от конкурента Цзэн-Ху, Интердайн использует более прагматичный подход, приоритизируя эффективность и долговечность над изяществом. Их продвинутые медицинские имплантаты и боевые усовершенствования являются стандартным оснащением в солярской армии, что делает их выбором номер один для тех, кто ожидает получить удары — и продолжать сражаться.
+employer_name_idrisincorporated = Инкорпорейтед Идрис
+employer_name_idrisincorporated_command = Командование инкорпорейтед Идрис
+employer_description_idrisincorporated = Инкорпорейтед Идрис — межзвёздный корпоративный банк со штаб-квартирой в Солярском Альянсе. Банк начал предлагать бонусы при найме тем, кто работает на других крупных межзвёздных корпорациях, чтобы переманить людей от конкурентов. Однако они всё ещё борются с Нанотразен из-за того, что большая база сотрудников в основном использует банк компании как способ хранения средств, не позволяя Идрис иметь большое количество членов.
+employer_name_orionexpress = Орион Экспресс
+employer_name_orionexpress_command = Командование Орион Экспресс
+employer_description_orionexpress = Орион Экспресс — созданная мегакорпорация, предназначенная для управления логистикой после дефицита форона и внезапного запутывания цепочек поставок, оставившего галактику в борьбе за ресурсы. Основное отделение занимается грузовыми услугами и транспортом, но также имеет развивающееся подразделение робототехники, в основном сосредоточенное на промышленных синтетиках для помощи в логистических миссиях.
+employer_name_pmcg = ЧВКГ
+employer_name_pmcg_command = Командование ЧВКГ
+employer_description_pmcg = Коалиция подрядчиков безопасности, Группа частных военных контрактов — один из элементов, родившихся из необходимости защиты постоянно растущей корпоративной империи. Собирая наёмников со всей галактики, Группа частных военных контрактов развёртывает разнообразные силы везде, где они необходимы.
+employer_name_eastorioncompany = Компания Ист-Орион
+employer_name_eastorioncompany_command = Командование компании Ист-Орион
+employer_description_eastorioncompany = Нидерландская инициатива по освоению нетронутого рынка в 2157 году, Объединённая компания Ист-Орион стала старой идеей, получившей новое воплощение. Укоренённая в традициях, уходящих на века назад, две крупные сельскохозяйственные корпорации — производитель сельскохозяйственной техники Нью-Нидерик и Гражданский союз фермеров — объединились под одним флагом, чтобы предложить навыки, отточенные на планетах, растущему числу корпоративных космических станций.

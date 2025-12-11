@@ -1,2 +1,2 @@
-verb-categories-gender-change = Change Pronouns
-verb-categories-sex-change = Change Sex
+verb-categories-gender-change = Изменить местоимения
+verb-categories-sex-change = Изменить пол
