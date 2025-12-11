@@ -14,11 +14,11 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: dreadnought
         - type: StationNameSetup
-          mapNameTemplate: 'The Countsman'
+          mapNameTemplate: 'Ревизор'
         - type: VesselDesignation
           designation: vessel-designation-headquarters
         - type: VesselDescription
-          description: A ramshackle hubship housing the last coherent Imperial chapter in this system.
+          description: Ветхое судно-улей, в котором размещается последняя сохранившаяся структура Божественного Мандата Солнца в этой системе.
         - type: VesselMusic
           ambientMusicPrototype: CountsmanMusic
         - type: Grammar
