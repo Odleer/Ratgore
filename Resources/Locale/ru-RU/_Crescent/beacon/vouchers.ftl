@@ -1,3 +1,3 @@
-station-beacon-keep = The Keep
-station-beacon-questions = House of Questions
-station-beacon-factory = Ministry of Labor
+station-beacon-keep = Крепость
+station-beacon-questions = Дом вопросов
+station-beacon-factory = Министерство труда
