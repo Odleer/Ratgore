@@ -1,2 +1,2 @@
-job-requirement-species-not-allowed = The [color=yellow]{ $species }[/color] species are not allowed for this role.
-job-requirement-sex = This role is only for the opposite sex.
+job-requirement-species-not-allowed = Вид [color=yellow]{ $species }[/color] не допускается для этой роли.
+job-requirement-sex = Эта роль только для противоположного пола.
