@@ -1,4 +1,4 @@
-marking-Malstrem = Malstrem
-marking-Malstrem-malstrem = Malstrem
-marking-Beholder = Beholder
-marking-Beholder-beholder = Beholder
+marking-Malstrem = Мальстрем
+marking-Malstrem-malstrem = Мальстрем
+marking-Beholder = Созерцатель
+marking-Beholder-beholder = Созерцатель
