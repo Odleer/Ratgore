@@ -1,42 +1,42 @@
 ## scrap
 
-materials-scrap-lowgrade = low-grade metal scrap
-materials-scrap-highgrade = high-grade metal scrap
-materials-scrap-circuit = damaged electronics
-materials-scrap-plasma = plasma isotope salvage
-materials-scrap-uranium = discarded fissiles
-materials-scrap-steelrefined = refined steel scrap
-materials-scrap-titaniumrefined = refined titanium scrap
-materials-garbage = industrial garbage
-materials-refined-garbage = compacted industrial trash
-materials-mechanites = inert mechanites
-materials-isotopes = volatile plasma isotopes
-materials-galine = galine-5 gas
-materials-chemphoron = deactivated phoron isotopes
+materials-scrap-lowgrade = низкосортный металлический лом
+materials-scrap-highgrade = высокосортный металлический лом
+materials-scrap-circuit = повреждённая электроника
+materials-scrap-plasma = спасённый плазменный изотоп
+materials-scrap-uranium = списанные делящиеся материалы
+materials-scrap-steelrefined = лом очищенной стали
+materials-scrap-titaniumrefined = лом очищенного титана
+materials-garbage = промышленный мусор
+materials-refined-garbage = спрессованный промышленный мусор
+materials-mechanites = инертные механиты
+materials-isotopes = летучие плазменные изотопы
+materials-galine = газ галин-5
+materials-chemphoron = деактивированные изотопы форона
 
 ## starship parts
 
-materials-engine = shuttle engine components
-materials-hull = shuttle hull plating
-materials-electronicship = shuttle electronics
+materials-engine = компоненты двигателя шаттла
+materials-hull = обшивка корпуса шаттла
+materials-electronicship = электроника шаттла
 
 # craftparts
 
-materials-basicelectronics = basic electronic parts
-materials-advancedelectronics = advanced electronic parts
-materials-precursorelectronics = precursor electronic parts
-materials-basicmechanics = basic mechatronic parts
-materials-advancedmechanics = advanced mechatronic parts
-materials-precursormechanics = precursor mechatronic parts
-materials-laserlocus = focused laser locus
-materials-gascycler = ballistic gas cycler
-materials-tubeloader = tube loader robotics
-materials-weaklaserlocus = weak laser locus
-materials-hardlightgenerator = hardlight generator conduit
-materials-hardsuitelectronics = hardsuit electronics
-materials-plastitaniumfibrealloy = plastitanium fibre alloy
+materials-basicelectronics = базовые электронные компоненты
+materials-advancedelectronics = продвинутые электронные компоненты
+materials-precursorelectronics = протокультурные электронные компоненты
+materials-basicmechanics = базовые мехатронные детали
+materials-advancedmechanics = продвинутые мехатронные детали
+materials-precursormechanics = протокультурные мехатронные детали
+materials-laserlocus = фокусный лазерный узел
+materials-gascycler = баллистический газовый циклер
+materials-tubeloader = роботизированная трубная подача
+materials-weaklaserlocus = слабый лазерный узел
+materials-hardlightgenerator = канал генератора жёсткого света
+materials-hardsuitelectronics = электроника хардсьюта
+materials-plastitaniumfibrealloy = волокнистый сплав пластититана
 
 # units
 
-materials-unit-canister = units
-materials-unit-liter = liters
+materials-unit-canister = единиц
+materials-unit-liter = литров
