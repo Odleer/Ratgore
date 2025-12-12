@@ -133,10 +133,10 @@
   - type: Damageable
     damageContainer: SiliconUnshielded
     damageModifierSet: IPC
-  - type: Barotrauma
-    damage:
-      types:
-        Heat: 0.55 #per second, scales with pressure and other constants. Uniquely Heat instead of blunt, to simulate mechanical overheating in vacuum. IPCs are normally air cooled.
+#  - type: Barotrauma ( Hullrot change, space is cold doe)
+#    damage:
+#      types:
+#        Heat: 0.55 #per second, scales with pressure and other constants. Uniquely Heat instead of blunt, to simulate mechanical overheating in vacuum. IPCs are normally air cooled.
   - type: Bloodstream
     bloodlossDamage:
       types:
