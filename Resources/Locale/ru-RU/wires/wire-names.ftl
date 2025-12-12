@@ -39,12 +39,12 @@ wires-board-name-mech = Мех
 wires-board-name-fatextractor = Экстрактор жира
 wires-board-name-flatpacker = Упаковщик
 wires-board-name-spaceheater = Термостат
-wires-board-name-jukebox = Jukebox
-wires-board-name-computer = Computer
-wires-board-name-holopad = Holopad
-wires-board-name-barsign = Bar Sign
-wires-board-name-weapon-energy-turret = Sentry turret
-wires-board-name-turret-controls = Sentry turret control panel
+wires-board-name-jukebox = Музыкальный автомат
+wires-board-name-computer = Компьютер
+wires-board-name-holopad = Холопад
+wires-board-name-barsign = Барная вывеска
+wires-board-name-weapon-energy-turret = Сторожевая турель
+wires-board-name-turret-controls = Пульт сторожевой турели
 
 # names that get displayed in the wire hacking hud & admin logs.
 
@@ -72,4 +72,4 @@ wire-name-bomb-boom = БУУМ
 wire-name-bomb-bolt = БОЛТ
 wire-name-speech = ДНМК
 wire-name-listen = МИКР
-wire-name-log = LOG
+wire-name-log = ЖУРН

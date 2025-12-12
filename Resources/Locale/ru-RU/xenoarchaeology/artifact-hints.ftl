@@ -41,4 +41,4 @@ artifact-trigger-hint-plasma = Газообразная плазма
 artifact-trigger-hint-land = Активное замедление
 artifact-trigger-hint-examine = Внимательное изучение
 # Psionic Effects
-artifact-effect-hint-psionic = Noöspheric disturbance
+artifact-effect-hint-psionic = Ноосферное возмущение

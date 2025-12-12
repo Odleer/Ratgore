@@ -1,8 +1,8 @@
 gun-selected-mode-examine = Выбран режим огня [color={ $color }]{ $mode }[/color].
 gun-fire-rate-examine = Скорострельность [color={ $color }]{ $fireRate }[/color] в секунду.
-gun-burst-fire-rate-examine = Burst fire rate is [color={ $color }]{ $fireRate }[/color] rounds per minute.
-gun-burst-fire-burst-count = It can be set to fire in [color={ $color }]{ $burstcount }[/color] round bursts.
-gun-damage-modifier-examine = Its shots deal [color={ $color }]{ $damage }x[/color] damage.
+gun-burst-fire-rate-examine = Скорострельность очередями [color={ $color }]{ $fireRate }[/color] выстрелов в минуту.
+gun-burst-fire-burst-count = Можно переключить на очередь по [color={ $color }]{ $burstcount }[/color] выстрелов.
+gun-damage-modifier-examine = Его выстрелы наносят [color={ $color }]{ $damage }x[/color] урона.
 gun-selector-verb = Изменить на { $mode }
 gun-selected-mode = Выбран { $mode }
 gun-disabled = Вы не можете использовать оружие!

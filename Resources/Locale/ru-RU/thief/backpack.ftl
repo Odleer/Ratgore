@@ -45,12 +45,12 @@ thief-backpack-category-communicator-description =
     Набор для радиолюбителей. Включает мастер-ключ шифрования
     для всех радиоканалов станции, ручку Cybersun, портативный монитор экипажа,
     голосовую маску-хамелеон, и много денег для ведения бизнеса.
-thief-backpack-category-communicator-plasmaman-name = communicator's kit
+thief-backpack-category-communicator-plasmaman-name = Набор связиста плазмамена
 thief-backpack-category-communicator-plasmaman-description =
-    A communication enthusiast's kit. Includes a master key
-    for all station channels, a cybersun pen, a portable
-    crew monitor, a voice chameleon mask, a tacticool envirosuit
-    and lots of money for business deals.
+    Набор для любителя связи. Включает мастер-ключ шифрования
+    для всех каналов станции, ручку Cybersun, портативный
+    монитор экипажа, голосовую маску-хамелеон, тактикульный
+    защитный скафандр и кучу денег для сделок.
 thief-backpack-category-smuggler-name = Набор контрабандиста
 thief-backpack-category-smuggler-description =
     Набор для тех, кто любит иметь большие карманы.

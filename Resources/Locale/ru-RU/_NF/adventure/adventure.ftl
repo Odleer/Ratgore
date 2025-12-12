@@ -16,7 +16,7 @@ shipyard-rules-default2 =
     Любые действия, совершаемые вами или вашим экипажем, нарушающие
     Космический Закон, приведут к административным мерам.
     Благодарим за выбор Департамента Службы Безопасности Фронтира.
-multiauth-already-connected = Already connected to Frontier Official servers.
+multiauth-already-connected = Уже подключено к официальным серверам Фронтира.
 shuttle-ftl-proximity = Массивный объект блокирует блюспейс прыжок!
 changelog-tab-title-Upstream = Журнал изменений
 public-transit-departure = Транспорт направляется в { $destination }. Ориентировочное время в пути: { $flytime } секунд.

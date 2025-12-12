@@ -3,7 +3,7 @@
 research-console-menu-title = Консоль R&D
 research-console-menu-main-discipline = Основная дисциплина: [color={ $color }]{ $name }[/color]
 research-console-menu-server-research-button = Исследовать
-research-console-menu-softcap-amount-text = Current Cost Multiplier: [color=#ff8c00]{ $softcap }[/color]
+research-console-menu-softcap-amount-text = Текущий множитель стоимости: [color=#ff8c00]{ $softcap }[/color]
 research-console-available-text = Доступные технологии
 research-console-unlocked-text = Исследованные технологии
 research-console-tier-discipline-info = Уровень { $tier }, [color={ $color }]{ $discipline }[/color]

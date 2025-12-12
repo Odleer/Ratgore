@@ -127,4 +127,4 @@ tiles-jungle-astro-grass = астро-трава джунглей
 tiles-astro-ice = астро-лёд
 tiles-astro-snow = астро-снег
 tiles-wood-large = большой деревянный пол
-tiles-steel-floor-worn = worn steel tile
+tiles-steel-floor-worn = изношенный стальной пол

@@ -1,6 +1,6 @@
 # Uplink
-store-category-debug = debug category
-store-category-debug2 = debug category 2
+store-category-debug = категория отладки
+store-category-debug2 = категория отладки 2
 store-category-weapons = Вооружение
 store-category-ammo = Боеприпасы
 store-category-explosives = Взрывчатка
@@ -12,7 +12,7 @@ store-category-wearables = Экипировка
 store-category-implants = Импланты
 store-category-job = Работа
 store-category-pointless = Безделушки
-store-discounted-items = Discounts
+store-discounted-items = Скидки
 # Revenant
 store-category-abilities = Способности
 # Wizard
