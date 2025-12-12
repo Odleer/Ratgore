@@ -1,41 +1,41 @@
-# only used roundstart, names can be changed after
+# только на старте раунда, имена можно изменить позже
 - type: dataset
   id: names_borg
   values:
-  - Bob
-  - Joe
-  - Beep
-  - Beep II
-  - Boombox
-  - Tour Guide-otron
-  - Taffy
-  - Boop
-  - Boop II
-  - Buzz
-  - Buzz II
-  - Toaster
-  - Head of Robots
+  - Боб
+  - Джо
+  - Бип
+  - Бип II
+  - Бумбокс
+  - Тургид-трон
+  - Таффи
+  - Буп
+  - Буп II
+  - Базз
+  - Базз II
+  - Тостер
+  - Глава Роботов
   - EVA 1
-  - Mr. Robist
-  - Junk
+  - Мистер Робист
+  - Джанк
   - R2-PO
   - C-3-D2
-  - Robby
-  - Robobot
-  - Fixer
-  - Sonny
-  - Autobot
-  - Whitley
-  - Keller
-  - Xenos
-  - Echo
-  - Vector
+  - Робби
+  - Робобот
+  - Фиксер
+  - Сонни
+  - Автобот
+  - Уитли
+  - Келлер
+  - Ксенос
+  - Эхо
+  - Вектор
   - B-0-RG
-  - Megabyte
-  - Butt-Bot
-  - Deceptiborg
-  - Le Borgue
-  - Beepers
-  - Cute-Bot
-  - Makeshifter
-  - Twin
+  - Мегабайт
+  - Задник-Бот
+  - Десептиборг
+  - Ле Борг
+  - Биперс
+  - Милашка-Бот
+  - Мастер-на-все-руки
+  - Близнец
