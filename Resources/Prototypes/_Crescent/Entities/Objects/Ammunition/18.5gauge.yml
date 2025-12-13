@@ -114,5 +114,5 @@
       proto: ShellShotgun18g
     - type: Sprite
       layers:
-        - state: boxwide
-        - state: shelllethal
+        - state: base
+        - state: lethal
