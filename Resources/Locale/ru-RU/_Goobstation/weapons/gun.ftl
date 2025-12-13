@@ -1,6 +1,6 @@
 # Hardlight Bow
-ammo-selector-examine-mode = Current mode: { $mode }
-mode-select-verb-text = Select firing mode
+ammo-selector-examine-mode = Текущий режим: { $mode }
+mode-select-verb-text = Выбрать режим стрельбы
 # RequiresDualWieldComponent
-dual-wield-component-requires = That doesn't feel cool enough, you need to dual wield.
-gun-requires-dual-wield-component-examine = This weapon needs to be dual wielded with another of its kind in order to be fired.
+dual-wield-component-requires = Это недостаточно круто, вам нужно держать по оружию в каждой руке.
+gun-requires-dual-wield-component-examine = Это оружие нужно держать обеими руками вместе с таким же, чтобы стрелять.
