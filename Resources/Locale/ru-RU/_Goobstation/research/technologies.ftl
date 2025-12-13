@@ -1,9 +1,9 @@
-research-technology-weapon-plasma-rifle = Experimental plasma rifle
-research-technology-medical-defense = Medical Control Gear
+research-technology-weapon-plasma-rifle = Экспериментальная плазменная винтовка
+research-technology-medical-defense = Медицинское защитное снаряжение
 research-technology-ripley-mkii = Ripley MK-II
 research-technology-clarke = Clarke
 research-technology-gygax = Gygax
 research-technology-durand = Durand
-research-technology-explosive-mech-ammunition = Explosive Mech Ammunition
-research-technology-honk-weapons = Bananium Weapons
-research-technology-modsuits = Modular Technologies
+research-technology-explosive-mech-ammunition = Взрывные боеприпасы для мехов
+research-technology-honk-weapons = Бананиумовое оружие
+research-technology-modsuits = Модульные технологии
