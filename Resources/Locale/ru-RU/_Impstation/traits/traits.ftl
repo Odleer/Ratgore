@@ -1,2 +1,2 @@
-trait-nocontractions-name = No contractions
-trait-nocontractions-desc = You are (mostly) incapable of using contractions.
+trait-nocontractions-name = Без сокращений
+trait-nocontractions-desc = Вы (в основном) не способны использовать сокращения.
