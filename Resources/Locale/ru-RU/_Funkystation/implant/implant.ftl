@@ -1,4 +1,4 @@
-changeling-convert-implant = You feel a sharp pain in your arm as the implant is injected!
-changeling-convert-implant-fail = The implant fails to inject completely!
-uplink-changelinginfect-implant-name = Changeling Infection Implant
-uplink-changelinginfect-implant-desc = Contains a parasite extracted from the corpse of a long-dead Changeling. Usage will give your target their infection, slowly turning them into a changeling. Do not use this on yourself.
+changeling-convert-implant = Вы чувствуете резкую боль в руке, когда имплант вводится!
+changeling-convert-implant-fail = Имплант не удаётся полностью ввести!
+uplink-changelinginfect-implant-name = Имплант инфекции Генокрада
+uplink-changelinginfect-implant-desc = Содержит паразита, извлечённого из трупа давно умершего Генокрада. Использование заразит вашу цель инфекцией, медленно превращая её в генокрада. Не используйте на себе.
