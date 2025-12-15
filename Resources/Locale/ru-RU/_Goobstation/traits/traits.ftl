@@ -1,5 +1,5 @@
-trait-name-WheelchairBound = Wheelchair User
+trait-name-WheelchairBound = Пользователь инвалидной коляски
 trait-description-WheelchairBound =
-    Your movement relies entirely on your wheelchair, whether due to a medical condition, injury, or other circumstances.
-    You cannot walk or run, but your wheelchair provides mobility.[color=red]
-    This cannot be cured in any way.[/color]
+    Ваше передвижение полностью зависит от инвалидной коляски, будь то медицинское состояние, травма или другие обстоятельства.
+    Вы не можете ходить или бегать, но ваша коляска обеспечивает мобильность.[color=red]
+    Это нельзя вылечить никаким способом.[/color]

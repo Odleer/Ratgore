@@ -1,3 +1,3 @@
-id-card-access-level-ntr = Corporate Liaison
-id-card-access-level-bso = Blueshield Officer
-id-card-access-level-mag = Magistrate
+id-card-access-level-ntr = Корпоративный связной
+id-card-access-level-bso = Офицер Синего Щита
+id-card-access-level-mag = Магистрат

@@ -1,1 +1,1 @@
-changeable-sex-component-sex-set = Changed sex to "{ $sex }"
+changeable-sex-component-sex-set = Пол изменён на "{ $sex }"

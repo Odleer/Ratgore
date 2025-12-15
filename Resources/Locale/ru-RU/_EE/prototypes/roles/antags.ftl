@@ -1,14 +1,14 @@
-# For Sol Alliance Navy Deserters
-ghost-role-information-deserter-name = Solarian Navy Deserter
-ghost-role-information-deserter-description = "I've fucking had it with the quartermaster not giving me my damn paycheck! Let's take one of the dropships for a joyride and go looting to pay ourselves."
+# Для дезертиров флота Солярского Альянса
+ghost-role-information-deserter-name = Дезертир флота Солярского Альянса
+ghost-role-information-deserter-description = "С меня хватит того, что квартирмейстер не даёт мне мою чёртову зарплату! Давайте возьмём один из десантных кораблей на прогулку и пойдём грабить, чтобы заплатить себе."
 ghost-role-information-deserter-rules =
-    You are not a terrorist, but you're not exactly a great person either. Do whatever it takes to "Get back what the navy owed us".
-    Taking hostages and making unreasonable demands is highly encouraged. Live out your space pirate fantasy here.
-    Don't go out of your way to cause mass destruction, since turning the station to slag will also deny you your payday.
-roles-antag-sol-alliance-navy-deserter = Solarian Navy Deserter
-roles-antag-sol-alliance-navy-deserter-objective = Fill your dropship with as much valuable loot as possible, while living to brag about it at the next freeport.
-id-card-access-level-sol-alliance-navy = SAN
-role-type-SAN-antagonist-name = Deserter
+    Вы не террорист, но и не самый лучший человек. Делайте всё необходимое, чтобы "Вернуть то, что флот должен нам".
+    Взятие заложников и предъявление необоснованных требований настоятельно приветствуется. Реализуйте здесь свою фантазию о космическом пирате.
+    Не старайтесь причинить массовые разрушения, так как превращение станции в шлак также лишит вас оплаты.
+roles-antag-sol-alliance-navy-deserter = Дезертир флота Солярского Альянса
+roles-antag-sol-alliance-navy-deserter-objective = Заполните свой десантный корабль как можно большим количеством ценной добычи, при этом оставаясь в живых, чтобы похвастаться этим в следующем свободном порту.
+id-card-access-level-sol-alliance-navy = ФСА
+role-type-SAN-antagonist-name = Дезертир
 # Shadowling
 roles-antag-shadowling-name = Shadowling
 roles-antag-shadowling-description = Enthrall the crew, ascend and become akin to a God.

@@ -1,6 +1,6 @@
-reagent-name-sports-drink-yellow = yellow sports drink
-reagent-desc-sports-drink-yellow = A refreshing beverage with a vaguely citrusy taste.
-reagent-name-sports-drink-blue = blue sports drink
-reagent-desc-sports-drink-blue = A revitalizing beverage with a vaguely berry-like taste.
-reagent-name-sports-drink-red = red sports drink
-reagent-desc-sports-drink-red = An energizing beverage with a vaguely fruity taste.
+reagent-name-sports-drink-yellow = жёлтый спортивный напиток
+reagent-desc-sports-drink-yellow = Освежающий напиток с неопределённо цитрусовым вкусом.
+reagent-name-sports-drink-blue = синий спортивный напиток
+reagent-desc-sports-drink-blue = Восстанавливающий напиток с неопределённо ягодным вкусом.
+reagent-name-sports-drink-red = красный спортивный напиток
+reagent-desc-sports-drink-red = Энергетический напиток с неопределённо фруктовым вкусом.

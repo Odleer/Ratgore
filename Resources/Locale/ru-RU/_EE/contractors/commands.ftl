@@ -1,3 +1,3 @@
-command-description-spawnpassport = Spawn a passport for a selected player.
-command-description-spawncorporatestamp = Spawn a corporate stamp in your inventory appropriate for your employer
-command-description-spawnspecificcorporatestamp = Spawn a corporate stamp for a specific employer: [employer] [command]
+command-description-spawnpassport = Создать паспорт для выбранного игрока.
+command-description-spawncorporatestamp = Создать корпоративную печать в вашем инвентаре, соответствующую вашему работодателю
+command-description-spawnspecificcorporatestamp = Создать корпоративную печать для конкретного работодателя: [employer] [command]

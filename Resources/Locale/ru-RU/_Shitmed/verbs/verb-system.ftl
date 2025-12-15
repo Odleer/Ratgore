@@ -1,1 +1,1 @@
-verb-categories-switch = Switch Mode
+verb-categories-switch = Переключить режим

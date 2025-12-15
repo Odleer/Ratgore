@@ -1,25 +1,25 @@
 - type: faction
-  name: "Divine Sol Mandate"
+  name: "Божественный Мандат Солнца"
   id: DSM
   descriptionPrefix: |
-    MINIMUM PLAYTIME: NONE
-    One of the two major players in the Taypan Sector.
-    Good for new players, and represents the core Hullrot experience.
+    МИНИМАЛЬНОЕ ВРЕМЯ ИГРЫ: НЕТ
+    Одна из двух основных сил в секторе Тайпан.
+    Подходит для новых игроков и отражает основной опыт игры на сервере.
   buttonColor: DarkSlateBlue
   description: |
-    A neo-feudalistic remnant of an Empire that once stretched across the stars, much akin to the ancient Holy Roman Empire.
-    Now what remains is mostly isolated to the sector, sent out by the divine Kaiser to secure this starzone from an
-    incompetent Noble who allowed it to get infested by the Socialist scourge now known as the New Crescent Workers League.
-    For decades, these two giants have clashed over the control of the Sector, each facing their own share of victory and defeat.
-    The carrier known as the Countsman ventures into Taypan to secure a foothold and to kick out the Unionist forces once again.
+    Нео-феодальный осколок Империи, когда-то простиравшейся через звёзды, во многом схожий с древней Священной Римской империей.​
+    Теперь её остатки в основном изолированы в этом секторе. По воле божественного кайзера силы Мандата были посланы сюда, чтобы
+    обезопасить сектор от социалистической заразы, ныне известная как Лига Рабочих Нового Полумесяца.​ На протяжении десятилетий
+    эти два гиганта сталкивались в борьбе за контроль над Сектором, чередуя победы и поражения. Авианосец под названием «Ревизор»
+    выходит в Тайпан, чтобы закрепиться и вновь выбить дать отпор ЛРНП.
 
-    The Divine Sol Mandate prays to the Saints and, most importantly, the Kaiser for their victory. Most higher roles are taken by
-    members of noble houses with varied standing within the Mandate, while House Kircheis sits at the top. The House of Questions
-    keeps the servants of the Mandate ever vigilant, as they are quick to act on any sign of disloyalty or treason.
-    Freeholders or even nobles, who think that they can speak up against the current regime, quickly find themselves under
-    the watchful eye of the HoQ, pressured into silence, or never heard from again. Other races are permitted within Imperial ranks,
-    but are often subject to increased scrutiny and formal or informal discrimination. The Atyrians take the brunt of this hate,
-    as even the Unathi are seen ridiculing them.
+    Божественный Мандат Солнца возносит молитвы святым и, прежде всего, кайзеру, прося у них победы.​ Большинство высоких должностей 
+    занимают члены знатных домов с разным статусом внутри Мандата, а на вершине стоит Дом Кирхайс. Дом Вопросов держит слуг Мандата
+    в постоянной настороженности, быстро реагируя на любые признаки нелояльности или измены. Свободные держатели или даже
+    аристократы, которые решают выступить против нынешнего режима, вскоре оказываются под пристальным наблюдением Дома Вопросов,
+    испытывая давление, вынуждающее их замолчать, а порой и вовсе исчезая бесследно. Другим расам разрешено служить в Имперских 
+    рядах, но к ним часто относятся с повышенным подозрением и подвергают формальной или неформальной дискриминации. Особенно от 
+    этого страдают нианы, над которыми потешаются даже унатхи.
   color: "#9FED58"
   weight: 8
   enabled: true
@@ -28,25 +28,24 @@
     state: dsm
 
 - type: faction
-  name: "New Crescent Worker's League"
+  name: "Лига Рабочих Нового Полумесяца"
   id: NCWL
   descriptionPrefix: |
-    MINIMUM PLAYTIME: NONE
-    One of the two major players in the Taypan Sector.
-    Good for new players, and represents the core Hullrot experience.
+    МИНИМАЛЬНОЕ ВРЕМЯ ИГРЫ: НЕТ
+    Одна из двух основных сил в секторе Тайпан.
+    Подходит для новых игроков и отражает основной опыт игры на сервере.
   buttonColor: "#a46106"
   description: |
-    A militant syndicalist government born out of revolt against House Olywir. They have now grown into a major power within the
-    isolated sector, capable of rivaling the Divine Sol Mandate. They operate out of their frontline station, Port Belreska,
-    waging a decades-long war against the Imperial dogs that seek to subjugate them once more. They are made up of several
-    workers' unions, but those fighting at the front are members of the Homeguard, led by the iron-willed Volgin Grishingrad.
+    Воинствующее синдикалистское правительство, рождённое в результате восстания  против Дома Оливир. Теперь оно превратилось в 
+    одну из главных сил изолированного сектора, способную соперничать с Божественным Мандатом Солнца. Они действуют с их передовой 
+    станции, Порт Марсова, ведя многолетнюю войну против имперских войск, жаждущих вновь поработить их. Они состоят из нескольких 
+    Рабочих профсоюзов, но на фронте сражаются члены Ополчения, возглавляемые железной волей Волгина Гришинграда.
 
-    The New Crescent Workers League seeks equality and freedom for all workers of the Crescent, no matter their species.
-    Their strong beliefs were forged from the harsh quotas imposed by House Olywir and the oppression imposed on the unions.
-    At one point, the League managed to bring liberation to the entire Sector, finally deposing House Olywir,
-    but that victory was short-lived, as much of their gains were reversed by the arrival of House Kircheis.
-    After many years of war, cracks are finally showing, but the few dissenters that exist dare not show their face,
-    lest they be taken in by the Ministry of Internal Vigilance and Discipline.
+    Лига Рабочих Нового Полумесяца стремится к равенству и свободе для всех работников Полумесяца, независимо от их вида. Их 
+    убеждения закалились под гнётом жёстких квот дома Оливир и подавления профсоюзов. В какой-то момент Лиге удалось освободить 
+    весь Сектор, окончательно свергнув дом Оливир, но эта победа оказалась недолгой: многие достижения были перечёркнуты с 
+    прибытием дома Кирхайс. После многих лет войны в системе наконец появляются трещины, но немногие существующие диссиденты 
+    не решаются высунуться, опасаясь, что их задержит Министерство внутренней бдительности и дисциплины.
 
   color: "#9FED58"
   weight: 7
@@ -56,79 +55,76 @@
     state: ncwl
 
 - type: faction
-  name: "Shinohara Heavy Industries"
+  name: "«Синогара» Тяжёлая Промышленность"
   id: SHI
   descriptionPrefix: |
-    MINIMUM PLAYTIME: 3 HOURS / 1 ROUND
-    An industrial giant, with trade-heavy gameplay and high tech.
-    Expect heavy profit quotas, pirate raids and little support.
+    МИНИМАЛЬНОЕ ВРЕМЯ ИГРЫ: 3 ЧАСА / 1 РАУНД
+    Промышленный гигант с геймплеем, завязанным на торговле и высоких технологиях.
+    Ожидайте жёстких норм по прибыли, пиратских рейдов и минимальной поддержки.
   buttonColor: DarkSlateGray
   description: |
-    The last corporate giant standing. A reminder and a relic of the old world. Shinohara Heavy Industries is the last
-    'real corporation' in the present day. Cut off from the main bubble, where they rule a huge swathe of space under the
-    guise of the New American Protectorate, their corporate dogma remains. Coming from an era once run by corporations,
-    a world of unparalleled greed, innovation, progress, and efficiency - to most, Shinohara's ways are more 'alien' than actual
-    alien species. Being the largest player in the field of archaeotechnology, it is the holder of many rediscovered and
-    reverse-engineered technologies from the now-defunct NanoTrasen Industries, putting SHI as the unmatched and unrivaled
-    corporate powerhouse in the Sector.
+    Последний оставшийся корпоративный гигант. Напоминание и реликт старого мира. «Синогара» Тяжёлая Промышленность — последняя 
+    «настоящая корпорация» в нынешнее время. Отрезанные от основной области, где они властвуют над огромным массивом пространства 
+    под вывеской Нового Американского протектората, их корпоративная догма остаётся неизменной. Происходя из эпохи, когда миром 
+    правили корпорации - мира непревзойдённой жадности, инноваций, прогресса и эффективности. Для большинства методы Shinohara 
+    кажутся более «чуждыми», чем многие инопланетные виды. Будучи крупнейшим игроком в сфере аркеотехнологий, корпорация владеет 
+    множеством заново открытых и обратным инжинирингом переработанных технологий ныне не существующей NanoTrasen Industries, что 
+    делает СТП непревзойдённой корпоративной сверхдержавой в Секторе.​
 
-    Their fingers are in every pie. they manage logistics between systems, tech scavenging, resource mining operations,
-    and even dabble in the manufacturing of space-capable vessels. While they mainly operate out of the
-    Prometheus Shipyards, Tatsumoto is used to represent their interests and sell their wares to all sides.
-    Situated within a contested system between the League and the Mandate, including the Taypani Freestations Coalition's
-    preying presence, Shinohara has been forced into a spiral of 'Strategic Trade Relations,'
-    'Kinetic Preservation of Corporate Interests,' and 'Competitive Partnership Management.'
+    Они управляют логистикой между системами, сбором технологий, добычей ресурсов и даже занимаются производством космических 
+    кораблей. Хотя в основном они действуют со Судоверфей «Прометей», «Тацумото» используется для представления их интересов
+    и продажи их товаров всем сторонам. Расположенный в оспариваемой системе между Лигой и Мандатом, включая присутствие Коалиции 
+    Свободных Станций Тайпани, Шинодара была вынуждена вступить в спираль «Стратегических торговых отношений», «Кинетического 
+    сохранения корпоративных интересов» и «Управления конкурентным партнёрством».
   color: "#9FED58"
-  weight: 6
+  weight: 5
   enabled: true
   icon:
     sprite: /Textures/_Crescent/faction_icons.rsi
     state: shi
 
 - type: faction
-  name: "Taypani Freestations Coalition"
+  name: "Коалиция Вольных Станцией Тайпана"
   id: TFSC
   descriptionPrefix: |
-    MINIMUM PLAYTIME: 3 HOURS / 1 ROUND
-    Four individual corporations united under one flag, for profit and freedom.
-    Other factions may offer contracts or ask for your services.
-    Other factions may be suspicious or immediately hostile.
-    Your allies may betray you for a higher paycheck.
+    МИНИМАЛЬНОЕ ВРЕМЯ ИГРЫ: 3 ЧАСА / 1 РАУНД
+    Четыре отдельных корпорации, объединённые под одним флагом ради прибыли и свободы.
+    Другие фракции могут предлагать контракты или просить об услугах.
+    Другие фракции могут относиться с подозрением или быть сразу враждебны.
+    Ваши союзники могут предать вас ради более высокой выплаты.
   buttonColor: DarkRed
   description: |
-    A loose conglomerate of independent groups made up of pirates, privateers, shipbreakers,
-    and predatory medical professionals with little to no qualms about taking your organs for themselves.
-    The most prominent groups are Gorlex Security Consulting, Interdyne Pharmaceuticals, Cyberdawn Technologies,
-    and Shipfitters Astronautics Workers Union. Each of them offers certain expertise and profits from it;
-    sometimes, they are compared to a scavenger ecosystem for how they operate.
+    Свободное объединение независимых групп, состоящее из пиратов, каперов, кораблеломщиков и хищных медицинских специалистов, 
+    почти не имеющих угрызений совести при изъятии ваших органов для себя. Наиболее заметные группы: Gorlex Security Consulting, 
+    Interdyne Pharmaceuticals, Cyberdawn Technologies и Shipfitters Astronautics Workers Union. Каждая из них предлагает
+    определённые услуги и извлекает из них прибыль. Иногда их сравнивают с падальщичьей экосистемой за то, как они действуют.
 
-    They were born from the old New Crescent Syndicate of Privateers, a faction formed by Mandate and League defectors
-    who wished to live away from the grip of the major factions. They were mostly pirates and privateers whom the major
-    players in the sector did not look kindly upon and hunted them down with prejudice. Those privateers who saw the coming end
-    formed the Taypani Freestations Coalition, focusing more on providing their varied array of services rather than simply
-    pillaging. But with the destruction of Freeport, these groups have drifted apart even more, often fighting each other.
+    Они родились из старого Нового Синдиката Каперов Полумесяца, фракции, сформированной перебежчиками из Мандата и Лиги, желавшими 
+    жить вне хватки крупных фракций. В основном это были пираты и каперы, к которым крупные игроки в секторе относились 
+    недоброжелательно и беспощадно охотились на них. Те каперы, что видели приближающийся конец, сформировали Коалицию 
+    Свободных Станций Тайпани, сделав акцент скорее на предоставлении своего разнообразного спектра услуг, чем на простомграбеже.
+    Но с уничтожением Либерталия эти группы разошлись ещё дальше, часто воюя друг с другом.
   color: "#9FED58"
-  weight: 5
+  weight: 6
   enabled: true
   icon:
     sprite: /Textures/_Crescent/faction_icons.rsi
     state: tfsc
 
 - type: faction
-  name: "The Taypani-Atyrian Pact"
+  name: "Тайпано-Атирийский Пакт"
   id: TAP
   descriptionPrefix: |
-    MINIMUM PLAYTIME: 10 HOURS / 3 ROUNDS
-    This faction has only a very small outpost in the Taypan system.
-    A small, hidden station with only four roles is their only presence.
-    Play at your own risk.
+    МИНИМАЛЬНОЕ ВРЕМЯ ИГРЫ: 10 ЧАСОВ / 3 РАУНДА
+    У этой фракции есть лишь очень маленький аванпост в системе Тайпан.
+    Их присутствие ограничено маленькой, скрытой станцией всего с четырьмя ролями.
+    Играйте на свой страх и риск.
   buttonColor: DarkGreen
   description: |
-    A loosely organized tribal community of nomadic starfarers, the Taypani-Atyrian Pact consists of several nomadic
-    families of various racial backgrounds. Primarily made up of the spiritual Arabet, the militaristic Al'Seik,
-    the materialistic Izdari, and the scrappy Thukker families, they operate out of a converted capital freighter,
-    moving from site to site to eke out a living. Most nomads carry the foul reputations of mercenaries, lowlives,
-    smugglers, racketeers, and gamblers.
+    Свободно организованная племенная община кочевых звёздных странников, Тайпано-Атирийский Пакт состоит из нескольких кочевых
+    семей разного расового происхождения. Они действуют с переоборудованного капитального грузового корабля, перемещаясь от 
+    места к месту, чтобы заработать на жизнь. Большинство кочевников имеют дурную славу наёмников, подонков, контрабандистов, 
+    рэкетиров и игроков.
   color: "#9FED58"
   weight: 4
   enabled: true
@@ -152,7 +148,7 @@
     the rebuilding effort.
   color: "#9FED58"
   weight: 3
-  enabled: true
+  enabled: false
   icon:
     sprite: /Textures/_Crescent/faction_icons.rsi
     state: srm
@@ -183,7 +179,7 @@
     Authoritat.
   color: "#ffffed"
   weight: 2
-  enabled: true
+  enabled: false
   icon:
     sprite: /Textures/_Crescent/faction_icons.rsi
     state: csa

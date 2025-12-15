@@ -1,47 +1,47 @@
-character-item-group-TraitsCasterType = Psicaster Type
-trait-name-LatentPsychic = Latent Psychic
+character-item-group-TraitsCasterType = Тип псикастера
+trait-name-LatentPsychic = Скрытый псионик
 trait-description-LatentPsychic =
-    Your mind and soul are open to the noosphere, allowing for use of Telepathy.
-    Thus, you are eligible for potentially receiving psychic powers.
-    It is possible that you may be hunted by otherworldly forces, so consider keeping your powers a secret.
-    Latent psychics have no special abilities, modifiers, or unique features compared to other psions.
-    However they can become more or less anything given time and resources.
-trait-name-PsionicInsulation = χ Waveform Misalignment
+    Ваш разум и душа открыты для ноосферы, что позволяет использовать телепатию.
+    Таким образом, вы можете потенциально получить псионические способности.
+    Возможно, на вас будут охотиться потусторонние силы, поэтому подумайте о том, чтобы сохранять свои силы в тайне.
+    Скрытые псионики не имеют особых способностей, модификаторов или уникальных особенностей по сравнению с другими псиониками.
+    Однако со временем и ресурсами они могут стать практически кем угодно.
+trait-name-PsionicInsulation = χ Несовпадение волновой формы
 trait-description-PsionicInsulation =
-    You are a flesh automaton animated by neurotransmitters. Within your skull lies a
-    1.5kg sack of meat pretending at sentience. By modern epistemiological theory, you aren't even a sophont.
-    The good news is that you are immune to most positive and negative effects of psychic powers.
-    There may be other consequences to this malady.
-trait-name-Elementalist = Elementalist
+    Вы - мясной автомат, оживлённый нейротрансмиттерами. В вашем черепе находится
+    1,5-килограммовый мешок мяса, притворяющийся разумным. По современной эпистемиологической теории, вы даже не являетесь софонтом.
+    Хорошая новость в том, что вы иммунны к большинству положительных и отрицательных эффектов псионических сил.
+    У этого недуга могут быть и другие последствия.
+trait-name-Elementalist = Элементалист
 trait-description-Elementalist =
-    'Elementalists' are a rare and modern form of Psion, noted for their potential for bombastic feats of "Kinesis".
-    So rare were these individuals, that at one point in time they were known by titles such as Sorcerer, or Magician, if they weren't a charlatan that is.
-    As an Elementalist, your talent for developing new powers is severely limited.
-    Yet despite this tradeoff, your powers are more exclusively the realm of flashy and dangerous. You will never generate any powers known as "Mentalics".
-    You are almost certainly going to be hunted. Let others know what you can do at the peril of your very soul.
+    Элементалисты - редкая и современная форма псиоников, известных своим потенциалом для громких подвигов «кинезиса».
+    Настолько редкими были эти люди, что в одно время их называли такими титулами, как колдун или маг, если они не были шарлатанами.
+    Как элементалист, ваш талант к развитию новых сил серьёзно ограничен.
+    Однако, несмотря на этот компромисс, ваши силы являются исключительно яркими и опасными. Вы никогда не получите никаких сил, известных как «менталики».
+    На вас почти наверняка будут охотиться. Сообщайте другим о своих способностях на свой страх и риск для вашей души.
     
-    - You can never "roll" new powers. The powers you buy at character creation are all you will ever have.
-    - Your available powers are strictly limited to "Kinetics".
-    - You will never be Telepathic.
-trait-name-PsychoHistorian = Psycho-Historian
+    - Вы не можете «выпасть» новые силы. Силы, которые вы покупаете при создании персонажа - это всё, что у вас когда-либо будет.
+    - Ваши доступные силы строго ограничены «кинетикой».
+    - Вы никогда не будете телепатом.
+trait-name-PsychoHistorian = Психоисторик
 trait-description-PsychoHistorian =
-    Psycho-Historians are a fairly common and well-studied branch of psionic users, whose powers are documented in the public domain
-    as far back as the 1970s on Earth. Mythological accounts of such individuals can also be traced back thousands of years. Today,
-    Psycho-Historians make up the overwhelming bulk of the Epistemics Cult's awakened members. Your powers are generally regarded as "Safe", as they
-    exclusively interact from one mind to another without need of interacting with extra-planar forces. However, you will never be able
-    to learn any powers known as "Kinesis".
+    Психоисторики - довольно распространённая и хорошо изученная ветвь псионических пользователей, чьи способности задокументированы в общедоступном домене
+    ещё с 1970-х годов на Земле. Мифологические свидетельства о таких людях можно проследить на тысячи лет назад. Сегодня
+    психоисторики составляют подавляющее большинство пробуждённых членов культа Эпистемики. Ваши силы обычно считаются «безопасными», поскольку они
+    взаимодействуют исключительно от одного разума к другому без необходимости взаимодействия с внепланарными силами. Однако вы никогда не сможете
+    изучить какие-либо силы, известные как «кинезис».
     
-    - Your powers are developed at a significantly faster rate than other psychics.
-    - Your available powers are strictly limited to "Mentalics"
-    - You are automatically considered Telepathic.
-trait-name-Biomancer = Biomancer
+    - Ваши силы развиваются значительно быстрее, чем у других псиоников.
+    - Ваши доступные силы строго ограничены «менталикой».
+    - Вы автоматически считаетесь телепатом.
+trait-name-Biomancer = Биомант
 trait-description-Biomancer =
-    Every night, I have a strange but specific dream. I see myself in an operating room, one me standing over another, in a coma.
-    This version of me that is awake whispers unintelligable words that refuse to leave my brain, like it was something I've said all my life.
-    The comatose version of me wakes up. (you are not telepathic, nor can you obtain most powers, but you are able to learn healing word, psionic regeneration, and revivify)
-trait-name-Pyromancer = Pyromancer
+    Каждую ночь мне снится странный, но конкретный сон. Я вижу себя в операционной, где одна версия меня стоит над другой, находящейся в коме.
+    Та версия меня, что бодрствует, шепчет неразборчивые слова, которые отказываются покинуть мой мозг, будто я произносил их всю жизнь.
+    Версия меня в коме просыпается. (Вы не телепат и не можете получить большинство способностей, но вы способны изучить Целительное слово, Псионическую регенерацию и Возвращение к жизни)
+trait-name-Pyromancer = Пиромант
 trait-description-Pyromancer =
-    For years, my sleep had been restless. every time I tried to sleep, it was always too hot, and it felt like something was trying to shine a light in my closed eyes.
-    Then, I had a strange dream. an unrelenting flame in the middle of a frozen forest, refusing to give out and die. I get closer to the fire as the cold got more and more intense.
-    The cold worsened until my only option was to step into the fire. It did not burn me, but instead surrounded me like it was clothing, protecting me from the relentless cold.
-    The flame was my shield. (you are not telepathic, nor can you obtain most powers, but you can learn flame flare and can unlock other pyrokinetic abilities)
+    Годы мой сон был беспокойным. Каждый раз, когда я пытался заснуть, было слишком жарко, и казалось, что кто-то пытается посветить мне в закрытые глаза.
+    Затем мне приснился странный сон. Неумолимое пламя посреди замёрзшего леса, отказывающееся угаснуть и умереть. Я приближаюсь к огню, а холод становится всё сильнее.
+    Холод усиливался, пока моим единственным выбором не стало шагнуть в огонь. Он не обжёг меня, а окружил, словно одежда, защищая от неумолимого холода.
+    Пламя стало моим щитом. (Вы не телепат и не можете получить большинство способностей, но вы можете изучить Вспышку пламени и разблокировать другие пирокинетические способности)

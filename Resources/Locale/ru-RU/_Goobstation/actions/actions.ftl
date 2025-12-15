@@ -1,1 +1,1 @@
-world-target-out-of-range = Your target is not on the same map as you. Try FTLing there.
+world-target-out-of-range = Ваша цель находится не на той же карте, что и вы. Попробуйте совершить туда FTL-прыжок.

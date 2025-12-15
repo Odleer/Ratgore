@@ -1,173 +1,173 @@
-ent-SpawnPointGhostBlob = Blob spawner
-    .suffix = DEBUG, Ghost Role Spawner
+ent-SpawnPointGhostBlob = Спаунер блоба
+    .suffix = DEBUG, Спаунер гост-ролей
     .desc = { ent-MarkerBase.desc }
-ent-MobBlobPod = Blob Drop
-    .desc = An ordinary blob fighter.
-ent-MobBlobBlobbernaut = Blobbernaut
-    .desc = An elite blob fighter.
-ent-BaseBlob = basic blob.
+ent-MobBlobPod = Спора блоба
+    .desc = Обычный боец блоба.
+ent-MobBlobBlobbernaut = Блоббернаут
+    .desc = Элитный боец блоба.
+ent-BaseBlob = базовый блоб
     .desc = { "" }
-ent-NormalBlobTile = Regular Tile Blob
-    .desc = An ordinary part of the blob required for the construction of more advanced tiles.
-ent-CoreBlobTile = Blob Core
-    .desc = The most important organ of the blob. By destroying the core, the infection will cease.
-ent-FactoryBlobTile = Blob Factory
-    .desc = Spawns Blob Drops and Blobbernauts over time.
-ent-ResourceBlobTile = Resource Blob
-    .desc = Produces resources for the blob.
-ent-NodeBlobTile = Blob Node
-    .desc = A mini version of the core that allows you to place special blob tiles around itself.
-ent-StrongBlobTile = Strong Blob Tile
-    .desc = A reinforced version of the regular tile. It does not allow air to pass through and protects against brute damage.
-ent-ReflectiveBlobTile = Blob Reflective Tiles
-    .desc = It reflects lasers, but does not protect against brute damage as well.
+ent-NormalBlobTile = Обычная плитка блоба
+    .desc = Обычная часть блоба, необходимая для постройки более продвинутых плиток.
+ent-CoreBlobTile = Ядро блоба
+    .desc = Самый важный орган блоба. Уничтожив ядро, инфекция прекратится.
+ent-FactoryBlobTile = Фабрика блоба
+    .desc = Со временем создаёт споры блоба и блоббернаутов.
+ent-ResourceBlobTile = Ресурсный блоб
+    .desc = Производит ресурсы для блоба.
+ent-NodeBlobTile = Узел блоба
+    .desc = Мини-версия ядра, позволяющая размещать специальные плитки блоба вокруг себя.
+ent-StrongBlobTile = Прочная плитка блоба
+    .desc = Усиленная версия обычной плитки. Не пропускает воздух и защищает от физического урона.
+ent-ReflectiveBlobTile = Отражающая плитка блоба
+    .desc = Отражает лазеры, но хуже защищает от физического урона.
     .desc = { "" }
-objective-issuer-blob = Blob
-ghost-role-information-blobbernaut-name = Blobbernaut
-ghost-role-information-blobbernaut-description = You are a Blobbernaut. You must defend the blob core.
-ghost-role-information-blob-name = Blob
-ghost-role-information-blob-description = You are the Blob Infection. Consume the station.
-roles-antag-blob-name = Blob
-roles-antag-blob-objective = Reach critical mass.
-guide-entry-blob = Blob
+objective-issuer-blob = Блоб
+ghost-role-information-blobbernaut-name = Блоббернаут
+ghost-role-information-blobbernaut-description = Вы блоббернаут. Вы должны защищать ядро блоба.
+ghost-role-information-blob-name = Блоб
+ghost-role-information-blob-description = Вы Блоб-инфекция. Поглотите станцию.
+roles-antag-blob-name = Блоб
+roles-antag-blob-objective = Достичь критической массы.
+guide-entry-blob = Блоб
 # Popups
-blob-target-normal-blob-invalid = Wrong blob type, select a normal blob.
-blob-target-factory-blob-invalid = Wrong blob type, select a factory blob.
-blob-target-node-blob-invalid = Wrong blob type, select a node blob.
-blob-target-close-to-resource = Too close to another resource blob.
-blob-target-nearby-not-node = No node or resource blob nearby.
-blob-target-close-to-node = Too close to another node.
-blob-target-already-produce-blobbernaut = This factory has already produced a blobbernaut.
-blob-cant-split = You can not split the blob core.
-blob-not-have-nodes = You have no nodes.
-blob-not-enough-resources = Not enough resources.
-blob-help = Only God can help you.
-blob-swap-chem = In development.
-blob-mob-attack-blob = You can not attack a blob.
+blob-target-normal-blob-invalid = Неверный тип блоба, выберите обычный блоб.
+blob-target-factory-blob-invalid = Неверный тип блоба, выберите фабрику блоба.
+blob-target-node-blob-invalid = Неверный тип блоба, выберите узел блоба.
+blob-target-close-to-resource = Слишком близко к другому ресурсному блобу.
+blob-target-nearby-not-node = Нет узла или ресурсного блоба поблизости.
+blob-target-close-to-node = Слишком близко к другому узлу.
+blob-target-already-produce-blobbernaut = Эта фабрика уже создала блоббернаута.
+blob-cant-split = Нельзя разделить ядро блоба.
+blob-not-have-nodes = У вас нет узлов.
+blob-not-enough-resources = Недостаточно ресурсов.
+blob-help = Только Бог может вам помочь.
+blob-swap-chem = В разработке.
+blob-mob-attack-blob = Нельзя атаковать блоб.
 blob-get-resource = +{ $point }
 blob-spent-resource = -{ $point }
-blobberaut-not-on-blob-tile = You are dying while not on blob tiles.
-carrier-blob-alert = You have { $second } seconds left before transformation.
-blob-core-under-attack = Your core is under attack!
-blob-mob-zombify-second-start = { $pod } starts turning you into a zombie.
-blob-mob-zombify-third-start = { $pod } starts turning { $target } into a zombie.
-blob-mob-zombify-second-end = { $pod } turns you into a zombie.
-blob-mob-zombify-third-end = { $pod } turns { $target } into a zombie.
-blobberaut-factory-destroy = factory destroy
-blob-target-already-connected = already connected
+blobberaut-not-on-blob-tile = Вы умираете, не находясь на плитках блоба.
+carrier-blob-alert = У вас осталось { $second } секунд до превращения.
+blob-core-under-attack = Ваше ядро атакуют!
+blob-mob-zombify-second-start = { $pod } начинает превращать вас в зомби.
+blob-mob-zombify-third-start = { $pod } начинает превращать { $target } в зомби.
+blob-mob-zombify-second-end = { $pod } превращает вас в зомби.
+blob-mob-zombify-third-end = { $pod } превращает { $target } в зомби.
+blobberaut-factory-destroy = фабрика уничтожена
+blob-target-already-connected = уже подключено
 # UI
-blob-chem-swap-ui-window-name = Swap chemicals
+blob-chem-swap-ui-window-name = Смена химикатов
 blob-chem-reactivespines-info =
-    Reactive Spines
-    Deals 25 brute damage.
+    Реактивные шипы
+    Наносит 25 физического урона.
 blob-chem-blazingoil-info =
-    Blazing Oil
-    Deals 15 burn damage and lights targets on fire.
-    Makes you vulnerable to water.
+    Пылающее масло
+    Наносит 15 урона от ожогов и поджигает цели.
+    Делает вас уязвимым к воде.
 blob-chem-regenerativemateria-info =
-    Regenerative Materia
-    Deals 6 brute damage and 15 toxin damage.
-    The blob core regenerates health 10 times faster than normal and generates 1 extra resource.
+    Регенеративная материя
+    Наносит 6 физического и 15 токсичного урона.
+    Ядро блоба восстанавливает здоровье в 10 раз быстрее и генерирует на 1 ресурс больше.
 blob-chem-explosivelattice-info =
-    Explosive Lattice
-    Deals 5 burn damage and explodes the target, dealing 10 brute damage.
-    Spores explode on death.
-    You become immune to explosions.
-    You take 50% more damage from burns and electrical shock.
+    Взрывная решётка
+    Наносит 5 урона от ожогов и взрывает цель, нанося 10 физического урона.
+    Споры взрываются при смерти.
+    Вы становитесь иммунны к взрывам.
+    Вы получаете на 50% больше урона от ожогов и электричества.
 blob-chem-electromagneticweb-info =
-    Electromagnetic Web
-    Deals 20 burn damage, 20% chance to cause an EMP pulse when attacking.
-    Blob tiles cause an EMP pulse when destroyed.
-    You take 25% more brute and heat damage.
-blob-alert-out-off-station = The blob was removed because it was found outside the station!
+    Электромагнитная сеть
+    Наносит 20 урона от ожогов, 20% шанс вызвать ЭМИ-импульс при атаке.
+    Плитки блоба вызывают ЭМИ-импульс при уничтожении.
+    Вы получаете на 25% больше физического и теплового урона.
+blob-alert-out-off-station = Блоб был удалён, так как оказался за пределами станции!
 # Announcment
-blob-alert-recall-shuttle = The emergency shuttle can not be sent while there is a level 5 biohazard present on the station.
-blob-alert-detect = Confirmed outbreak of level 5 biohazard aboard the station. All personnel must contain the outbreak.
-blob-alert-critical = Biohazard level critical, nuclear authentication codes have been sent to the station. Central Command orders any remaining personnel to activate the self-destruction mechanism.
-blob-alert-critical-NoNukeCode = Biohazard level critical. Central Command orders any remaining personnel to seek shelter, and await resque.
+blob-alert-recall-shuttle = Аварийный шаттл не может быть отправлен, пока на станции присутствует биоугроза 5-го уровня.
+blob-alert-detect = Подтверждёна вспышка биоугрозы 5-го уровня на станции. Весь персонал должен сдерживать вспышку.
+blob-alert-critical = Уровень биоугрозы критический, коды автентификации ядерной боеголовки отправлены на станцию. Центральное командование приказывает оставшемуся персоналу активировать механизм самоуничтожения.
+blob-alert-critical-NoNukeCode = Уровень биоугрозы критический. Центральное командование приказывает оставшемуся персоналу искать укрытие и ожидать спасения.
 # Actions
-blob-create-factory-action-name = Create Blob Factory (40)
-blob-create-factory-action-desc = Transforms a selected normal blob into a factory that can produce various blob minions, if there is a node or core nearby.
-blob-create-storage-action-name = Create Blob Storage (50)
-blob-create-storage-action-desc = Transforms a selected normal blob into storage, which increases the maximum amount of resources the blob can have.
-blob-create-turret-action-name = Create Blob Turret (75)
-blob-create-turret-action-desc = Transforms a selected normal blob into a turret that shoots at enemies with small spores, consuming points.
-blob-create-resource-action-name = Place Resource Blob (60)
-blob-create-resource-action-desc = Turns selected normal blob into a resource blob which will generates resources if placed next to a core or a node.
-blob-create-node-action-name = Place Node Blob (50)
+blob-create-factory-action-name = Создать фабрику блоба (40)
+blob-create-factory-action-desc = Превращает выбранный обычный блоб в фабрику, которая может производить миньонов, если рядом есть узел или ядро.
+blob-create-storage-action-name = Создать хранилище блоба (50)
+blob-create-storage-action-desc = Превращает выбранный обычный блоб в хранилище, увеличивая максимум ресурсов.
+blob-create-turret-action-name = Создать турель блоба (75)
+blob-create-turret-action-desc = Превращает выбранный обычный блоб в турель, стреляющую по врагам спорами, расходуя ресурсы.
+blob-create-resource-action-name = Разместить ресурсный блоб (60)
+blob-create-resource-action-desc = Превращает выбранный обычный блоб в ресурсный, который генерирует ресурсы рядом с ядром или узлом.
+blob-create-node-action-name = Разместить узел блоба (50)
 blob-create-node-action-desc =
-    Turns selected normal blob into a node blob.
-    A node blob will activate effects of factory and resource blobs, heal other blobs and slowly expand, destroying walls and creating normal blobs.
-blob-produce-blobbernaut-action-name = Produce a Blobbernaut (60)
-blob-produce-blobbernaut-action-desc = Creates a blobbernaut on the selected factory. Each factory can only do this once. The blobbernaut will take damage outside of blob tiles and heal when close to nodes.
-blob-split-core-action-name = Split Core (400)
-blob-split-core-action-desc = You can only do this once. Turns selected node into an independent core that will act on its own.
-blob-swap-core-action-name = Relocate Core (200)
-blob-swap-core-action-desc = Swaps the location of your core and the selected node.
-blob-teleport-to-core-action-name = Jump to Core (0)
-blob-teleport-to-core-action-desc = Teleports you to your Blob Core.
-blob-teleport-to-node-action-name = Jump to Node (0)
-blob-teleport-to-node-action-desc = Teleports you to a random blob node.
-blob-help-action-name = Help
-blob-help-action-desc = Get basic information about playing as blob.
-blob-swap-chem-action-name = Swap chemicals (70)
-blob-swap-chem-action-desc = Lets you swap your current chemical.
-blob-carrier-transform-to-blob-action-name = Transform into a blob
-blob-carrier-transform-to-blob-action-desc = Instantly destoys your body and creates a blob core. Make sure to stand on a floor tile, otherwise you will simply disappear.
-blob-downgrade-action-name = downgrade blob(0)
-blob-downgrade-action-desc = Turns the selected tile back into a normal blob to install other types of cages.
+    Превращает выбранный обычный блоб в узел.
+    Узел активирует эффекты фабрик и ресурсных блобов, лечит другие блобы и медленно расширяется, разрушая стены.
+blob-produce-blobbernaut-action-name = Произвести блоббернаута (60)
+blob-produce-blobbernaut-action-desc = Создаёт блоббернаута на выбранной фабрике. Каждая фабрика может сделать это только один раз. Блоббернаут получает урон вне плиток блоба и лечится рядом с узлами.
+blob-split-core-action-name = Разделить ядро (400)
+blob-split-core-action-desc = Можно сделать только один раз. Превращает выбранный узел в независимое ядро.
+blob-swap-core-action-name = Переместить ядро (200)
+blob-swap-core-action-desc = Меняет местами ваше ядро и выбранный узел.
+blob-teleport-to-core-action-name = Перейти к ядру (0)
+blob-teleport-to-core-action-desc = Телепортирует к вашему ядру блоба.
+blob-teleport-to-node-action-name = Перейти к узлу (0)
+blob-teleport-to-node-action-desc = Телепортирует к случайному узлу блоба.
+blob-help-action-name = Помощь
+blob-help-action-desc = Получите базовую информацию об игре за блоба.
+blob-swap-chem-action-name = Сменить химикаты (70)
+blob-swap-chem-action-desc = Позволяет сменить текущий химикат.
+blob-carrier-transform-to-blob-action-name = Превратиться в блоба
+blob-carrier-transform-to-blob-action-desc = Мгновенно уничтожает ваше тело и создаёт ядро блоба. Убедитесь, что стоите на полу.
+blob-downgrade-action-name = Понизить блоб (0)
+blob-downgrade-action-desc = Превращает выбранную плитку обратно в обычный блоб.
 # Ghost role
-blob-carrier-role-name = Blob carrier
-blob-carrier-role-desc = A blob-infected creature.
+blob-carrier-role-name = Носитель блоба
+blob-carrier-role-desc = Существо, заражённое блобом.
 blob-carrier-role-rules =
-    You are an antagonist. You have 10 minutes before you transform into a blob.
-    Use this time to find a safe spot on the station. Keep in mind that you will be very weak right after the transformation.
-blob-carrier-role-greeting = You are a carrier of Blob. Find a secluded place at the station and transform into a Blob. Turn the station into a mass and its inhabitants into your servants. We are all Blobs.
+    Вы антагонист. У вас есть 10 минут до превращения в блоба.
+    Используйте это время, чтобы найти безопасное место. Помните, что сразу после превращения вы будете очень слабы.
+blob-carrier-role-greeting = Вы носитель Блоба. Найдите уединённое место на станции и превратитесь. Превратите станцию в массу, а её жителей - в слуг. Мы все - Блобы.
 # Verbs
-blob-pod-verb-zombify = Zombify
-blob-verb-upgrade-to-strong = Upgrade to Strong Blob
-blob-verb-upgrade-to-reflective = Upgrade to Reflective Blob
-blob-verb-remove-blob-tile = Remove Blob
+blob-pod-verb-zombify = Зомбифицировать
+blob-verb-upgrade-to-strong = Улучшить до прочного
+blob-verb-upgrade-to-reflective = Улучшить до отражающего
+blob-verb-remove-blob-tile = Удалить блоб
 # Alerts
-blob-resource-alert-name = Core Resources
-blob-resource-alert-desc = Your resources produced by the core and resource blobs. Use them to expand and create special blobs.
-blob-health-alert-name = Core Health
-blob-health-alert-desc = Your core's health. You will die if it reaches zero.
+blob-resource-alert-name = Ресурсы ядра
+blob-resource-alert-desc = Ваши ресурсы, производимые ядром и ресурсными блобами. Используйте их для расширения и создания специальных блобов.
+blob-health-alert-name = Здоровье ядра
+blob-health-alert-desc = Здоровье вашего ядра. Вы умрёте, если оно достигнет нуля.
 # Greeting
 blob-role-greeting =
-    You are blob - a parasitic space creature capable of destroying entire stations.
-        Your goal is to survive and grow as large as possible.
-    	You are almost invulnerable to physical damage, but heat can still hurt you.
-        Use Alt+LMB to upgrade normal blob tiles to strong blob and strong blob to reflective blob.
-    	Make sure to place resource blobs to generate resources.
-        Keep in mind that resource blobs and factories will only work when next to node blobs or cores.
-blob-zombie-greeting = You were infected and raised by a blob spore. Now you must help the blob take over the station.
+    Вы - блоб, паразитическое космическое существо, способное уничтожить целые станции.
+        Ваша цель - выжить и вырасти как можно больше.
+    	Вы почти неуязвимы к физическому урону, но тепло может повредить вас.
+        Используйте Alt+ЛКМ для улучшения обычных блобов до прочных, а прочных - до отражающих.
+    	Обязательно размещайте ресурсные блобы для генерации ресурсов.
+        Помните, что ресурсные блобы и фабрики работают только рядом с узлами или ядром.
+blob-zombie-greeting = Вас заразила и подняла спора блоба. Теперь вы должны помочь блобу захватить станцию.
 # End round
 blob-round-end-result =
     { $blobCount ->
-        [one] There was one blob infection.
-       *[other] There were { $blobCount } blobs.
+        [one] Была одна блоб-инфекция.
+       *[other] Было { $blobCount } блобов.
     }
-blob-user-was-a-blob = [color=gray]{ $user }[/color] was a blob.
-blob-user-was-a-blob-named = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color]) was a blob.
-blob-was-a-blob-named = [color=White]{ $name }[/color] was a blob.
-blob-objective-percentage = It captured [color=White]{ $progress }%[/color] to the victory.
-blob-end-victory = [color=Red]Blob(s) successfully absorbed the station![/color]
-blob-end-fail = [color=Green]Blob(s) failed to absorb the station.[/color]
-blob-end-fail-progress = All blobs captured [color=Yellow]{ $progress }%[/color] to the victory.
-preset-blob-objective-issuer-blob = [color=#33cc00]Blob[/color]
-blob-user-was-a-blob-with-objectives = [color=gray]{ $user }[/color] was a blob:
-blob-user-was-a-blob-with-objectives-named = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color]) was a blob:
-blob-was-a-blob-with-objectives-named = [color=White]{ $name }[/color] was a blob:
+blob-user-was-a-blob = [color=gray]{ $user }[/color] был блобом.
+blob-user-was-a-blob-named = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color]) был блобом.
+blob-was-a-blob-named = [color=White]{ $name }[/color] был блобом.
+blob-objective-percentage = Захватил [color=White]{ $progress }%[/color] до победы.
+blob-end-victory = [color=Red]Блоб(ы) успешно поглотили станцию![/color]
+blob-end-fail = [color=Green]Блоб(ы) не смогли поглотить станцию.[/color]
+blob-end-fail-progress = Все блобы захватили [color=Yellow]{ $progress }%[/color] до победы.
+preset-blob-objective-issuer-blob = [color=#33cc00]Блоб[/color]
+blob-user-was-a-blob-with-objectives = [color=gray]{ $user }[/color] был блобом:
+blob-user-was-a-blob-with-objectives-named = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color]) был блобом:
+blob-was-a-blob-with-objectives-named = [color=White]{ $name }[/color] был блобом:
 # Objectivies
-objective-condition-blob-capture-title = Take over the station
-objective-condition-blob-capture-description = Your only goal is to take over the whole station. You need to have at least { $count } blob tiles.
-objective-condition-success = { $condition } | [color={ $markupColor }]Success![/color]
-objective-condition-fail = { $condition } | [color={ $markupColor }]Failure![/color] ({ $progress }%)
+objective-condition-blob-capture-title = Захватить станцию
+objective-condition-blob-capture-description = Ваша единственная цель - захватить всю станцию. Вам нужно минимум { $count } плиток блоба.
+objective-condition-success = { $condition } | [color={ $markupColor }]Успех![/color]
+objective-condition-fail = { $condition } | [color={ $markupColor }]Провал![/color] ({ $progress }%)
 # Radio names
-speak-vv-blob = Blob
-speak-vv-blob-core = Blob core
+speak-vv-blob = Блоб
+speak-vv-blob-core = Ядро блоба
 # Language
-language-Blob-name = Blob
-chat-language-Blob-name = Blob
+language-Blob-name = Блоб
+chat-language-Blob-name = Блоб
 language-Blob-description = Bleeb bob! Blob blob!

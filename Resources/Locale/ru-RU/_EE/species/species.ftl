@@ -1,5 +1,5 @@
-species-name-tajaran = Tajaran
+species-name-tajaran = Таджаран
 species-name-shadowling = Shadowling
 species-name-shadow = Shadow
-species-name-xelthia = Xelthia
-species-name-synth-human = Bio-synthetic Human
+species-name-xelthia = Ксельтия
+species-name-synth-human = Био-синтетический человек

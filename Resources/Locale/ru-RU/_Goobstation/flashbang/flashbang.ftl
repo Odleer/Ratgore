@@ -1,2 +1,2 @@
-flash-sound-suppression-examine = This piece of equipment suppresses flashbang sounds, reducing their effective range down to [color=yellow]{ $range }[/color]
-flash-sound-suppression-fully-examine = This piece of equipment suppresses flashbang sounds [color=yellow]completely[/color]
+flash-sound-suppression-examine = Это снаряжение подавляет звуки светошумовых гранат, снижая их эффективную дальность до [color=yellow]{ $range }[/color]
+flash-sound-suppression-fully-examine = Это снаряжение [color=yellow]полностью[/color] подавляет звуки светошумовых гранат
