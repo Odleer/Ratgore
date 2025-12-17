@@ -6,10 +6,10 @@
   id: Adventure #FREEPLAY, DO NOT REMOVE
   alias:
   - adventure
-  - hullrot
-  name: Freeplay
+  - ratbiteadventure
+  name: Свободная игра
   showInVote: true
-  description: The last days of Taypan. Lasts 2-4 hours.
+  description: Последние дни Тайпана. Длится 2-4 часа.
   rules:
   - Adventure
   - HullrotEventScheduler
@@ -199,9 +199,12 @@
 
 - type: gamePreset
   id: Unionfall
-  name: Unionfall | NCWL VS DSM
+  alias:
+  - unionfall
+  - ratbiteunionfall
+  name: Падение Союза | ЛРНП против БМС
   showInVote: true
-  description: The NCWL Homeguard flees to a new home, after the destruction of Nova Belraska. A DSM punishment regimen intercepts them to regain their honor.
+  description: Домашняя гвардия ЛРНП бежит к новому дому после разрушения Марсовы. Карательный полк БМС перехватывает их, чтобы вернуть свою честь.
   rules:
   - Unionfall
 
@@ -333,9 +336,10 @@
   id: HyperwarNTvsNCWLvsDSM
   alias:
   - hyperwarBots
-  name: Hyperwar | NT Remnants - NCWL - DSM
+  - ratbitehyperwarBots
+  name: Гипервойна | Остатки НТ - ЛРНП - БМС
   showInVote: true
-  description: A Nanotrasen Remnant squadron seeks to wipe out all of Taypan. NCWL and DSM see an opportunity to weaken each other, or potentially end the foreverwar.
+  description: Эскадрон остатков НаноТрейзен стремится уничтожить весь Тайпан. ЛРНП и БМС видят возможность ослабить друг друга или потенциально завершить вечную войну.
   rules:
   - HyperwarBots
   - HullrotEventScheduler

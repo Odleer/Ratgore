@@ -1,17 +1,20 @@
-## UI
+shipyard-console-invalid-vessel = Невозможно купить судно:
+shipyard-console-leaving = Капитан { $owner }: шаттл { $vessel }, продан игроком { $player }.
+shipyard-console-docking-secret = Обнаружено незарегистрированное судно, входящее в ваш сектор.
+shipyard-console-leaving-secret = Обнаружено незарегистрированное судно, покидающее ваш сектор.
+shipyard-commands-purchase-desc = Создаёт и стыкует (FTL) указанный шаттл из файла грида.
+shipyard-console-no-idcard = На вас не надета ID-карта!
+shipyard-console-already-deeded = На ID-карте уже есть свидетельство о владении.
+shipyard-console-invalid-station = Недействительная станция
+shipyard-console-no-bank = Банковский счёт не найден
+shipyard-console-no-deed = Судовой документ о владении не найден
+shipyard-console-sale-reqs = Корабль должен быть пристыкован, а весь экипаж — покинуть его
+shipyard-console-deed-label = Зарегистрированный корабль:
+shipyard-console-appraisal-label = Оценочная стоимость шаттла:{ " " }
+shipyard-console-nearby = Ваш корабль не смог пристыковаться к { THE($station) }. Он припаркован неподалёку.
+shipyard-console-direction = Ваш корабль пристыкован на { $direction } час(ов) относительно { THE($station) }.
 
-shipyard-console-invalid-vessel = Cannot purchase vessel:
-shipyard-console-leaving = Captain { $owner } shuttle { $vessel } sold by { $player }.
-shipyard-console-docking-secret = Unregistered vessel detected entering your sector.
-shipyard-console-leaving-secret = Unregistered vessel detected leaving your sector.
-shipyard-commands-purchase-desc = Spawns and FTL docks a specified shuttle from a grid file.
-shipyard-console-no-idcard = You are not wearing an ID card!
-shipyard-console-already-deeded = ID card already has a Deed
-shipyard-console-invalid-station = Not a valid station
-shipyard-console-no-bank = No bank account found
-shipyard-console-no-deed = No ship deed found
-shipyard-console-sale-reqs = Ship must be docked and all crew disembarked
-shipyard-console-deed-label = Registered Ship:
-shipyard-console-appraisal-label = Shuttle Estimated Value:{ " " }
-shipyard-console-nearby = Your ship was unable to dock with { THE($station) }. It is parked nearby.
-shipyard-console-direction = Your ship is docked at the { $direction } o'clock of { THE($station) }.
+ratbite-shipyard-console-locked = Консоль заблокирована.
+ratbite-shipyard-console-unlocked = Консоль разблокирована. Добро пожаловать на борт, капитан.
+ratbite-shipyard-console-authorized-pilot = Уполномочен управлять консолью в качестве пилота.
+ratbite-shipyard-console-insert = Вставьте ID-карту

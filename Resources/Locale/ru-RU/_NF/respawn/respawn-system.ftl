@@ -1,9 +1,9 @@
 ## UI
 
-ghost-respawn-rules-window-title = Правила возрождения призраков
-ghost-respawn-rules-window-confirm-button = Я понимаю, возродить меня
-ghost-gui-respawn-button-denied = Перемотка ({ $time }с)
-ghost-gui-respawn-button-allowed = Переклонировать
+ghost-respawn-rules-window-title = Правила переклонирования
+ghost-respawn-rules-window-confirm-button = Я понимаю, переклонируй меня
+ghost-gui-respawn-button-denied = Переклонирование ({ $time }с)
+ghost-gui-respawn-button-allowed = Переклонироваться
 ghost-respawn-rules-window-rules =
     Вы собираетесь быть переклонированы:
     Независимо от того, за какого персонажа вы решите вернуться,
@@ -18,5 +18,5 @@ ghost-respawn-rules-window-rules =
 ## COMMMANDS
 
 ghost-respawn-command-desc = Возрождает вас, если вы подходящий призрак.
-ghost-respawn-not-a-ghost = Вы сейчас не призрак.
-ghost-respawn-ineligible = Вы сейчас не подходите
+ghost-respawn-not-a-ghost = В данный момент вы не являетесь призраком.
+ghost-respawn-ineligible = В настоящее время вы не имеете на это права.
