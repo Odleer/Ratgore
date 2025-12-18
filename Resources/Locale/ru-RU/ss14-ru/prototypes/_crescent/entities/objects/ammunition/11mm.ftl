@@ -1,0 +1,10 @@
+ent-MagazineBoxHeavyPistol = ammunition box (11mm PSTF auto)
+    .desc = { ent-BaseMagazineBox.desc }
+ent-CartridgeHeavyPistol = cartridge (11mm PSTF auto)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-BulletHeavyPistol = bullet (11mm PSTF)
+    .desc = { ent-BaseBullet.desc }
+ent-MagazinePistolHeavy = 15-round pistol magazine (11mm PSTF auto)
+    .desc = { ent-BaseMagazinePistol.desc }
+ent-MagazinePistolSubMachineGunHeavy = 25-round SMG magazine (11mm PSTF auto)
+    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }

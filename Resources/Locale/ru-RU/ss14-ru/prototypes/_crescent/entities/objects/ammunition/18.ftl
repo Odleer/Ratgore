@@ -1,0 +1,16 @@
+ent-ShellShotgun18g = shell (18.5g)
+    .desc = { ent-BaseCartridge.desc }
+ent-PelletShotgun18g = pellet (18.5g buckshot)
+    .desc = { ent-BaseBullet.desc }
+ent-PelletShotgunSpread18g = { ent-PelletShotgun18g }
+    .desc = { ent-PelletShotgun18g.desc }
+ent-MagazineClip18g = 6-round clip (18.5g Empty)
+    .suffix = Empty
+    .desc = { ent-BaseMagazinePistol.desc }
+ent-MagazineClip18gBuck = 6-round clip (18.5g )
+    .suffix = Buck
+    .desc = { ent-MagazineClip18g.desc }
+ent-AmmoProviderShotgunShell18g = { ent-BaseAmmoProvider }
+    .desc = { ent-BaseAmmoProvider.desc }
+ent-BoxLethalshot18g = 18.5g buckshot box
+    .desc = A box full of buckshot shells, designed for 18 gauge shotguns.

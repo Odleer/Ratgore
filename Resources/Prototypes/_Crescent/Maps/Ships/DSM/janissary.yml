@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Janissary
-  name: DSM Janissary
-  description: A strike-craft of the Nemesis, service is penance.
+  name: БМС Преторианец
+  description: Штурмовой корабль Немезиды, служба — покаяние.
   price: 36500
   category: Small
   group: None

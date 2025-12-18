@@ -1,0 +1,14 @@
+ent-ClothingOuterHardsuitHunter = salvaged hunting hardsuit
+    .desc = A modular hardsuit assembled from what seems to be salvaged Imperial parts. For predators on the hunt.
+ent-ClothingOuterHardsuitHunterElite = sixth subjugation fireteam hardsuit
+    .desc = A pristine battle-ready hardsuit printed fresh from a nanoforge. Still bears the House Romaine colors.
+ent-ClothingOuterArmorHunterDuster = hunter's reinforced duster
+    .desc = A kevlar-intervowen durathread coat with a popped collar. Dreadful.
+ent-ClothingOuterArmorHunterVest = hunter's ballistic vest
+    .desc = A kevlar-plated durathread vest to wear during the Hunt.
+ent-ClothingOuterArmorHunterTender = tender's fullbody biosuit
+    .desc = A reinforced rubber biosuit strung with bone ornaments. Made for Tenders of the Hunt.
+ent-ClothingOuterArmorHunterDusterMontagne = hunter montagne's reinforced duster
+    .desc = A double-breasted ornate coat, woven through with reinforced kevlar lining.
+ent-ClothingOuterArmorHunterDusterOverseer = overseer's double breasted coat
+    .desc = An ornate, antiquated coat, said to have once belonged to a legendary Huntsman.

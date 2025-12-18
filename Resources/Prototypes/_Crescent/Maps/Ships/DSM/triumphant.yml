@@ -1,7 +1,7 @@
 - type: vessel
   id: Triumphant
-  name: DSM Triumphant
-  description: An exploration cruiser turned frontliner vessel, equipped for long-distance missions.
+  name: БМС Триумфатор
+  description: Крейсер для исследований, переделанный в передовик, оснащённый для миссий на дальние расстояния.
   price: 125000
   category: Large
   group: None
@@ -9,7 +9,7 @@
 
 - type: gameMap
   id: Triumphant
-  mapName: 'DSM Triumphant'
+  mapName: 'БМС Триумфатор'
   mapPath: /Maps/_Crescent/Shuttles/DSM/triumphant.yml
   minPlayers: 0
   stations:
@@ -21,7 +21,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: cruiser
         - type: StationNameSetup
-          mapNameTemplate: 'DSM Triumphant {1}'
+          mapNameTemplate: 'БМС Триумфатор {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

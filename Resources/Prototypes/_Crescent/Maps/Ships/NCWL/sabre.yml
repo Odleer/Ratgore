@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Sabre
-  name: NCWL Sabre
-  description: An ultralight communard laser platform.
+  name: ЛРНП Сабля
+  description: Сверхлёгкая коммунарская лазерная платформа.
   price: 10000
   category: Small
   group: None
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Sabre
-  mapName: 'NCWL Sabre'
+  mapName: 'ЛРНП Сабля'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/sabre.yml
   minPlayers: 0
   stations:
@@ -20,7 +20,7 @@
       stationProto: StandardCrescentVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Sabre {1}'
+          mapNameTemplate: 'ЛРНП Сабля {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

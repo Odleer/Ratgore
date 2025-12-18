@@ -1,0 +1,16 @@
+ent-ClothingUniformJumpsuitTechminer = techminer's fatigues
+    .desc = A generic ThukkerCorp jumpsuit, attributed to the Thukker family of the Atyrian Pact. This one is meant for salvager pilots.
+ent-ClothingUniformJumpsuitTinkerer = tinkerer's fatigues
+    .desc = A generic ThukkerCorp jumpsuit, attributed to the Thukker family of the Atyrian Pact. This one is meant for research and development analysts.
+ent-ClothingUniformJumpsuitHangarTechnician = hangar tech's fatigues
+    .desc = A generic ThukkerCorp jumpsuit, attributed to the Thukker family of the Atyrian Pact. This one is meant for deck crew and hangard specialists.
+ent-ClothingUniformJumpsuitServile = servile's jumpsuit
+    .desc = An undecorated jumpsuit meant for an Al'Seik servile.
+ent-ClothingUniformJumpsuitDraugr = draugr's combat fatigues
+    .desc = A simplistic jumpsuit meant to be worn under heavy armor. Bears the insignia of the Al'Seik family.
+ent-ClothingUniformJumpsuitBeltrunner = beltrunner's leisurewear
+    .desc = Casual clothes for casual businessmen. Most commonly attributed to bounty hunters, beltrunners, and smugglers.
+ent-ClothingUniformJumpsuitAntiquarianFamilies = antiquarian's business suit
+    .desc = Serious clothes for serious businessmen. Spun from true Terran mothsilk. People would pay several fortunes just for the fabric.
+ent-ClothingUniformJumpsuitBodysuit = preachers clericals
+    .desc = An uncomfortable jumpsuit made from natural fibers. Commonly worn by tribal preachers.

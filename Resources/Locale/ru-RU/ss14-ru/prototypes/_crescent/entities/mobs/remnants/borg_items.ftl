@@ -1,0 +1,12 @@
+ent-JetpackBorgFilled = borg jetpack
+    .suffix = Filled
+    .desc = { ent-JetpackVoid.desc }
+ent-MassScannerEEBorg = handheld mass scanner
+    .desc = A cyborg-specific mass scanner.
+    .suffix = EE Borg
+ent-WeaponBorgEnergyCarbine = disabler carbine
+    .desc = A disabler carbine for use by borgs. Comes with a self-recharging battery.
+ent-RemnantFist = NT Cyborg Fist
+    .desc = A robust fist meant to cave in skulls.
+ent-RemnantDrill = NT Cyborg Drill
+    .desc = A robust sawblade meant to finish off downed opponents.

@@ -1,0 +1,10 @@
+ent-BaseMagazineBoxAntiMateriel = ammunition box (15.2×169mm)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineBoxAntiMateriel = ammunition box (15.2×169mm)
+    .desc = { ent-BaseMagazineBoxAntiMateriel.desc }
+ent-MagazineBoxAntiMaterielUranium = ammunition box (15.2×169mm depleted-uranium)
+    .desc = { ent-MagazineBoxAntiMateriel.desc }
+ent-MagazineBoxAntiMaterielIncendiary = ammunition box (15.2×169mm incendiary)
+    .desc = { ent-MagazineBoxAntiMateriel.desc }
+ent-MagazineBoxAntiMaterielShrapnel = ammunition box (15.2×169mm shrapnel)
+    .desc = { ent-MagazineBoxAntiMateriel.desc }

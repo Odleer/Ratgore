@@ -1,0 +1,12 @@
+ent-PillMindbreakerToxin = mindbreaker toxin
+    .desc = Removes psionics when ingested. Mildly poisonous.
+ent-PillCryptobiolin = cryptobiolin
+    .desc = A long-lasting drug which causes mild confusion, but renders you psionically insulated.
+ent-PillCanisterCryptobiolin = { ent-PillCanister }
+    .suffix = Cryptobiolin, 5
+    .desc = { ent-PillCanister.desc }
+ent-PillChloralHydrate = chloral-hydrate
+    .desc = A powerful sedative.
+ent-PillCanisterChloralHydrate = { ent-PillCanister }
+    .suffix = ChloralHydrate, 5
+    .desc = { ent-PillCanister.desc }

@@ -1,0 +1,17 @@
+ent-BaseLockerTeleporter = special equipment teleporter
+    .desc = Device that allows you to request delivery of special equipment.
+ent-BlueshieldOfficerLockerTeleporter = blueshield locker teleporter
+    .desc = Device that allows you to request delivery of blueshield officer locker.
+ent-UniqueBlueshieldOfficerLockerTeleporter = { ent-BlueshieldOfficerLockerTeleporter }
+    .suffix = Unique
+    .desc = { ent-BlueshieldOfficerLockerTeleporter.desc }
+ent-NanorepLockerTeleporter = corporate liaison locker teleporter
+    .desc = Device that allows you to request delivery of a locker containing items prepared for the corporate liaison, courtesy of Central Command.
+ent-UniqueNanorepLockerTeleporter = { ent-NanorepLockerTeleporter }
+    .suffix = Unique
+    .desc = { ent-NanorepLockerTeleporter.desc }
+ent-MagistrateLockerTeleporter = magistrate locker teleporter
+    .desc = Device that allows you to request delivery of magistrate locker.
+ent-UniqueMagistrateLockerTeleporter = { ent-MagistrateLockerTeleporter }
+    .suffix = Unique
+    .desc = { ent-MagistrateLockerTeleporter.desc }

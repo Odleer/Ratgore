@@ -1,0 +1,14 @@
+ent-BulletMagnum = bullet (.327 Imperial)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletMagnumPractice = bullet (.327 Imperial practice)
+    .desc = { ent-BaseBulletPractice.desc }
+ent-BulletMagnumIncendiary = bullet (.327 Imperial incendiary)
+    .desc = { ent-BaseBulletIncendiary.desc }
+ent-BulletMagnumAP = bullet (.327 Imperial armor-piercing)
+    .desc = { ent-BaseBulletAP.desc }
+ent-BulletMagnumUranium = bullet (.327 Imperial AP-DU)
+    .desc = { ent-BaseBulletUranium.desc }
+ent-BulletMagnumShrapnel = bullet (.327 Imperial shrapnel)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletMagnumShrapnelSpread = { ent-BulletMagnumShrapnel }
+    .desc = { ent-BulletMagnumShrapnel.desc }

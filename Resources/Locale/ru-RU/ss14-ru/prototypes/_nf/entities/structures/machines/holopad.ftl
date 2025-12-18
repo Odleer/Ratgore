@@ -1,0 +1,15 @@
+ent-NFHolopadShip = bluespace holopad
+    .desc = A floor-mounted device for projecting holographic images to enable ship to ship communication.
+    .suffix = Ship
+ent-NFHolopadShipAntag = { ent-NFHolopadShip }
+    .suffix = Ship, Starts Off
+    .desc = { ent-NFHolopadShip.desc }
+ent-NFHolopadShipAntagAnon = { ent-NFHolopadShip }
+    .suffix = Ship, Starts Off, Anonymous
+    .desc = { ent-NFHolopadShip.desc }
+ent-NFHolopadPoiBase = { ent-BaseStructureDisableToolUse }
+    .suffix = Indestructible
+    .desc = { ent-BaseStructureDisableToolUse.desc }
+ent-NFHolopadPoiBaseAnon = { ent-NFHolopadPoiBase }
+    .suffix = Indestructible, Anonymous
+    .desc = { ent-NFHolopadPoiBase.desc }

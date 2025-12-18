@@ -1,0 +1,10 @@
+ent-CrateFoodDonkpocketSavory = { ent-CratePlastic }
+    .desc = { ent-CratePlastic.desc }
+ent-CrateFoodDonkpocketSweet = { ent-CratePlastic }
+    .desc = { ent-CratePlastic.desc }
+ent-CrateFoodEmergencyPie = emergency pie delivery
+    .desc = "Then let them eat pie."
+ent-CrateHydroCoDairy = HydroCo Dairy crate
+    .desc = A shipment of powdered dairy products from HydroCo. Contains powdered milk and soy milk.
+ent-CrateHydroCoJuice = HydroCo Juice crate
+    .desc = A variety pack of powdered juice products from HydroCo.

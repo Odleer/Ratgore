@@ -1,0 +1,15 @@
+ent-BaseMagazineBoxRifle = { ent-BaseMagazineBox }
+    .desc = { ent-BaseMagazineBox.desc }
+ent-MagazineBoxRifleBig = ammunition box (.20 rifle)
+    .suffix = Big
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifle = ammunition box (7.62x51mm USM rifle)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRiflePractice = ammunition box (7.62x51mm USM practice)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifleIncendiary = ammunition box (7.62x51mm USM incendiary)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifleUranium = ammunition box (7.62x51mm USM black-tip)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifleShrapnel = ammunition box (7.62x51mm USM shrapnel)
+    .desc = { ent-BaseMagazineBoxRifle.desc }

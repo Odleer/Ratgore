@@ -1,0 +1,11 @@
+ent-PassiveSpawnerDebugPrototype = Excelsior Material Drop-In Uplink
+    .desc = A advanced machine used by the Excelsior revolutionary group to bring material support to violent revolutions at points of interest.
+    .suffix = DEBUG, DO NOT MAP
+ent-AutominerPassiveFactory = antique NT-AD-2 automated drill
+    .desc = An antique NanoTrasen mining drill that cuts into the asteroid floor below. Looks like you could get it back in working order with some effort.
+ent-AutofoundryPassiveFactory = derelict NT-TGF-70 automated foundry
+    .desc = An old, worn-down industrial block that is fed sorted goods through internal piping to output munitions and military equipment. Looks like this one can still operate if maintained.
+ent-AutoscrapperPassiveFactory = derelict NT-IAC-2 scrap assorter
+    .desc = An old, worn-down industrial block that is fed unsorted scrap through internal piping to output scavengable goods. Looks like this one can still operate if maintained.
+ent-AutosmelterPassiveFactory = derelict NT-940 smelter
+    .desc = An antiquated machine. Fed with raw ore through internal tubing to output refined materials in set, stable intervals. Looks like this one still has a bit of juice left.

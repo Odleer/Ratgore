@@ -1,0 +1,16 @@
+ent-BaseWeaponSubMachineGun = BaseSMG
+    .desc = A rooty tooty point and shooty.
+ent-WeaponSubMachineGunAtreides = Atreides
+    .desc = A rapid-fire submachinegun developed by the Shipfitters Union. Eats through ammo like a starving elephant.
+ent-WeaponSubMachineGunC20r = C-20r submachine gun
+    .desc = A slick submachinegun produced by Olywir Armaments for the Imperial Navy. Sees little use in the hands of actual troopers due to the cost of manufacturing.
+ent-WeaponSubMachineGunC20rHoS = antique IRM DA-20R 11mm
+    .desc = This heavily worn submachine gun is engraved with the words, "Remember Nova Balreska".
+ent-WeaponSubMachineGunDrozd = Drozd
+    .desc = A fast very firing bullpup submachine gun. Manufactured by Pang Tai Arms and outsourced to mercenary factors in the area. Suffers from immense recoil due to it's caliber.
+ent-WeaponSubMachineGunWt550 = WT550
+    .desc = An excellent SMG, produced by NanoTrasen's Small Arms Division. Uses .35 auto ammo.
+ent-WeaponSubMachineGunDSMArbiter = IRM Arbiter 9x19mm
+    .desc = A stripped-down Imperial SMG made for mass production. Features and components requiring skilled machining have been removed to allow manufacture by lesser domains.
+ent-WeaponSubMachineGunWt550HoS = antique Wt550
+    .desc = A prized possession of the station's Head of Security. The smell of dried blood lingers on this weapon's muzzle. A small torch with 24 stars surrounding it has been engraved on the grip.

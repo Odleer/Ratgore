@@ -1,0 +1,16 @@
+ent-CrateSecurityArmorSteelPlates = Armor Steel Plates Crate
+    .desc = 6 steel plates shaped to be slotted into armour slots.
+ent-CrateSecurityArmorPlasteelPlates = Armor Plasteel Plates Crate
+    .desc = 6 Plasteel plates shaped to be slotted into armour slots.
+ent-CrateSecurityArmorNanoPolymerPlates = Armor NanoPolymer Sheets Crate
+    .desc = 6 rolls of NanoPolymer ready to be woven.
+ent-CrateSecurityArmorCeramicPlates = Armor Ceramic Plates Crate
+    .desc = 6 Ceramic plates ready for stopping bullets.
+ent-CrateSecurityArmorHomelandPlates = Armor Homeland Alloy Plates Crate
+    .desc = 6 Sheets of the highly prized Homeland Alloy that has won NCWL the conflict on the homeworld.
+ent-CrateSecurityArmorKevlarPlates = Armor Kevlar Rolls Crate
+    .desc = 6 Rolls of high-grade kevlar for blocking rifle-sized bullets.
+ent-CrateSecurityArmorPEKPlates = Armor Plastel Encased Kevlar Plates
+    .desc = 6 raw pieces of Kevlar with Plasteel hydraulically pressed to cover it. Formidable at blocking tough bullets.
+ent-CrateSecurityArmorNanoCeramicPlates = Armor NanoCeramic Rolls Crate
+    .desc = 6 Rolls of NanoCeramic plates. A propietary NT alloy that keeps flexibility as a ceramic.

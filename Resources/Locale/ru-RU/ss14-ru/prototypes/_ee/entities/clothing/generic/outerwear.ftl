@@ -1,0 +1,10 @@
+ent-ClothingOuterArmorAblativeHeavy = heavy laser-ablative armor
+    .desc = A suit of heavy laser-ablative armor manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against laser weaponry.
+ent-ClothingOuterArmorBallisticHeavy = heavy ballistic armor
+    .desc = A suit of heavy ballistic armor manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against ballistic weapons.
+ent-ClothingOuterArmorRiotHeavy = heavy riot armor
+    .desc = A suit of heavy riot gear manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against blunt force.
+ent-ClothingOuterArmorStandardHeavy = heavy security armor
+    .desc = A suit of heavy security armor manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against general threats.
+ent-ClothingOuterArmorHoSHeavy = heavy tactical armor
+    .desc = A suit of heavy security armor manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against general threats. This one has NT Command staff markings.

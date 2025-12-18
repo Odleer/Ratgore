@@ -1,8 +1,8 @@
 - type: vessel
   id: Torturer
-  name: DSM Torturer
+  name: БМС Тортунер
   description: |
-    A stealth bomber, made for imperial use. Comes with little crew accomodations, and a fragile hull, but in exchange- it sports an IFF cloak for stealth engagements, capable of ending battles before they start. 
+    Стелс-бомбардировщик для имперского использования. Минимальные удобства для экипажа и хрупкий корпус, но взамен имеет ИФФ-покров для скрытных боевых действий, способный завершать битвы до их начала.
     LOADOUT: 1x 180mm 'Magwell' Torpedo Launcher, 1x 'Lancer' MRM Launcher, 4x 180c 'Torch' Pressure Gatlings
     MINIMUM CREW: 1x Pilot, 1x Loader
   price: 58000
@@ -31,4 +31,4 @@
         - type: VesselDesignation
           designation: vessel-designation-fighter
         - type: VesselDescription
-          description: Any smart ritter can turn this little ship into a terror weapon. 
+          description: Любой сообразительный рыцарь может превратить этот маленький корабль в оружие ужаса.

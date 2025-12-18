@@ -1,0 +1,12 @@
+ent-BulletRifle = bullet (7.62x51mm)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletRiflePractice = bullet (7.62x51mm practice)
+    .desc = { ent-BaseBulletPractice.desc }
+ent-BulletRifleIncendiary = bullet (7.62x51mm dragon's breath)
+    .desc = { ent-BaseBulletIncendiary.desc }
+ent-BulletRifleUranium = bullet (7.62x51mm AP-DU)
+    .desc = { ent-BaseBulletUranium.desc }
+ent-BulletRifleShrapnel = bullet (05.56x45mm shrapnel)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletRifleShrapnelSpread = { ent-BulletRifleShrapnel }
+    .desc = { ent-BulletRifleShrapnel.desc }

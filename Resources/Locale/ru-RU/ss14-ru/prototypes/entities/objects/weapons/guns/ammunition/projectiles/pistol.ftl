@@ -1,0 +1,12 @@
+ent-BulletPistol = bullet (9x19mm PSTF)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletPistolPractice = bullet (9x19mm PSTF practice)
+    .desc = { ent-BaseBulletPractice.desc }
+ent-BulletPistolIncendiary = bullet (9x19mm PSTF incendiary)
+    .desc = { ent-BaseBulletIncendiary.desc }
+ent-BulletPistolUranium = bullet (9x19mm PSTF AP-DU)
+    .desc = { ent-BaseBulletUranium.desc }
+ent-BulletPistolShrapnel = bullet (9x19mm PSTF shrapnel)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletPistolShrapnelSpread = { ent-BulletPistolShrapnel }
+    .desc = { ent-BulletPistolShrapnel.desc }

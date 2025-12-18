@@ -1,0 +1,16 @@
+ent-WeaponRevolverSnub = snubbed .45
+    .desc = An old and reliable revolver, modified to be more easily concealed. Uses 8.3×33mm ammo.
+ent-WeaponRevolverSnubSecurity = snubbed .45
+    .desc = An old and reliable revolver, modified to be more easily concealed. Uses 8.3×33mm ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+ent-WeaponRevolverK38Master = k-38 masterpiece
+    .desc = A classic, if not outdated, law enforcement firearm. Uses .38 special ammo.
+ent-WeaponRevolverK38MasterSecurity = k-38 masterpiece
+    .desc = A classic, if not outdated, law enforcement firearm. Uses .38 special ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+ent-WeaponRevolverFitz = fitz special
+    .desc = A compact and concealable self defence snub revolver. Uses .38 special ammo.
+ent-WeaponRevolverFitzSecurity = fitz special
+    .desc = A compact and concealable self defence snub revolver. Uses .38 special ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+ent-WeaponRevolverLucky = lucky 37
+    .desc = Luck always beats skill, ya weasel. Uses .38 special ammo.
+ent-WeaponRevolverFaith = faith
+    .desc = Delivers blessings in bullet form. Uses .38 special ammo.

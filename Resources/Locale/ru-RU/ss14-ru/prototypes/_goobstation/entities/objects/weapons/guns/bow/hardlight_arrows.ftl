@@ -1,0 +1,14 @@
+ent-BaseHardlightArrow = { "" }
+    .desc = { "" }
+ent-BaseHardlightEmbeddableArrow = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-ArrowEnergy = energy arrow
+    .desc = An arrow made from hardlight.
+ent-ArrowDisabler = disabler arrow
+    .desc = An arrow made from hardlight. This one stuns the victim in a non-lethal way.
+ent-ArrowFiery = fiery arrow
+    .desc = An arrow made from hardlight. This one burns the victim.
+ent-ArrowExplosive = explosive arrow
+    .desc = An arrow made from hardlight. This one explodes on hit.
+ent-ArrowXray = x-ray arrow
+    .desc = An arrow made from hardlight. This one pierces through everything.

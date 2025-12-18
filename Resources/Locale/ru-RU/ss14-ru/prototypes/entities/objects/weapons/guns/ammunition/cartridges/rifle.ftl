@@ -1,0 +1,12 @@
+ent-BaseCartridgeRifle = cartridge (.20 rifle)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeRifle = cartridge (7.62x51mm USM)
+    .desc = { ent-BaseCartridgeRifle.desc }
+ent-CartridgeRiflePractice = cartridge (7.62x51mm practice)
+    .desc = { ent-BaseCartridgeRifle.desc }
+ent-CartridgeRifleIncendiary = cartridge (7.62x51mm USM incendiary)
+    .desc = { ent-BaseCartridgeRifle.desc }
+ent-CartridgeRifleUranium = cartridge (7.62x51mm USM black-tip)
+    .desc = { ent-BaseCartridgeRifle.desc }
+ent-CartridgeRifleShrapnel = cartridge (7.62x51mm USM shrapnel)
+    .desc = { ent-BaseCartridgeRifle.desc }

@@ -1,0 +1,10 @@
+ent-BookUnionfallNCWLGuide = NCWL Briefing (READ ME IF YOU'RE NEW)
+    .desc = A dusty pamphlet given to every Communard as a briefing for the mission ahead.
+ent-BookUnionfallDSMGuide = DSM Briefing (READ ME IF YOU'RE NEW)
+    .desc = A dusty pamphlet given to every Imperial soldier as a briefing for the mission ahead.
+ent-BookNCWLManual1 = Accelerated Conscript Training manual issue 1
+    .desc = The first part of a manual issued to new Conscripts posted Taypan. The name of Kane is written in some margins.
+ent-BookNCWLManual2 = Accelerated Conscript Training manual issue 2
+    .desc = The second part of a manual issued to new Conscripts posted Taypan. The name of Kane is written in some margins.
+ent-BookOfKane = book of kane
+    .desc = A manifesto written by a self-proclaimed revolutionary leader, Kane.

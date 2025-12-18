@@ -1,0 +1,10 @@
+ent-CartridgePulse470Fmj = cartridge (.470 PCM)
+    .desc = { ent-BaseCartridge.desc }
+ent-BulletPulse470Fmj = bullet (.470 PCM)
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-MagazinePulse470 = 3-round magazine (.470 PCM Empty)
+    .suffix = Empty
+    .desc = { ent-BaseMagazinePistol.desc }
+ent-MagazinePulse470Fmj = 3-round magazine (.470 PCM)
+    .suffix = FMJ
+    .desc = { ent-MagazinePulse470.desc }

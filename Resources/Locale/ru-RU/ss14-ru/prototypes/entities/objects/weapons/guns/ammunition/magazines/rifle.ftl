@@ -1,0 +1,15 @@
+ent-BaseMagazineRifle = magazine (.20 rifle)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineRifle = 25-round magazine (7.62x51mm USM rifle)
+    .desc = { ent-BaseMagazineRifle.desc }
+ent-MagazineRifleEmpty = 25-round magazine (7.62x51mm USM any)
+    .suffix = empty
+    .desc = { ent-MagazineRifle.desc }
+ent-MagazineRifleIncendiary = 25-round magazine (.7.62x51mm USM incendiary)
+    .desc = { ent-MagazineRifle.desc }
+ent-MagazineRiflePractice = 25-round magazine (7.62x51mm USM practice)
+    .desc = { ent-BaseMagazineRifle.desc }
+ent-MagazineRifleUranium = 25-round magazine (7.62x51mm USM black-tip)
+    .desc = { ent-BaseMagazineRifle.desc }
+ent-MagazineRifleShrapnel = 25-round magazine (7.62x51mm USM shrapnel)
+    .desc = { ent-BaseMagazineRifle.desc }

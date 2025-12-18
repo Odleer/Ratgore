@@ -1,0 +1,14 @@
+ent-BaseCartridgeMagnum = cartridge (.45 magnum)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeMagnum = cartridge (.327 Imperial magnum)
+    .desc = { ent-BaseCartridgeMagnum.desc }
+ent-CartridgeMagnumPractice = cartridge (.327 Imperial practice)
+    .desc = { ent-BaseCartridgeMagnum.desc }
+ent-CartridgeMagnumIncendiary = cartridge (.327 Imperial incendiary)
+    .desc = { ent-BaseCartridgeMagnum.desc }
+ent-CartridgeMagnumAP = cartridge (.327 Imperial armor-piercing)
+    .desc = { ent-BaseCartridgeMagnum.desc }
+ent-CartridgeMagnumUranium = cartridge (.327 Imperial uranium)
+    .desc = { ent-BaseCartridgeMagnum.desc }
+ent-CartridgeMagnumShrapnel = cartridge (.327 Imperial shrapnel)
+    .desc = { ent-BaseCartridgeMagnum.desc }

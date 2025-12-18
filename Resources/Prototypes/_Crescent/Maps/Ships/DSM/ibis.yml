@@ -1,7 +1,7 @@
 - type: vessel
   id: Ibis
-  name: DSM Ibis
-  description: A heavy fighter equipped with an errant shield emitter, designed for ranging and harassment missions.
+  name: БМС Ибис
+  description: Тяжёлый истребитель, оснащённый блуждающим эмиттером щита, предназначенный для миссий дальнего радиуса действия.
   price: 38000
   category: Small
   group: None

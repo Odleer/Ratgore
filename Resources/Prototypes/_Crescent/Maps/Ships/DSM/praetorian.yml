@@ -1,8 +1,8 @@
 - type: vessel
   id: Praetorian
-  name: DSM Praetorian
+  name: БМС Претор
   description: |
-    A Destroyer ship class ship, fielded by the imperials to be a strong fighting ship, capable of dishing damages from long to medium range. 
+    Эсминец класса Претор, используемый имперцами как мощный боевой корабль, способный наносить урон на дальних и средних дистанциях.
     LOADOUT: 1x 120mm Cannon, 2x 20x135mm Machineguns, 2x 43mm Slugthrowers, 2x 90mm Mortars
     MINIMUM CREW: 1x Pilot, 1x Loader/Gunner
   price: 75000
@@ -31,4 +31,4 @@
         - type: VesselDesignation
           designation: vessel-designation-destroyer
         - type: VesselDescription
-          description: Fielded by imperials to establish dominance in the battlefield.
+          description: Используется имперцами для установления господства на поле боя.

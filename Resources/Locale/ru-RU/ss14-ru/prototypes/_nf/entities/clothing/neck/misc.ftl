@@ -1,0 +1,16 @@
+ent-ClothingNeckCrucifix = crucifix
+    .desc = Damn, it feels good to be so pious.
+ent-ClothingNeckIFFNeutral = shoulder light & IFF white strobe
+    .desc = Visible LED IFF kit that consists of helmet and shoulder strobes.
+ent-ClothingNeckIFFGreen = shoulder light & IFF green strobe
+    .desc = { ent-ClothingNeckIFFNeutral.desc }
+ent-ClothingNeckIFFRed = shoulder light & IFF red strobe
+    .desc = { ent-ClothingNeckIFFNeutral.desc }
+ent-ClothingNeckIFFBlue = shoulder light & IFF blue strobe
+    .desc = { ent-ClothingNeckIFFNeutral.desc }
+ent-ClothingNeckIFFCyan = shoulder light & IFF cyan strobe
+    .desc = { ent-ClothingNeckIFFNeutral.desc }
+ent-ClothingNeckIFFOrange = shoulder light & IFF orange strobe
+    .desc = { ent-ClothingNeckIFFNeutral.desc }
+ent-ClothingNeckIFFPurple = shoulder light & IFF purple strobe
+    .desc = { ent-ClothingNeckIFFNeutral.desc }

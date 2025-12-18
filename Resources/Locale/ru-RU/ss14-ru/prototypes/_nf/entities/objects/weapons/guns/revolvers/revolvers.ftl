@@ -1,0 +1,11 @@
+ent-WeaponRevolverArgenti = IRM Acolyte .20
+    .desc = A Hunter's beloved sidearm.
+ent-WeaponRevolverArgentiNonlethal = { ent-WeaponRevolverArgenti }
+    .suffix = Non-lethal
+    .desc = { ent-WeaponRevolverArgenti.desc }
+ent-WeaponRevolverDeckardNonlethal = { ent-WeaponRevolverDeckard }
+    .suffix = Non-lethal
+    .desc = { ent-WeaponRevolverDeckard.desc }
+ent-WeaponRevolverArgentiEmpty = { ent-WeaponRevolverArgenti }
+    .suffix = Empty
+    .desc = { ent-WeaponRevolverArgenti.desc }

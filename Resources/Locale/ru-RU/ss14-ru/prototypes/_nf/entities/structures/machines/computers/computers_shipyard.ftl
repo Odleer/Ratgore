@@ -1,0 +1,9 @@
+ent-ComputerShipyardCrescent = shipyard console
+    .desc = Used to purchase and sell shuttles
+    .suffix = Crescent
+ent-ComputerShipyardSecurity = security shipyard console
+    .desc = Used to enlist into Nanotrasen Security Forces
+ent-ComputerShipyardExpedition = expedition shipyard console
+    .desc = Used to buy ships outfitted for planetary expeditions
+ent-ComputerShipyardScrap = scrapyard console
+    .desc = Used to purchase and sell "shuttles"

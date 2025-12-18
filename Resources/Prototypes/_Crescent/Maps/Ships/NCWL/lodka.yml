@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Lodka
-  name: NCWL Lodka
-  description: A light communard fighter.
+  name: ЛРНП Лодка
+  description: Лёгкий коммунарский истребитель.
   price: 30000
   category: Small
   group: None
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Lodka
-  mapName: 'NCWL Lodka'
+  mapName: 'ЛРНП Лодка'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/lodka.yml
   minPlayers: 0
   stations:
@@ -20,7 +20,7 @@
       stationProto: StandardCrescentVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Lodka {1}'
+          mapNameTemplate: 'ЛРНП Лодка {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

@@ -1,0 +1,14 @@
+ent-BaseMagazineBoxMagnum = { ent-BaseMagazineBox }
+    .desc = { ent-BaseMagazineBox.desc }
+ent-MagazineBoxMagnum = ammunition box (.327 Imperial magnum)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumPractice = ammunition box (.327 Imperial practice)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumIncendiary = ammunition box (.327 Imperial incendiary)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumUranium = ammunition box (.327 Imperial black-tip)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumAP = ammunition box (.327 Imperial armor-piercing)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }
+ent-MagazineBoxMagnumShrapnel = ammunition box (.327 Imperial shrapnel)
+    .desc = { ent-BaseMagazineBoxMagnum.desc }

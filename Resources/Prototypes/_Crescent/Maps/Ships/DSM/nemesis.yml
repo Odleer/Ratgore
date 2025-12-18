@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Nemesis
-  name: DSM Nemesis
-  description: A heavy destroyer carrier, the starboard flakgun gunbattery & cargo area has been salvaged and converted into a docking-port.
+  name: БМС Немезида
+  description: Тяжёлый авианосный эсминец, правый флак-пулемётный аккумулятор и грузовой отсек переделаны в стыковочный порт.
   price: 226750
   category: Large
   group: None

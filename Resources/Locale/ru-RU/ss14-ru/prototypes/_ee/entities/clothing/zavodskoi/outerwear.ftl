@@ -1,0 +1,9 @@
+ent-ClothingOuterJacketZavDetective = detective jacket
+    .desc = A sturdy jacket worn by detectives contracted from Zavodskoi Interstellar
+    .suffix = Zavodskoi
+ent-ClothingOuterJacketZavSecurity = security shell jacket
+    .desc = A shell jacket worn by security staff contracted from Zavodskoi Interstellar
+    .suffix = Zavodskoi
+ent-ClothingOuterJacketZavSecurityAlt = security shell jacket
+    .desc = A shell jacket worn by security staff contracted from Zavodskoi Interstellar
+    .suffix = Zavodskoi, alt

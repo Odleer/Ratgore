@@ -1,8 +1,8 @@
 - type: vessel
   id: Voruna
-  name: DSM Voruna
+  name: БМС Воруна
   description: |
-    An imperial ultralight fighter armed with a single heavy plasma blaster.
+    Имперский сверхлёгкий истребитель, вооружённый одним тяжёлым плазменным бластером.
     LOADOUT: 1x 800c "Rimward" Hybrid Plasma Blaster
     MINIMUM CREW: 1x Pilot
   price: 15000

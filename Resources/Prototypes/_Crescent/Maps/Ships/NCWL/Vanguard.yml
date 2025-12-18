@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Vanguard
-  name: NCWL Vanguard
-  description: A communard gunship, sees use primarily as an escort vessel.
+  name: ЛРНП Авангард
+  description: Коммунарский штурмовик, используется преимущественно как эскортное судно.
   price: 35000
   category: Small
   group: None
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Vanguard
-  mapName: 'NCWL Vanguard'
+  mapName: 'ЛРНП Авангард'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/vanguard.yml
   minPlayers: 0
   stations:
@@ -24,7 +24,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: fighter
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Vanguard {1}'
+          mapNameTemplate: 'ЛРНП Авангард {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

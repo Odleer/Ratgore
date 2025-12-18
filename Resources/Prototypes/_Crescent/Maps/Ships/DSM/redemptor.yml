@@ -1,7 +1,7 @@
 - type: vessel
   id: Redemptor
-  name: DSM Redemptor
-  description: A light fighter designed for escort and harassment duty.
+  name: БМС Редемптор
+  description: Лёгкий истребитель для сопровождения и преследования.
   price: 25000
   category: Small
   group: None

@@ -1,0 +1,15 @@
+ent-ClothingUniformJumpsuitTCAFArmsman = TCAF Armsman uniform
+    .desc = A uniform worn by current and former infantry in the Tau-Ceti Armed Forces
+    .suffix = TCFL
+ent-ClothingUniformJumpsuitTCFLLegate = TCFL Legate uniform
+    .desc = A uniform worn by commissioned officers in the Tau-Ceti Foreign Legion
+    .suffix = TCFL
+ent-ClothingUniformJumpsuitTCFLPilot = TCFL pilot uniform
+    .desc = A uniform worn by current and former pilots in the Tau-Ceti Foreign Legion
+    .suffix = TCFL
+ent-ClothingUniformJumpsuitTCFLSentinel = TCFL Sentinel uniform
+    .desc = A uniform worn by the non-commissioned officers of the Tau-Ceti Foreign Legion
+    .suffix = TCFL
+ent-ClothingUniformJumpsuitTCFLVolunteer = TCFL volunteer uniform
+    .desc = A uniform worn by the enlisted members of the Tau-Ceti Foreign Legion. As an all-volunteer service that accepts any, regardless of race, species, or creed, every member of the TCFL starts out at this level.
+    .suffix = TCFL

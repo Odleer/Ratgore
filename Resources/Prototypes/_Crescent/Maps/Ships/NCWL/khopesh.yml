@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Khopesh
-  name: NCWL Khopesh
-  description: An ultralight communard fighter.
+  name: ЛРНП Хопеш
+  description: Сверхлёгкий коммунарский истребитель.
   price: 6000
   category: Small
   group: None
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Khopesh
-  mapName: 'NCWL Khopesh'
+  mapName: 'ЛРНП Хопеш'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/khopesh.yml
   minPlayers: 0
   stations:
@@ -24,7 +24,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: fighter
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Khopesh {1}'
+          mapNameTemplate: 'ЛРНП Хопеш {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

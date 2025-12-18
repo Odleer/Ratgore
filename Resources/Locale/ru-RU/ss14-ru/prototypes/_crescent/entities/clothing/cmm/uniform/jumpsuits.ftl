@@ -1,0 +1,10 @@
+ent-ClothingUniformJumpsuitCMM = minuteman's uniform
+    .desc = Warrior's fatigues from many eons past. This faded uniform dates back to the first planetary revolutions, undoubtedly a Union surplus.
+ent-ClothingUniformJumpsuitCMMOrdnanceman = ordnanceman's uniform
+    .desc = Artillery operator's fatigues from many eons past. This faded uniform dates back to the first planetary revolutions, undoubtedly a Union surplus.
+ent-ClothingUniformJumpsuitCMMMachinist = machinist's uniform
+    .desc = Machinist's fatigues from many eons past. This faded uniform dates back to the first planetary revolutions, undoubtedly a Union surplus.
+ent-ClothingUniformJumpsuitCMMPhysician = physician's uniform
+    .desc = Doctor's fatigues from many eons past. This faded uniform dates back to the first planetary revolutions, undoubtedly a Union surplus.
+ent-ClothingUniformJumpsuitCMMOfficer = officer's uniform
+    .desc = Officer's fatigues from many eons past. This faded uniform dates back to the first planetary revolutions, undoubtedly a Union surplus.

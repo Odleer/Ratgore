@@ -1,6 +1,6 @@
 - type: gameMap
   id: Countsman
-  mapName: 'The Countsman'
+  mapName: 'БМС Ревизор'
   mapPath: /Maps/_Crescent/Stations/countsman.yml
   minPlayers: 0
   stations:
@@ -14,11 +14,11 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: dreadnought
         - type: StationNameSetup
-          mapNameTemplate: 'The Countsman'
+          mapNameTemplate: 'БМС Ревизор'
         - type: VesselDesignation
           designation: vessel-designation-headquarters
         - type: VesselDescription
-          description: A ramshackle hubship housing the last coherent Imperial chapter in this system.
+          description: Обветшалый корабль-база, в котором размещается последняя сплочённая имперская армия в этой системе.
         - type: VesselMusic
           ambientMusicPrototype: CountsmanMusic
         - type: Grammar

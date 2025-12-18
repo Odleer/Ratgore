@@ -1,0 +1,12 @@
+ent-ClothingHeadHelmetHunterBasic = hunter's steel helmet
+    .desc = A steel-beaten ornate helmet, intended for a Hunter. The menacing visor conceals the wearer's face.
+ent-ClothingHeadHelmetHardsuitHunter = hunter's hardsuit helmet
+    .desc = Spaceworthy protection for your fragile skull.
+ent-ClothingHeadHelmetHardsuitHunterElite = sixth subjugation fireteam hardsuit helmet
+    .desc = Spaceworthy protection for your fragile skull.
+ent-ClothingHeadHatHunterOverseer = overseer's facade
+    .desc = An antiquated Hunter's cap and a pilfered mask packed with fresh herbs.
+ent-ClothingHeadHatHunter = hunter's tricorne
+    .desc = A newer-generation Hunter's hat. Signifies allegiance to the Hunt.
+ent-ClothingHeadHatHunterTender = tender's hood
+    .desc = A newer-generation Tender-hunter's hat. Signifies allegiance to the Hunt.

@@ -1,0 +1,15 @@
+ent-PortableGeneratorPacmanShuttle = { ent-PortableGeneratorPacman }
+    .suffix = Plasma, 15 kW, Ship
+    .desc = { ent-PortableGeneratorPacman.desc }
+ent-PortableGeneratorSuperPacmanShuttle = { ent-PortableGeneratorSuperPacman }
+    .suffix = Uranium, 30 kW, Ship
+    .desc = { ent-PortableGeneratorSuperPacman.desc }
+ent-PortableGeneratorJrPacmanShuttle = { ent-PortableGeneratorJrPacman }
+    .suffix = Welding Fuel, 5 kW, Ship
+    .desc = { ent-PortableGeneratorJrPacman.desc }
+ent-BoriaticGeneratorHerculesShuttle = { ent-BoriaticGeneratorHercules }
+    .suffix = BoriaticFuel, 15 kW, Ship
+    .desc = { ent-BoriaticGeneratorHercules.desc }
+ent-BoriaticGeneratorEinsteinShuttle = { ent-BoriaticGeneratorEinstein }
+    .suffix = BoriaticFuel, 95 kW, Ship
+    .desc = { ent-BoriaticGeneratorEinstein.desc }

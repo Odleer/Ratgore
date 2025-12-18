@@ -1,0 +1,12 @@
+ent-BoxShellSoulbreaker = box of soulbreaker cartridges
+    .desc = A box full of anti-psionic soulbreaker cartridges, designed for riot shotguns.
+ent-BoxMagazineUniversalMagnum = box of 8.3×33mm Universal magazines
+    .desc = A box full of 8.3×33mm magazines.
+ent-BoxMagazineUniversalMagnumPractice = box of 8.3×33mm Universal (practice) magazines
+    .desc = A box full of 8.3×33mm practice magazines.
+ent-BoxSpeedLoaderLightRifle = box of .30 rifle speed loaders
+    .desc = A box full of .30 rifle speed loaders.
+ent-BoxSpeedLoaderRifle = box of 7.62x51 USM speed loaders
+    .desc = A box full of 7.62x51 USM speed loaders.
+ent-BoxRoundsAntiMateriel = packet of 15.2x169mm rounds
+    .desc = A box full of 15.2x169mm rounds.

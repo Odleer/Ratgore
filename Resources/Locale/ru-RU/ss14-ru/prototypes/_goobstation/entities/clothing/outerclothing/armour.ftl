@@ -1,0 +1,17 @@
+ent-ClothingBlueshieldArmourVest = blueshield's security armour
+    .desc = An armoured vest with the badge of the blueshield
+ent-ClothingBlueshieldArmoredJacket = blueshield's armored jacket
+    .desc = A jacket with sewn-in reinforcement layers.
+ent-ClothingBlueshieldArmoredCowboyJacket = blueshield's armored cowboy jacket
+    .desc = A jacket to protect important people in wild areas.
+ent-ClothingBlueshieldArmoredCoat = blueshield's armored coat
+    .desc = A coat for cold winter seasons with sewn in plates.
+ent-ClothingBlueshieldArmoredCoatOpen = blueshield's armored coat
+    .suffix = Opened
+    .desc = { ent-ClothingOuterStorageFoldableBaseOpened.desc }
+ent-ClothingBlueshieldArmoredMarine = blueshield's armored marine vest
+    .desc = A vest from the blueshield's time in the marines.
+ent-ClothingBlueshieldArmoredVest = blueshield's armored vest
+    .desc = A vest with sewn-in reinforcement layers.
+ent-ClothingBlueshieldArmoredKimono = blueshield's armored kimono
+    .desc = As times evolve, so must the Blueshield.

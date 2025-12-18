@@ -1,0 +1,14 @@
+ent-BaseBulletEmp = base bullet emp
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletBoosterWave = booster wave
+    .desc = { ent-BaseBullet.desc }
+ent-CartridgeRailArmorPiercing = 1000 Armor-Piercing rail
+    .desc = A 1000 caliber rail designed for the Railgun. Is made out of solid plasma infused tungsten rod. Punches through hull like butter.
+ent-BulletRailArmorPiercing = rail
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletRailEMP = rail
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-CartridgeRailEMP = 1000 EMP rail
+    .desc = A 1000 caliber rail designed for the Railgun. Is made out of solid plasma infused tungsten rod. Punches through hull like butter.
+ent-ThermonuclearMissile = primed thermonuclear missile
+    .desc = You recoil from ancient genetic memories telling you 'This hurt me. This ruined me. I was once a human being.' But there is no other way. A gun. A sword. A bomb. A vibrokhopesh. There is no other way.

@@ -1,0 +1,10 @@
+ent-ClosetBase = шкаф
+    .desc = Стандартная хранилище.
+ent-ClosetSteelBase = { ent-ClosetBase }
+    .desc = { ent-ClosetBase.desc }
+ent-BaseWallCloset = настенный шкаф
+    .desc = Стандартная хранилище, теперь на стенах.
+ent-BaseWallLocker = { ent-BaseWallCloset }
+    .desc = { ent-BaseWallCloset.desc }
+ent-SuitStorageBase = хранилище скафандров
+    .desc = Изощрённое высокотехнологичное хранилище для космических скафандров.

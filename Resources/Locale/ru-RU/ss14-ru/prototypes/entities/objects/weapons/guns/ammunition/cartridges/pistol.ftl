@@ -1,0 +1,12 @@
+ent-BaseCartridgePistol = cartridge (.35 auto)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgePistol = cartridge (9x19mm PSTF)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-CartridgePistolPractice = cartridge (9x19mm PSTF practice)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-CartridgePistolIncendiary = cartridge (9x19mm PSTF incendiary)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-CartridgePistolUranium = cartridge (9x19mm PSTF uranium)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-CartridgePistolShrapnel = cartridge (9x19mm PSTF shrapnel)
+    .desc = { ent-BaseCartridgePistol.desc }

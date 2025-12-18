@@ -1,0 +1,10 @@
+ent-Welder = welding tool
+    .desc = Melts anything as long as it's fueled, don't forget your eye protection!
+ent-WelderIndustrial = industrial welding tool
+    .desc = An industrial welder with over double the fuel capacity.
+ent-WelderIndustrialAdvanced = advanced industrial welding tool
+    .desc = An advanced industrial welder with over five times the fuel capacity and a hotter flame.
+ent-WelderExperimental = experimental welding tool
+    .desc = An experimental welder that is less harmful to the eyes while having a hotter flame and slowly regenerating fuel.
+ent-WelderMini = emergency welding tool
+    .desc = A miniature welder used during emergencies.

@@ -1,7 +1,7 @@
 - type: vessel
   id: Impel
-  name: DSM Impel
-  description: An Imperial salvaging and mining shuttle with a large cargohold.
+  name: БМС Велит
+  description: Имперский шаттл для спасательных работ и добычи с большим грузовым отсеком.
   price: 30000
   category: Small
   group: None

@@ -1,0 +1,12 @@
+ent-BaseWeaponRifle = BaseWeaponRifle
+    .desc = A rooty tooty point and shooty.
+ent-BaseWeaponRifleDMR = BaseWeaponRifleDMR
+    .desc = A rooty tooty point and shooty, but more accurate.
+ent-WeaponRifleAk = AKMS
+    .desc = An iconic weapon of war. this one has ben rechambered to 7.62x51mm, commonly attributed to terrorist groups. Cheap and easily made.
+ent-WeaponRifleM90GrenadeLauncher = M-90gl
+    .desc = An simple battle carbine battle model, with an attached underbarrel grenade launcher. Uses 7.62x51mm ammo.
+ent-WeaponRifleLecter = Lecter
+    .desc = A fancy SHI-brand rifle sold to corporations and security forces everywhere.
+ent-WeaponRifleFoam = Foam Force Astro Ace
+    .desc = A premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy.

@@ -1,0 +1,16 @@
+ent-ClothingNeckTieRed = red-tie
+    .desc = A neosilk clip-on red tie.
+ent-ClothingNeckTieDet = detective's tie
+    .desc = A loosely tied necktie, a perfect accessory for the over-worked detective.
+ent-ClothingNeckTieSci = scientist's tie
+    .desc = Why do we all have to wear these ridiculous ties?
+ent-ClothingNeckTieColor = tie
+    .desc = A neosilk clip-on tie.
+ent-ClothingNeckTieShort = short tie
+    .desc = A short tie, perfect for vests.
+ent-ClothingNeckTieBow = neck bow
+    .desc = A bow for adorning the neck.
+ent-ClothingNeckTieBowTie = bow tie
+    .desc = A bow tie. Snazzy!
+ent-ClothingNeckTieRibbon = neck ribbon
+    .desc = A ribbon for adorning the neck.

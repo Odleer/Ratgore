@@ -1,0 +1,10 @@
+ent-C_WeaponSniperHristov = SHI PLCR-3M2 Hristov 15.2x169mm
+    .desc = A portable anti-materiel rifle, equipped with a long range scope. Fires the large 15.2×169mm round.
+ent-WeaponSniperImperator = IRM AVR-H Imperator 15.2x169mm
+    .desc = A imperial anti-materiel rifle. Fires the large 15.2×169mm round.
+ent-WeaponSniperMolot = NCWL PTRD-94 Molot 15.2x169mm
+    .desc = A cheap communard anti-materiel. Fires the large 15.2×169mm round.
+ent-WeaponSniperAK60 = NCSP AK-60 15.2x169mm
+    .desc = A unlicensed .60 version of a AK. Its a less simple than a AK-74 but pack a massive 15.2x169mm Pounch.
+ent-WeaponSniperSpear = PTA AC-8 Spear 15.2x169mm
+    .desc = A high-end AMR by Pang Tai Arms, capable of firing significantly faster than its competitors.

@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Hind
-  name: NCWL Hind
-  description: A light ore freighter converted into a missile frigate.
+  name: ЛРНП Нанд
+  description: Лёгкий грузовоз для руды, переделанный в ракетный фрегат.
   price: 60000
   category: Medium
   group: None

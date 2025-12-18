@@ -1,0 +1,12 @@
+ent-ClothingHeadHelmetERTMailCarrier = ERT mail carrier helmet
+    .desc = An in-atmosphere helmet worn by mail members of the Nanotrasen Emergency Response Team. Has dark purple highlights.
+ent-ClothingHeadHelmetBombSuitSyndie = syndicate bombsuit helmet
+    .desc = { ent-ClothingHeadHelmetBombSuit.desc }
+ent-ClothingHeadHelmetHardsuitSyndieEliteUnremoveable = { ent-ClothingHeadHelmetHardsuitSyndie }
+    .desc = { ent-ClothingHeadHelmetHardsuitSyndie.desc }
+ent-ClothingHeadHelmetHardsuitSyndieUnremoveable = { ent-ClothingHeadHelmetHardsuitSyndie }
+    .desc = { ent-ClothingHeadHelmetHardsuitSyndie.desc }
+ent-ClothingHeadHelmetNfsd = nfsd helmet
+    .desc = an nfsd issued helmet to protect your head
+ent-ClothingHeadHelmetCultJanitor = cult leader helmet
+    .desc = { ent-ClothingHeadHelmetBasic.desc }

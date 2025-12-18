@@ -1,0 +1,12 @@
+ent-BulletCaselessRifle = bullet (9x39mm caseless)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletCaselessRiflePractice = bullet (9x39mm caseless practice)
+    .desc = { ent-BaseBulletPractice.desc }
+ent-BulletCaselessRifleIncendiary = bullet (9x39mm caseless incendiary)
+    .desc = { ent-BaseBulletIncendiary.desc }
+ent-BulletCaselessRifleUranium = bullet (9x39mm caseless AP-DU)
+    .desc = { ent-BaseBulletUranium.desc }
+ent-BulletCaselessRifleShrapnel = bullet (9x39mm caseless shrapnel)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletCaselessRifleShrapnelSpread = { ent-BulletCaselessRifleShrapnel }
+    .desc = { ent-BulletCaselessRifleShrapnel.desc }

@@ -1,0 +1,14 @@
+ent-AccessElevatorBase = Debug Acces Elevator
+    .desc = Gives you jack shit dumbass you shouldn't spawn this!!!!!!!!!!!.
+ent-AccessElevatorCD = CyberDawn Access Elevator
+    .desc = Gives a target ID the acces codes for CyberDawn Technologies facilities.
+ent-AccessElevatorSAW = SAW Access Elevator
+    .desc = Gives a target ID the acces codes for Space Aeronautic Worker's union facilities.
+ent-AccessElevatorGSC = GSC Access Elevator
+    .desc = Gives a target ID the acces codes for Gorlex Security Consulting facilities.
+ent-AccessElevatorIPM = IPM Access Elevator
+    .desc = Gives a target ID the acces codes for Interdyne Pharmaceuticals facilities.
+ent-AccessElevatorGliess = Gliessian Access Elevator
+    .desc = Gives a target ID the acces codes for Gliessian facilities.
+ent-AccessElevatorSHI = SHI Access Elevator
+    .desc = Gives a target ID the acces codes for Shinohara Corporate facilities.

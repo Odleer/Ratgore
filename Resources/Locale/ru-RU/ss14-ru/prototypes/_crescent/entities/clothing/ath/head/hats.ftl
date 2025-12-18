@@ -1,0 +1,14 @@
+ent-ClothingHeadHatAuthorityKommandant = kommandant's service cap
+    .desc = A no-bullshit military peaked cap meant for the Battlegroup's Kommandant.
+ent-ClothingHeadHatAuthorityLeutnant = leutnant's beret
+    .desc = A no-bullshit military officer's beret emblazoned with Authoritat sigils.
+ent-ClothingHeadHatAuthorityLogistitat = logistitat's beret
+    .desc = A pompous, gilded beret meant for the Logistitat.
+ent-ClothingHeadHatAuthoritySteward = steward's service cap
+    .desc = A military assistant's service cap. This one belongs to the First Steward of the 43rd Battlegroup of the Central Sol Authoritat.
+ent-ClothingHeadHatAuthorityKanoneer = kanoneer's beret
+    .desc = A no-bullshit military beret, the rank insignia that of a Sergeant.
+ent-ClothingHeadHatAuthoritySanitat = sanitat's beret
+    .desc = A no-bullshit military beret, the rank insignia that of a Corporal.
+ent-ClothingHeadHatAuthoritySoldat = soldat's beret
+    .desc = A no-bullshit military beret, the rank insignia that of a Private.

@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Krechet
-  name: NCWL Krechet
-  description: A light communard fighter.
+  name: ЛРНП Кречет
+  description: Лёгкий коммунарский истребитель.
   price: 25000
   category: Small
   group: None
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Krechet
-  mapName: 'NCWL Krechet'
+  mapName: 'ЛРНП Кречет'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/krechet.yml
   minPlayers: 0
   stations:
@@ -20,7 +20,7 @@
       stationProto: StandardCrescentVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Krechet {1}'
+          mapNameTemplate: 'ЛРНП Кречет {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

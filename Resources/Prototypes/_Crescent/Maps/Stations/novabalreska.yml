@@ -1,6 +1,6 @@
 - type: gameMap
   id: PortBalreska
-  mapName: 'Port Balreska'
+  mapName: 'ЛРНП Марсова'
   mapPath: /Maps/_Crescent/Stations/novabalreska.yml
   minPlayers: 0
   stations:
@@ -15,11 +15,11 @@
             state: outpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Port Balreska'
+          mapNameTemplate: 'ЛРНП Марсова'
         - type: VesselDesignation
           designation: vessel-designation-headquarters
         - type: VesselDescription
-          description: A sturdy Communard fortress constructed around a bleeding gash in our reality.
+          description: Прочная коммунарская крепость, построенная вокруг кровоточащего разрыва в нашей реальности.
         - type: VesselMusic
           ambientMusicPrototype: PortBalreskaMusic
         - type: Grammar

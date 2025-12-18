@@ -1,0 +1,15 @@
+ent-CigarNCWL = imported Chengridz cigar
+    .desc = A hand rolled Chengridz cigar, pure leaf and pure status, each draw worth more than most men’s wages.
+ent-CigarNCWLSpent = { ent-CigarNCWL }
+    .suffix = spent
+    .desc = { ent-CigarNCWL.desc }
+ent-CigarRoyal = Imperial cigar
+    .desc = A cigar fit for the upper crust of Taypan's true natives.
+ent-CigarRoyalSpent = { ent-CigarRoyal }
+    .suffix = spent
+    .desc = { ent-CigarRoyal.desc }
+ent-CigarFreeport = Freeport cigar
+    .desc = A black roll of high quality tobacco and... whatever else could be found.
+ent-CigarFreeportSpent = { ent-CigarFreeport }
+    .suffix = spent
+    .desc = { ent-CigarFreeport.desc }

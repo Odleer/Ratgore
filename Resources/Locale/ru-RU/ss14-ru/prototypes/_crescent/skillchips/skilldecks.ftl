@@ -1,0 +1,12 @@
+ent-SkilldeckAdmemery = NT TR-01 "Admemery" skill deck
+    .desc = If you're a non-admin seeing this description, this is heavily concerning. Stop looking at this item and act as if it doesn't exist.
+    .suffix = DEBUG
+ent-SkilldeckIhijerika = ICM PvN-2 'Courser' integrated cyberdeck
+    .desc = The one and only cyberdeck to be ever produced by Ihijerika Civilian Manufacturing - the Courser model is so widespread, cheap, and poor-performing that the word 'courser' has become an insult for underperforming members of spacer communities. Nevertheless, this piece of junk comes with an integrated slot for datashards, allowing a minimal amount of data transfer to it's parent neural interface.
+    .suffix = Basic
+ent-SkilldeckInterdyne = IPM T-20 'Operator' integrated cyberdeck
+    .desc = A midline cerebral computer for use alongside a neural interface implant - the Operator is one of the more common models seen amongst the well-to-do mercenaries and wealthy traders of the system, whether the deck be used for combat training, language translations, or advanced arithmetic.
+    .suffix = Basic
+ent-SkilldeckShinohara = SHI pF-300 'Kaisei' integrated cyberdeck
+    .desc = A high-end cerebral computer with a state-of-the-art internal processor to support three high-stress datashard programs at the same time without overloading the parent neural interface and the brain it's attached to. A top of the shelf product for those who can afford it.
+    .suffix = Advanced

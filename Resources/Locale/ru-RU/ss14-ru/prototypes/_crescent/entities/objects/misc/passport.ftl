@@ -1,0 +1,14 @@
+ent-NCWLPassportBareLegit = union passport
+    .desc = A small booklet with a verification of identity for the bearer.
+ent-NCWLPassportBareFake = union passport
+    .desc = A small booklet with a verification of identity for the bearer.
+ent-NCWLPassportDenied = union passport
+    .desc = A small booklet with a verification of identity for the bearer. This one is marked as a fraud.
+ent-NCWLPassportAccepted = union passport
+    .desc = A small booklet with a verification of identity for the bearer. This one has been already cleared for entry.
+ent-ImperialPassportBareLegit = imperial passport
+    .desc = A small booklet with a verification of identity for the bearer.
+ent-ImperialPassportBareFake = imperial passport
+    .desc = A small booklet with a verification of identity for the bearer.
+ent-TradePassport = trade permit
+    .desc = A small booklet with a verification of identity for the bearer. Often issued to merchants and corporate employees.

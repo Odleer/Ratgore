@@ -1,0 +1,14 @@
+ent-CrashAutoinjector = crash autoinjector
+    .desc = A cheap, easily-produced combat stimulant, most commonly used by combat pilots. Known to cause the jitters.
+ent-ExileAutoinjector = exile autoinjector
+    .desc = A common combat stimulant used to both treat wounds sustained during battle and keep an operative on their feet for the duration of the fight.
+ent-KaiserAutoinjector = kaiser autoinjector
+    .desc = A sophisticated, potent combat drug - boasting the refined effects of Exile with none of the drawbacks. A feat of Syndicate chemical engineering.
+ent-MechaniteAutoinjector = mechanite injector gun
+    .desc = A chemical cocktail of healing mechanites intended to localize around damaged parts of the body and repair it on a sub-molecular level.
+ent-BloodeyeAutoinjector = blood-eye injector
+    .desc = A chemical cocktail of combat drugs known to invoke violent tendencies within the user. Blood-eye was originally produced by Shinohara Heavy Industries, but later taken off the shelves after narcotic regulations were put into place.
+ent-NarcanAutoinjector = narcan autoinjector
+    .desc = narcan-desc
+ent-JVAutoInjector = JV-201 autoinjector
+    .desc = A versatile lubricant gel. It will increase the efficiency of living tissue, even if against organic will. Sourced from Carthage Industries.

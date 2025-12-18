@@ -1,0 +1,14 @@
+ent-ClothingHeadHatDraugr = draugr's battle-mantle
+    .desc = A head mantle and wrap for a decorated tribal warrior.
+ent-ClothingHeadHatServile = servile's headwrap
+    .desc = A headwrap for a fledgling tribal warrior.
+ent-ClothingHeadHelmetHardsuitDraugr = draugr's exohelm
+    .desc = Spaceworthy protection for your fragile skull.
+ent-ClothingHeadHelmetHardsuitIzdari = beltrunner's hardsuit helmet
+    .desc = Spaceworthy protection for your fragile skull.
+ent-ClothingHeadHelmetHardsuitThukker = thukker's engineering hardsuit helmet
+    .desc = Spaceworthy protection for your fragile skull.
+ent-ClothingHeadHelmetHardsuitArabet = arabet's hardsuit helmet
+    .desc = Spaceworthy protection for your fragile skull.
+ent-ClothingHeadHelmetIzdariEVA = beltrunner's softsuit helmet
+    .desc = An Izdari beltrunner's EVA helmet.

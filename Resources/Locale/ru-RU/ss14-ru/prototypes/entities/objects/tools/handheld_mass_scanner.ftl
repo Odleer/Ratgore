@@ -1,0 +1,9 @@
+ent-HandHeldMassScannerEE = handheld mass scanner
+    .desc = A hand-held mass scanner. It only consumes power when scanning.
+    .suffix = Einstein-Engines
+ent-HandHeldMassScannerEmpty = { ent-HandHeldMassScanner }
+    .suffix = Empty
+    .desc = { ent-HandHeldMassScanner.desc }
+ent-HandHeldMassScannerBorg = { ent-HandHeldMassScanner }
+    .suffix = Borg
+    .desc = { ent-HandHeldMassScanner.desc }

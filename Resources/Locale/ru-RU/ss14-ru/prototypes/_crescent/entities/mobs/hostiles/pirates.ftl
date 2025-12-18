@@ -1,0 +1,13 @@
+ent-SimpleFrontiersmanMobBase = { ent-MobHumanoidInventory }
+    .suffix = AI
+    .desc = { ent-MobHumanoidInventory.desc }
+ent-MobPirateMachete = frontiersman fighter
+    .desc = A militiaman for the New Liberation Front. He's wielding a machete, stop messing around and shoot him!
+ent-MobPirateSawbones = frontiersman sawbones
+    .desc = A militiaman for the New Liberation Front. This one is dressed in the garments of a field medic.
+ent-MobPirateShotgunner = frontiersman shotgunner
+    .desc = A militiaman for the New Liberation Front, heavily armored and wielding a shotgun.
+ent-MobPirateRifle = frontiersman militant
+    .desc = A militiaman for the New Liberation Front. This one's armed with a bolt-action.
+ent-MobPirateRifleman = frontiersman infanteer
+    .desc = A militiaman for the New Liberation Front. This one's armed with an assault rifle and seems to have a keen eye.

@@ -1,0 +1,12 @@
+ent-ResearchAndDevelopmentServerInterdyne = interdyne pharmaceuticals research server
+    .desc = Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
+ent-ResearchAndDevelopmentServerCyberdawn = cyberdawn technologies research server
+    .desc = Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
+ent-ResearchAndDevelopmentServerImperial = imperial research server
+    .desc = Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
+ent-ResearchAndDevelopmentServerCommunard = communard research server
+    .desc = Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
+ent-ResearchAndDevelopmentServerCorporate = shinohara research server
+    .desc = Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?
+ent-ResearchAndDevelopmentServerGliessian = Gliess Santo research server
+    .desc = Contains the collective knowledge of the station's scientists. Destroying it would send them back to the stone age. You don't want that do you?

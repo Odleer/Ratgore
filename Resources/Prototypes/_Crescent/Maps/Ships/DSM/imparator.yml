@@ -1,8 +1,8 @@
 - type: vessel
   id: Imparator
-  name: DSM Imparator
+  name: БМС Триумвир
   description: |
-    An imperial artillery ship, made to shoot from the backlines and provide firepower from a distance. It suffers from close-quarters combat, only having 1 PDT as a secondary weapon. 
+    Имперский артиллерийский корабль, предназначенный для стрельбы с задних линий и огневой поддержки на расстоянии. Слаб в ближнем бою, имеет только 1 PDT как вторичное оружие.
     LOADOUT: 1x SHI 120mm Cannon, 1x SHI 20x135mm PDT
     MINIMUM CREW: 1x Pilot, 1x Gun Loader (optional)
   price: 37000
@@ -31,4 +31,4 @@
         - type: VesselDesignation
           designation: vessel-designation-fighter
         - type: VesselDescription
-          description: Wise ritters know that this small but powerful ship can cause some righteous trouble.
+          description: Мудрые рыцари знают, что этот небольшой, но мощный корабль способен доставить немало праведных неприятностей.

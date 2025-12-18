@@ -1,7 +1,7 @@
 - type: vessel
   id: Xenovalk
-  name: DSM Xenovalk
-  description: An Imperial light medical shuttle.
+  name: БМС Ксеновальк
+  description: Имперский лёгкий медицинский шаттл.
   price: 75000
   category: Small
   group: None

@@ -1,7 +1,7 @@
 - type: vessel
   id: Sunesis
-  name: DSM Sunesis
-  description: A mobile base of operations for a small team of Imperial Scribes, this cruiser is equipped with stealth technology and civilian modules for low-risk voyages.
+  name: БМС Сунесис
+  description: Мобильная база операций для небольшой команды имперских Писцов; этот крейсер оснащён технологией невидимости и гражданскими модулями для низкорисковых путешествий.
   price: 140000
   category: Large
   group: None

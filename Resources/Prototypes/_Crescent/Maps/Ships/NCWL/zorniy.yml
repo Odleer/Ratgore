@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Zorniy
-  name: NCWL Zorniy
-  description: A light communard bomber.
+  name: ЛРНП Зорний
+  description: Лёгкий коммунарский бомбардировщик.
   price: 32000
   category: Small
   group: None
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Zorniy
-  mapName: 'NCWL Zorniy'
+  mapName: 'ЛРНП Зорний'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/zorniy.yml
   minPlayers: 0
   stations:
@@ -24,7 +24,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: fighter
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Zorniy {1}'
+          mapNameTemplate: 'ЛРНП Зорний {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

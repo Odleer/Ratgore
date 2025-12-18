@@ -1,7 +1,7 @@
 - type: vessel
   id: Laelaps
-  name: DSM Laelaps
-  description: A heavy assault frigate excelling at brawling.
+  name: БМС Ловчий
+  description: Тяжёлый штурмовой фрегат, мастер боя в упор.
   price: 250000
   category: Medium
   group: None

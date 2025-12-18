@@ -1,0 +1,16 @@
+ent-MagazineHeavyRifle = 16-round heavy magazine (12.7×99mm USM)
+    .desc = { ent-BaseMagazineHeavyRifle.desc }
+ent-CartridgeHeavyRifle = cartridge (12.7×99mm USM)
+    .desc = { ent-BaseCartridgeHeavyRifle.desc }
+ent-MagazineHeavyRifleBoxmag = 50-round box magazine (12.7x99mm USM)
+    .desc = { ent-BaseItem.desc }
+ent-BaseMagazineBoxHeavyRifle = { ent-BaseMagazineBox }
+    .desc = { ent-BaseMagazineBox.desc }
+ent-MagazineBoxHeavyRifle = ammunition box (12.7x99mm USM)
+    .desc = { ent-BaseMagazineBoxHeavyRifle.desc }
+ent-BaseSpeedLoader127x99 = speed loader (12.7x99mm)
+    .desc = { ent-BaseItem.desc }
+ent-SpeedLoader127x99 = speed loader (12.7x99mm USM)
+    .desc = { ent-BaseSpeedLoader127x99.desc }
+ent-MagazineSmallHeavyRifle = 6-round heavy magazine (12.7×99mm USM)
+    .desc = { ent-BaseMagazineHeavyRifle.desc }

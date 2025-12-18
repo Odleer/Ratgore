@@ -1,0 +1,14 @@
+ent-ClothingHeadHatPin = hair pin
+    .desc = A nice hair pin.
+ent-ClothingHeadHatPinClover = clover pin
+    .desc = A hair pin in the shape of a clover leaf. Smells of mischief.
+ent-ClothingHeadHatPinButterfly = butterfly pin
+    .desc = A hair pin in the shape of a butterfly.
+ent-ClothingHeadHatPinMagnetic = magnetic pin
+    .desc = A pair of magnetic pins that stick to your head with magnetism.
+ent-ClothingHeadHatRibbon = hair ribbon
+    .desc = A length of ribbon acting as a headband.
+ent-ClothingHeadHatBow = hair bow
+    .desc = A hair bow with a small removable clip on the back.
+ent-ClothingHeadHatBowSmall = small hair bow
+    .desc = A ribbon tied into a small bow with a clip on the back to attach to hair.

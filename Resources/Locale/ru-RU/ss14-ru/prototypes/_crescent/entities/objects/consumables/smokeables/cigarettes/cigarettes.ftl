@@ -1,0 +1,13 @@
+ent-CrescentCigaretteTHC = { ent-SoakedCigarette }
+    .desc = { ent-SoakedCigarette.desc }
+ent-CrescentCigaretteSpaceDrugs = { ent-SoakedCigarette }
+    .desc = { ent-SoakedCigarette.desc }
+ent-CrescentCigaretteCrash = { ent-SoakedCigarette }
+    .desc = { ent-SoakedCigarette.desc }
+ent-CrescentCigaretteBloodeye = { ent-SoakedCigarette }
+    .desc = { ent-SoakedCigarette.desc }
+ent-CrescentCigaretteLotophagoiOil = { ent-SoakedCigarette }
+    .desc = { ent-SoakedCigarette.desc }
+ent-CrescentCigaretteNanotrasen = cigarette
+    .suffix = nanotrasen
+    .desc = { ent-Cigarette.desc }

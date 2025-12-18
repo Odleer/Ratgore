@@ -1,0 +1,12 @@
+ent-BaseMobCarpExpeditions = planetary space carp
+    .desc = It's a planetary space carp.
+ent-MobCarpExpeditions = { ent-BaseMobCarpExpeditions }
+    .desc = { ent-BaseMobCarpExpeditions.desc }
+ent-MobCarpMagicExpeditions = magicarp
+    .desc = Looks like some kind of fish. Might be magical.
+ent-MobCarpHoloExpeditions = holocarp
+    .desc = Carp made out of holographic energies. Sadly for you, it is very much real.
+ent-MobCarpRainbowExpeditions = rainbow carp
+    .desc = Wow such a shiny fishie!
+ent-MobSharkExpeditions = sharkminnow
+    .desc = A dangerous shark from the blackness of endless space, who loves to drink blood.

@@ -1,0 +1,12 @@
+ent-GasFilterHighFlow = high flow gas filter
+    .desc = Very useful for filtering gases. It can handle three times the volume of a standard filter, which makes it suitable for use in Supermatter engines.
+ent-GasFilterFlippedHighFlow = high flow gas filter
+    .suffix = Flipped
+    .desc = { ent-GasFilterFlipped.desc }
+ent-GasMixerHighFlow = high pressure gas mixer
+    .desc = Used for mixing gasses at the extreme pressures required by Supermatter engines.
+ent-GasMixerFlippedHighFlow = high pressure gas mixer
+    .suffix = Flipped
+    .desc = { ent-GasMixerFlipped.desc }
+ent-PressureControlledValveHighFlow = blow-off valve
+    .desc = A variant on a pneumatic valve designed for fire suppression of Supermatter engines. When the pressure in its flow direction exceeds the "reference" pressure on its side, the valve opens.

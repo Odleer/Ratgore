@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Sunder
-  name: NCWL Sunder
-  description: A light energy cruiser.
+  name: ЛРНП Сандер
+  description: Лёгкий энергетический крейсер.
   price: 70000
   category: Large
   group: None
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Sunder
-  mapName: 'NCWL Sunder'
+  mapName: 'ЛРНП Сандер'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/sunder.yml
   minPlayers: 0
   stations:
@@ -24,7 +24,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: cruiser
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Sunder {1}'
+          mapNameTemplate: 'ЛРНП Сандер {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

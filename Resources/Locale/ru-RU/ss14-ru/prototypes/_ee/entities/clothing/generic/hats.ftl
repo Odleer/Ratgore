@@ -1,0 +1,10 @@
+ent-ClothingHeadHelmetHeavyAblative = heavy laser-ablative helmet
+    .desc = A heavy laser-ablative helmet manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against laser weaponry.
+ent-ClothingHeadHelmetHeavyBallistic = heavy ballistic helmet
+    .desc = A heavy ballistic helmet manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against ballistic weaponry.
+ent-ClothingHeadHelmetHeavyRiot = heavy riot helmet
+    .desc = A heavy riot helmet manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against blunt force.
+ent-ClothingHeadHelmetHeavyStandard = heavy security helmet
+    .desc = A heavy security helmet manufactured by Zavodskoi Interstellar and sold to NT Security. It trades mobility for unparalleled protection against general threats.
+ent-ClothingHeadHelmetHeavyHoS = advanced combat helmet
+    .desc = A heavy security helmet manufactured by Zavodskoi Interstellar and sold to NT Security. This helmet bears markings for NT Command Staff.

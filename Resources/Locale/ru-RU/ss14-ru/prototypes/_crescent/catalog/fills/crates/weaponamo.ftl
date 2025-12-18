@@ -1,0 +1,16 @@
+ent-Crate40mmGrenadeAS = 40mm anti-structure grenade crate
+    .desc = A crate containing 4 Thermobaric shot 40mm grenades
+ent-Crate40mmGrenadeSup = 40mm support grenade crate
+    .desc = A crate containing 4 HEDP shot 40mm grenades
+ent-Crate40mmGrenadeAT = 40mm anti-armor grenade crate
+    .desc = A crate containing 4 HEDP shot 40mm grenades
+ent-Crate40mmGrenadeAP = 40mm anti-personnel grenade crate
+    .desc = A crate containing 4 HE and 4 Canister shot 40mm grenades
+ent-Crate84mmRecoillessAP = 84mm recoilless anti-personnel shell crate
+    .desc = A crate containing 2 HE-Frag and 2 Canister shot 84mm recoilless shells
+ent-Crate84mmRecoillessAT = 84mm recoilless anti-armor shell crate
+    .desc = A crate containing 2 HEAT and 1 Tandem HEAT 84mm recoilless shells
+ent-Crate84mmRecoillessSup = 84mm recoilless support shell crate
+    .desc = A crate containing 2 Smoke and 2 EMP 84mm recoilless shells
+ent-Crate65mmHammerheadRocket = 65mm smart rocket crate
+    .desc = A crate containing 3 heat-seeking 65mm rockets

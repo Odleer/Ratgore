@@ -1,0 +1,16 @@
+ent-BaseSpeedLoaderMagnum = speed loader (.45 magnum)
+    .desc = { ent-BaseItem.desc }
+ent-SpeedLoaderMagnum = speed loader (.327)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumEmpty = speed loader (.327 any)
+    .desc = { ent-SpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumIncendiary = speed loader (.327 incendiary)
+    .desc = { ent-SpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumPractice = speed loader (.327 practice)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumAP = speed loader (.327 armor-piercing)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumUranium = speed loader (.327 uranium)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumShrapnel = speed loader (.327 shrapnel)
+    .desc = { ent-SpeedLoaderMagnum.desc }

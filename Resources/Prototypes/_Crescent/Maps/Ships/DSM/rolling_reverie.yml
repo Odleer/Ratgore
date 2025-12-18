@@ -1,7 +1,7 @@
 - type: vessel
   id: RollingReverie
-  name: DSM Rolling Reverie
-  description: A luxury iff-cloaked vessel, fielded exclusively by the House of Questions. Amis of House Valkenrath's seal is on the LPC itself.
+  name: БМС Катясон
+  description: Роскошное судно с ИФФ-покровом, используется исключительно Домом Вопросов. На самом LPC изображён герб Дома Валькенрат.
   price: 8000
   category: Small
   group: None
@@ -28,4 +28,4 @@
         - type: VesselDesignation
           designation: vessel-designation-interceptor
         - type: VesselDescription
-          description: A ghost, haunting the enemies of the Mandate. This vessel is the cloaked dagger of Spymaster Amis De Mullein.
+          description: Призрак, преследующий врагов Мандата. Этот корабль — скрытый кинжал шпиономастера Амиса де Маллена.

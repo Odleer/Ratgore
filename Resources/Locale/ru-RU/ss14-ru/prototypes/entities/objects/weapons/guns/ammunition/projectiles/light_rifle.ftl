@@ -1,0 +1,12 @@
+ent-BulletLightRifle = bullet (5.56x45mm Imperial)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletLightRiflePractice = bullet (5.56x45mm Imperial practice)
+    .desc = { ent-BaseBulletPractice.desc }
+ent-BulletLightRifleIncendiary = bullet (5.56x45mm Imperial dragon's breath)
+    .desc = { ent-BaseBulletIncendiary.desc }
+ent-BulletLightRifleUranium = bullet (5.56x45mm Imperial black-tip)
+    .desc = { ent-BaseBulletUranium.desc }
+ent-BulletLightRifleShrapnel = bullet (5.56x45mm Imperial shrapnel)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletLightRifleShrapnelSpread = { ent-BulletLightRifleShrapnel }
+    .desc = { ent-BulletLightRifleShrapnel.desc }

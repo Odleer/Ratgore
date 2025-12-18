@@ -1,0 +1,10 @@
+ent-BlackboxCiv = Civilian flight recorder
+    .desc = A reinforced black box device containing the final moments of a ship and her crew. Spacers consider it bad luck to handle with anything other than reverence.
+ent-BlackboxDSM = DSM flight recorder
+    .desc = A reinforced black box device containing the final moments of a ship and her crew. Spacers consider it bad luck to handle with anything other than reverence.
+ent-BlackboxNCWL = Worker's league flight recorder
+    .desc = A reinforced black box device containing the final moments of a ship and her crew. Spacers consider it bad luck to handle with anything other than reverence.
+ent-BlackboxSHI = Shinohara industries flight recorder
+    .desc = A reinforced black box device containing the final moments of a ship and her crew. Spacers consider it bad luck to handle with anything other than reverence.
+ent-BlackboxNT = Nanotrasen flight recorder
+    .desc = Potentially containing leads on NT facilities, hadal breaches, and other wrecks, genuine NT flight recorders from droneships and derelicts are the dream of any salvager.

@@ -1,0 +1,13 @@
+ent-Bullet6mm = bullet (6mm)
+    .desc = { ent-BaseBullet.desc }
+ent-CartridgePistol6mm = cartridge (6mm auto)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-MagazinePistol6mm = 16-round pistol magazine (6mm)
+    .desc = { ent-BaseMagazinePistol.desc }
+ent-BaseMagazinePistol6mmSmg = 40-round SMG magazine (6mm Auto)
+    .desc = { ent-BaseItem.desc }
+ent-MagazinePistol6mmSmgEmpty = 40-round SMG magazine (6mm Auto any)
+    .suffix = empty
+    .desc = { ent-BaseMagazinePistol6mmSmg.desc }
+ent-MagazinePistol6mmSmg = 40-round SMG magazine (6mm Auto)
+    .desc = { ent-BaseMagazinePistol6mmSmg.desc }

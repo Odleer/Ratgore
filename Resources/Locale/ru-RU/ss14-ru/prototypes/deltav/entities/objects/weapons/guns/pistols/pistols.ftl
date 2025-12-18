@@ -1,0 +1,15 @@
+ent-WeaponPistolViperWood = NCSP Anaconda 9x19mm
+    .desc = A small, low-power pistol with full-auto firemode. Uses 9x19mm PSTF ammo.
+    .suffix = Wood
+ent-WeaponPistolViperWoodSecurity = viper
+    .desc = A small, low-power pistol with pleasant lacquered wooden grips. Uses 9x19mm PSTF ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+ent-WeaponPistolPollock = Pollock
+    .desc = A compact and mass-produced combat pistol. Uses 9x19mm PSTF ammo.
+    .suffix = Mercenary
+ent-WeaponPistolPollockSecurity = Pollock
+    .desc = A compact and mass-produced combat pistol. Uses 9x19mm PSTF ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+ent-WeaponPistolPsiBreaker = psi-breaker
+    .desc = A small, flashy pistol with a marble style grip. Provides no tactical advantage. Uses .38 special ammo.
+ent-WeaponPistolFlintlockCrafted = flintlock
+    .desc = An old flintlock, feels like 1800s gang warfare. Uses musket cartridges.
+    .suffix = craftable

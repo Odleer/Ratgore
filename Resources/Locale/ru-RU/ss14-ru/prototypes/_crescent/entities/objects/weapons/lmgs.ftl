@@ -1,0 +1,16 @@
+ent-WeaponLightMachineGunCompakt = CDT C-54 Compakt 5.56x45mm
+    .desc = A compact LMG designed sacraficing damage for size. Made by Cyberdawn for Cyberdawn.
+ent-WeaponLightMachineGunC54ROW = C 54 ROW
+    .desc = A C 54 SAW for use by cyborgs. Creates 5.56 rifle ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+ent-WeaponLightMachineGunConscript = NCWL MK-13 Conscript 12.7x99mm
+    .desc = A ripped out .50 cal PDT gun adapted to be fired from the hip. Heavy as shit and innacurate as shit but it turns people into a fine red mist.
+ent-WeaponLightMachineGunNCSPRPD = NCSP RPD 7.62x51mm
+    .desc = A bulky machinegun made from ancient schematics. Chambered in 7.62x51mm.
+ent-WeaponLightMachineGunDSMDominion = IRM DA-12S Dominion 5.56x45mm
+    .desc = A Imperial LMG with a quick 6 shot burst, chambered in 5.56x45mm Imperial.
+ent-WeaponLightMachineGunMG42 = HGS GrMG-4 Baum 7.62x51mm
+    .desc = The Großes Maschinengewehr. A long and bulky machinegun made from ancient schematics. Notorious for its high RPM. Chambered in 7.62x51mm.
+ent-WeaponLightMachineGunKoneruusu = HGS GrMG-Neo Koneruusu 7.62x51mm
+    .desc = The Neo Großes Maschinengewehr. A machinegun revived from ancient schematics and modified for modern combat. Notorious for its high RPM. Chambered in 7.62x51mm.
+ent-WeaponLightMachineGunWashington = K&K KM250 Washington 7.62x51mm
+    .desc = The next generation weapon system light machine gun produced by Kane & Knox. Packaged with a suppressor. Chambered in 7.62x51mm.

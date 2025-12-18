@@ -1,0 +1,17 @@
+ent-BaseWeaponTurretAutoPD = AUTOPD BASE
+    .desc = { ent-BaseStructure.desc }
+ent-WeaponTurretAutoPDNCWL = NCWL 7.62x51mm 'Sickle' anti-boarder turret
+    .suffix = NCWL PDT
+    .desc = { ent-BaseWeaponTurretAutoPD.desc }
+ent-WeaponTurretAutoPDSHI = SHI 7.62x51mm 'Shirudo' anti-boarder turret
+    .suffix = SHI PDT
+    .desc = { ent-BaseWeaponTurretAutoPD.desc }
+ent-WeaponTurretAutoPDDSM = DSM 7.62x51mm 'Madame' anti-boarder turret
+    .suffix = DSM PDT
+    .desc = { ent-BaseWeaponTurretAutoPD.desc }
+ent-WeaponTurretAutoPDTFSC = TFSC 7.62x51mm 'Vagrant' anti-boarder turret
+    .suffix = TFSC PDT
+    .desc = { ent-BaseWeaponTurretAutoPD.desc }
+ent-WeaponTurretAutoPDIND = ICM 7.62x51mm 'Liberator' anti-boarder turret
+    .suffix = IND PDT
+    .desc = { ent-BaseWeaponTurretAutoPD.desc }

@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Rapier
-  name: NCWL Rapier
-  description: An ultralight communard converted torpedo bomber.
+  name: ЛРНП Рапира
+  description: Сверхлёгкий коммунарский торпедоносный бомбардировщик.
   price: 11000
   category: Small
   group: None
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Rapier
-  mapName: 'NCWL Rapier'
+  mapName: 'ЛРНП Молот'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/rapier.yml
   minPlayers: 0
   stations:
@@ -20,7 +20,7 @@
       stationProto: StandardCrescentVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Rapier {1}'
+          mapNameTemplate: 'ЛРНП Рапира {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

@@ -1,0 +1,12 @@
+ent-C8XAutocannonPartBarrel = C-8X barrel
+    .desc = A 42 inch barrel for a 27mm autocannon.
+    .suffix = DO NOT MAP OR SPAWN
+ent-C8XAutocannonPartMisc = C-8X miscellaneous parts
+    .desc = Miscellaneous parts such as grips, charging handle, stock padding and the magazine for a 27mm autocannon.
+    .suffix = DO NOT MAP OR SPAWN
+ent-C8XAutocannonPartReceiver = C-8X receiver parts
+    .desc = Receiver parts for a 27mm autocannon
+    .suffix = DO NOT MAP OR SPAWN
+ent-C8XAutocannonPartBlueprint = C-8X blueprints
+    .desc = Real blueprints on ancient blueprint paper, the kind you hardly see since everything went digital. The sheets map out the experimental CyberDawn C-8X autocannon in exhaustive detail, has a note attached saying "thanks asshole now the patriarch is threathening to wipe my cloning records if he finds out i stole the autocannon".
+    .suffix = DO NOT MAP OR SPAWN

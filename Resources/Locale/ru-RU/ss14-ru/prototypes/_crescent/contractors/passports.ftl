@@ -1,0 +1,12 @@
+ent-NCWLPassport = NCWL passport
+    .desc = { ent-BasePassport.desc }
+ent-ImperialPassport = imperial passport
+    .desc = { ent-BasePassport.desc }
+ent-AmericanPassport = NAP passport
+    .desc = { ent-BasePassport.desc }
+ent-ClarizianPassport = clarizian passport
+    .desc = { ent-BasePassport.desc }
+ent-CoalitionPassport = coalition passport
+    .desc = { ent-BasePassport.desc }
+ent-AuthorityPassport = authoritat passport
+    .desc = { ent-BasePassport.desc }

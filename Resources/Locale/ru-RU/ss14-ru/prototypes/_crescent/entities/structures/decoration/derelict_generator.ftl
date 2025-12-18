@@ -1,0 +1,12 @@
+ent-DerelictGenerator = derelict generator
+    .desc = An abandoned generator lacking proper maintainence. It can no longer generate power.
+ent-DerelictGeneratorDamaged = derelict generator
+    .desc = An abandoned generator lacking proper maintainence. It can no longer generate power.
+ent-DerelictGeneratorDestroyed = destroyed derelict generator
+    .desc = An abandoned generator damaged beyond repair. It can no longer generate power.
+ent-DerelictGeneratorRust = rusted derelict generator
+    .desc = An abandoned rusted generator. It can no longer generate power.
+ent-DerelictGeneratorRustDamaged = rusted derelict generator
+    .desc = An abandoned rusted generator. It can no longer generate power.
+ent-DerelictGeneratorRustDestroyed = destroyed rusted derelict generator
+    .desc = An abandoned destroyed rusted generator. It can no longer generate power.

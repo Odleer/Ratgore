@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Gargut
-  name: NCWL Gargut
-  description: A lumbering battle platform, converted from a derelict fabstation.
+  name: ЛРНП Гаргут
+  description: Громоздкая боевая платформа, переделанная из заброшенной фабстанции.
   price: 125000
   category: Large
   group: None
@@ -24,7 +24,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: battleship
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Gargut {1}'
+          mapNameTemplate: 'ЛРНП Гаргут {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

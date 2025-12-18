@@ -1,7 +1,7 @@
 - type: vessel
   id: Praxis
-  name: DSM Praxis
-  description: With a miniature MedSci wing, sophisticated extraction tools and a service module fit for long expeditions, these vessels are commonly seen under the employ of journeymen Scribes, or occupied by smaller clades of independent Scribes, who often live in the vessel itself.
+  name: БМС Праксис
+  description: С миниатюрным крылом Медицина/Наука, сложными инструментами для извлечения и сервисным модулем для длительных экспедиций, эти суда часто работают на странствующих Писцах или используются малыми кланами независимых Писцов, которые часто живут прямо на борту.
   price: 125000
   category: Medium
   group: None

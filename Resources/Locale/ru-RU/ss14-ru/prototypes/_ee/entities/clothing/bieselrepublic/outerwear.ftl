@@ -1,0 +1,12 @@
+ent-ClothingOuterHardsuitTCFL = TCFL Tacsuit
+    .desc = Standard-issue body armor for Solarian marines. While the rest of their gear may be cheap, the armor worn on top was apparently made by the highest bidder. A suit of polymer fabric encases a large plastitanium plate. The inside is sewn with, "Manufactured by CyberSun Armaments, For Solarian-Use Only".
+    .suffix = TCFL
+ent-ClothingOuterArmorTCFLHeavy = TCAF heavy armor
+    .desc = A suit of heavy armor used by members of the Tau-Ceti Armed Forces. Once common to the Sol Alliance, this wargear is often now made locally by companies such as Five-Points Armory, BRDI, or even NanoTrasen.
+    .suffix = TCFL
+ent-ClothingOuterArmorTCFLLight = TCAF plate carrier
+    .desc = A plate carrier worn by members of the Tau-Ceti Armed Forces. Once common to the Sol Alliance, this wargear is often now made locally by companies such as Five-Points Armory, BRDI, or even NanoTrasen.
+    .suffix = TCFL
+ent-ClothingOuterJacketTCAF = TCAF Jacket
+    .desc = A high quality jacket made from a blend of tear resistant and fire retardant fabric. It's commonly worn by current and former members of the Tau-Ceti Armed Forces
+    .suffix = TCFL

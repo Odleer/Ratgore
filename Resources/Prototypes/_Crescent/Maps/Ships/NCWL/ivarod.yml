@@ -3,8 +3,8 @@
 
 - type: vessel
   id: Ivarod
-  name: NCWL Ivarod
-  description: A converted light destroyer, purpose-built with endurance in mind.
+  name: ЛРНП Иварод
+  description: Переделанный лёгкий эсминец, специально построенный с прицелом на выносливость.
   price: 200000
   category: Large
   group: None
@@ -12,7 +12,7 @@
 
 - type: gameMap
   id: Ivarod
-  mapName: 'NCWL Ivarod'
+  mapName: 'ЛРНП Иварод'
   mapPath: /Maps/_Crescent/Shuttles/NCWL/ivarod.yml
   minPlayers: 0
   stations:
@@ -24,7 +24,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: cruiser
         - type: StationNameSetup
-          mapNameTemplate: 'NCWL Ivarod {1}'
+          mapNameTemplate: 'ЛРНП Иварод {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

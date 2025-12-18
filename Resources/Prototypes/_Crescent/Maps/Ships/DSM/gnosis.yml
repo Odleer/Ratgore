@@ -1,7 +1,7 @@
 - type: vessel
   id: Gnosis
-  name: DSM Gnosis
-  description: An Imperial personal shuttle built for the Scribes Guild.
+  name: БМС Августий
+  description: Имперский личный шаттл, построенный для Гильдии Писцов.
   price: 30000
   category: Small
   group: None

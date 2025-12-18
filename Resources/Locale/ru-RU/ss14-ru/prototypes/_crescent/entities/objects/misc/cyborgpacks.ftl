@@ -1,0 +1,9 @@
+ent-ReinforcementFlatpackSyndicateCyborgAssault = syndicate assault cyborg Flat pack.
+    .desc = The pride and joy of the Cybersun currently booting up
+    .suffix = CDT
+ent-ReinforcementFlatpackSyndicateCyborgMedical = syndicate Medical cyborg Flat pack.
+    .desc = An advanced Medical cyborg currently booting up.
+    .suffix = CDT
+ent-ReinforcementFlatpackSyndicateCyborgSaboteur = syndicate Saboteur cyborg Flat pack.
+    .desc = An advanced cyborg with a miniature hard bomb implanted within it currently booting up.
+    .suffix = CDT

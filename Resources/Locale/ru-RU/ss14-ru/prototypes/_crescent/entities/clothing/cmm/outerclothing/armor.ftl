@@ -1,0 +1,10 @@
+ent-ClothingOuterArmorCMMCarapace = marshal's overcoat
+    .desc = A decorated officer's coat, belonging to the Marshal of the Minutemen.
+ent-ClothingOuterArmorCMMDeputyCarapace = militiaman's overcoat
+    .desc = A simple, blue, double breasted overcoat with a red belt and cuffs. The inside is lined with light armor plating, which will stop a bullet, but not the cold.
+ent-ClothingOuterArmorCMM = patrolman's cuirass
+    .desc = A beaten titanium cuirass, layered with ballistic durathread for reinforcement and to prevent chafing.
+ent-ClothingOuterHardsuitMidshipman = midshipman armored hardsuit
+    .desc = A modular hardsuit belonging to the past century. Used en masse by the defunct Minutemen, this relic is still found in the hands of security forces, militias, and nostalgics.
+ent-ClothingOuterHardsuitCMMPatrol = ballistic-reinforced patrol suit
+    .desc = A bulky hardsuit belonging to the past century. An iconic and rare piece worn by high-ranking Minutemen, prized by collectors and lawmen alike.

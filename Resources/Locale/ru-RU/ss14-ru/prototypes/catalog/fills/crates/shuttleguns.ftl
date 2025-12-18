@@ -1,0 +1,12 @@
+ent-CrateShuttlegunPlasmaRepeater = SHI 400c plasma repeater flatpack
+    .desc = Contains a flatpack for a reliable fixedpoint plasma repeater. HARDPOINT TYPE - FIXED
+ent-CrateShuttlegunVulcan = NT 20mm "Vulcan" flatpack
+    .desc = Contains a flatpack for a brutal fixedpoint gatling gun. HARDPOINT TYPE - FIXED
+ent-CrateShuttlegunSlugthrower = SHI 43mm "Dasher" flatpack
+    .desc = Contains a flatpack for the respective shuttlegun. HARDPOINT TYPE - FIXED
+ent-CrateShuttlegunPDT = Point Defense Turret flatpack
+    .desc = Contains a flatpack for a general-purpose point defense gun. HARDPOINT TYPE - SMALL BALLISTIC
+ent-CrateShuttlegunExhumerminer = SHI 250c "Exhumer" kinetic pulser flatpack
+    .desc = Contains a flatpack for the respective shuttlegun. HARDPOINT TYPE - FIXED
+ent-CrateShuttlegunHardliner = NT 3100c "Hardliner" plasma lance flatpack
+    .desc = Contains a flatpack for an expensive, long ranged plasma artillery. HARDPOINT TYPE - FIXED

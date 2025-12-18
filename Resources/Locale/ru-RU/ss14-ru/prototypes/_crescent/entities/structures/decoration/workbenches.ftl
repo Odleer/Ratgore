@@ -1,0 +1,12 @@
+ent-Workbench = workbench
+    .desc = A basic workbench.
+ent-WorkbenchAlchemy = alchemical set
+    .desc = A basic set for experimentation, or drug cooking.
+ent-WorkbenchHeavy = heavy workbench
+    .desc = A workbench tailor-made for manual industrial labor.
+ent-WorkbenchTailoring = tailoring workbench
+    .desc = A workbench for weaving clothes and fabric manually.
+ent-WorkbenchTools = tools workbench
+    .desc = A workbench with various tools sprawled around.
+ent-WorkbenchSamples = samples workbench
+    .desc = A workbench with samples of peculiar materials neatly organized.

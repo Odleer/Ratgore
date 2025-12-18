@@ -1,0 +1,13 @@
+ent-ClothingModsuitTCFLLegionnaire = TCFL-Legionnaire modsuit control
+    .desc = The main controller for a Legionnaire modsuit. It's likeness is worn by commissioned officers in the Tau Ceti Foreign Legion.
+ent-ClothingModsuitGauntletsTCFLLegionnaire = TCFL-Legionnaire modsuit gauntlets
+    .desc = A pair of gauntlets made for for the Legionnaire modsuit.
+ent-ClothingModsuitHelmetTCFLLegionnaire = TCFL-Legionnaire modsuit helmet
+    .desc = A state-of-the-art helmet designed by NanoTrasen for the Legionnaire modsuit. It includes a built-in HUD.
+ent-ClothingModsuitChestplateTCFLLegionnaire = TCFL-Legionnaire modsuit chestplate
+    .desc = A state of the art chestplate designed by NanoTrasen for the Legionnaire Modsuit. It incorporates powered servos to reduce the equipment load.
+ent-ClothingModsuitBootsTCFLLegionnaire = TCFL-Legionnaire modsuit boots
+    .desc = A state-of-the-art pair of magboots for the Legionnaire modsuit. So long as the suit is powered, these will not slow the wearer down.
+ent-SuitStorageTCFLLegionnaire = { ent-SuitStorageBase }
+    .suffix = TCFL Modsuit
+    .desc = { ent-SuitStorageBase.desc }

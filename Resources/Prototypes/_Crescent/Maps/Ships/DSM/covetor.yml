@@ -1,7 +1,7 @@
 - type: vessel
   id: Covetor
-  name: DSM Covetor
-  description: A well-stocked Imperial mining and salvaging corvette, with ample space for freight and armed for self-defense.
+  name: БМС Коветор
+  description: Хорошо оснащённый имперский шаттл для добычи полезных ископаемых и утилизации, с просторным грузовым отсеком и вооружением для самообороны.
   price: 75000
   category: Small
   group: None

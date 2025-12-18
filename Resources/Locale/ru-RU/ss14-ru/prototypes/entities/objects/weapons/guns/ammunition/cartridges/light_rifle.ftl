@@ -1,0 +1,12 @@
+ent-BaseCartridgeLightRifle = cartridge (.30 rifle)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeLightRifle = cartridge (5.56x45mm Imperial)
+    .desc = { ent-BaseCartridgeLightRifle.desc }
+ent-CartridgeLightRiflePractice = cartridge (5.56x45mm Imperial rubber-tip)
+    .desc = { ent-BaseCartridgeLightRifle.desc }
+ent-CartridgeLightRifleIncendiary = cartridge (5.56x45mm Imperial dragonsbreath)
+    .desc = { ent-BaseCartridgeLightRifle.desc }
+ent-CartridgeLightRifleUranium = cartridge (5.56x45mm Imperial nucleode-tip)
+    .desc = { ent-BaseCartridgeLightRifle.desc }
+ent-CartridgeLightRifleShrapnel = cartridge (5.56x45mm Imperial shrapnel)
+    .desc = { ent-BaseCartridgeLightRifle.desc }

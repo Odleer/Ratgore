@@ -1,0 +1,12 @@
+ent-BaseMagazineBoxCaselessRifle = ammunition box (9x39mm caseless)
+    .desc = { ent-BaseMagazineBox.desc }
+ent-MagazineBoxCaselessRifle = ammunition box (9x39mm caseless)
+    .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
+ent-MagazineBoxCaselessRiflePractice = ammunition box (9x39mm caseless practice)
+    .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
+ent-MagazineBoxCaselessRifleIncendiary = ammunition box (9x39mm caseless incendiary)
+    .desc = { ent-MagazineBoxCaselessRifle.desc }
+ent-MagazineBoxCaselessRifleUranium = ammunition box (9x39mm caseless uranium)
+    .desc = { ent-MagazineBoxCaselessRifle.desc }
+ent-MagazineBoxCaselessRifleShrapnel = ammunition box (9x39mm caseless shrapnel)
+    .desc = { ent-MagazineBoxCaselessRifle.desc }

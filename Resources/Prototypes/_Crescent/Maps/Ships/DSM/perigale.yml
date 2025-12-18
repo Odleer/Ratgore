@@ -1,8 +1,8 @@
 - type: vessel
   id: Perigale
-  name: DSM Perigale
+  name: БМС Перигей
   description: |
-    An imperial ultralight fighter armed with two pressure gatlings.
+    Имперский сверхлёгкий истребитель, вооружённый двумя давящими гатлингами.
     LOADOUT: 2x SHI 180c "Torch" Pressure Gatlings
     MINIMUM CREW: 1x Pilot
   price: 10000

@@ -1,0 +1,12 @@
+ent-BaseMagazineBoxPistol = ammunition box (9x19mm PSTF auto)
+    .desc = { ent-BaseMagazineBox.desc }
+ent-MagazineBoxPistol = ammunition box (9x19mm PSTF auto)
+    .desc = { ent-BaseMagazineBoxPistol.desc }
+ent-MagazineBoxPistolPractice = ammunition box (9x19mm PSTF practice)
+    .desc = { ent-BaseMagazineBoxPistol.desc }
+ent-MagazineBoxPistolIncendiary = ammunition box (9x19mm PSTF incendiary)
+    .desc = { ent-BaseMagazineBoxPistol.desc }
+ent-MagazineBoxPistolUranium = ammunition box (9x19mm PSTF black-tip)
+    .desc = { ent-BaseMagazineBoxPistol.desc }
+ent-MagazineBoxPistolShrapnel = ammunition box (9x19mm PSTF shrapnel)
+    .desc = { ent-BaseMagazineBoxPistol.desc }
