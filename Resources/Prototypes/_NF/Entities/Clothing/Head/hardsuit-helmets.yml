@@ -5,7 +5,7 @@
 
 #Mercenary Hardsuit
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBaseNF
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitMercenary
   categories: [ HideSpawnMenu ]
   name: mercenary hardsuit helmet
@@ -44,7 +44,7 @@
 
 #Pilot Hardsuit
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBaseNF
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitPilot
   categories: [ HideSpawnMenu ]
   name: pilot hardsuit helmet
@@ -78,7 +78,7 @@
 
 # MAXIM helmet, but with light
 - type: entity
-  parent: [ ClothingHeadHelmetHardsuitMaxim, ClothingHeadHardsuitWithLightBaseNF ]
+  parent: [ ClothingHeadHelmetHardsuitMaxim, [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ] ]
   id: ClothingHeadHelmetHardsuitMaximPrototype
   categories: [ HideSpawnMenu ]
   name: experimental salvager helmet
@@ -95,7 +95,7 @@
 
 #Security Patrol Hardsuit
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBaseNfsd
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]Nfsd
   id: ClothingHeadHelmetHardsuitNfsdBronze
   categories: [ HideSpawnMenu ]
   name: nfsd patrol hardsuit helmet
@@ -158,7 +158,7 @@
     sprite: _NF/Clothing/Head/Hardsuits/nfsd_sheriff.rsi
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBaseNfsd
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]Nfsd
   id: ClothingHeadHelmetHardsuitNfsdExperimental
   categories: [ HideSpawnMenu ]
   name: experimental nfsd hardsuit helmet
@@ -181,7 +181,7 @@
 
 #Security Combat Hardsuit
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBaseNF
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]Nfsd
   id: ClothingHeadHelmetHardsuitNfsdCombat
   categories: [ HideSpawnMenu ]
   name: nfsd combat hardsuit helmet
@@ -206,7 +206,7 @@
 
 #Security Command Hardsuit
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBaseNfsd
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]Nfsd
   id: ClothingHeadHelmetHardsuitNfsdCommand
   categories: [ HideSpawnMenu ]
   name: nfsd command hardsuit helmet
@@ -231,7 +231,7 @@
 
 #SCAF Helmet
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBaseNF
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitScaf
   name: scaf hardsuit helmet
   description: A robust, strong helmet. On the inside smells of pent up anger.

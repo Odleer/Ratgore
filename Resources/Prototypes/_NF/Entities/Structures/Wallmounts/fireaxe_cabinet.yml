@@ -16,10 +16,10 @@
     layers:
     - state: cabinet
     - state: fireaxe
-      map: ["enum.ItemCabinetVisuals.Layer"]
+      map: ["enum.ItemCabinetVisualLayers.ContainsItem"]
       visible: true
     - state: glass
-      map: ["enum.OpenableVisuals.Layer"]
+      map: ["enum.ItemCabinetVisualLayers.Door"]
   - type: ItemCabinet
     cabinetSlot:
       ejectOnInteract: true
