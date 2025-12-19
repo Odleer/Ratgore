@@ -71,6 +71,7 @@
     sound: /Audio/_Crescent/Weapons/Interact/gun_drop.ogg
 
 - type: entity
+  name: Bulldog
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog
