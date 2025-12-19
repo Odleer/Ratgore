@@ -1,12 +1,12 @@
 - type: entity
   abstract: true
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
-  id: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]NF
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHardsuitWithLightBaseNF
 
 - type: entity
   abstract: true
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]NF
-  id: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]Nfsd
+  parent: ClothingHeadHardsuitWithLightBaseNF
+  id: ClothingHeadHardsuitWithLightBaseNfsd
   components:
   - type: PressureProtection
     highPressureMultiplier: 0.525
