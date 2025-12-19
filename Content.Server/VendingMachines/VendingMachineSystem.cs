@@ -2,7 +2,6 @@ using System.Linq;
 using System.Numerics;
 using Content.Server.Advertise;
 using Content.Server.Advertise.Components;
-using Content.Server.Advertise.EntitySystems;
 using Content.Server.Bank;
 using Content.Server.Cargo.Systems;
 using Content.Server.Emp;
@@ -11,7 +10,6 @@ using Content.Server.Power.EntitySystems;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.Actions;
-using Content.Shared.Advertise.Components;
 using Content.Shared.Bank.Components;
 using Content.Shared.Damage;
 using Content.Shared.Destructible;
@@ -96,9 +94,9 @@ namespace Content.Server.VendingMachines
             args.Price += price;
         }
 
-        protected override void OnMapInit(EntityUid uid, VendingMachineComponent component, MapInitEvent args)
+        protected override void OnComponentInit(EntityUid uid, VendingMachineComponent component, ComponentInit args)
         {
-            base.OnMapInit(uid, component, args);
+            base.OnComponentInit(uid, component, args);
 
             if (HasComp<ApcPowerReceiverComponent>(uid))
             {

@@ -32,7 +32,7 @@
   - PassengerPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefJustice
-    back: ClothingBackpack # TODO- make Justice department bags
+    back: ClothingBackpackFilled # TODO- make Justice department bags
     shoes: ClothingShoesLeather
     head: ClothingHeadHatCJToque
     outerClothing: ClothingOuterChiefJustice
@@ -40,3 +40,8 @@
     ears: ClothingHeadsetAltJustice
     gloves: ClothingHandsGlovesColorWhite
     # Todo - pocket1: Gavel
+  innerClothingSkirt: ClothingUniformJumpskirtChiefJustice
+  satchel: ClothingBackpackSatchelFilled # TODO- make Justice departmebt bags
+  duffelbag: ClothingBackpackDuffelFilled
+
+

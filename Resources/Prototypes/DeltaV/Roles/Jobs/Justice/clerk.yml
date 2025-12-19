@@ -32,8 +32,12 @@
   - PassengerPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitClerk
-    back: ClothingBackpack
+    back: ClothingBackpackFilled
     shoes: ClothingShoesBootsLaceup
     id: ClerkPDA
     ears: ClothingHeadsetJustice
+  innerClothingSkirt: ClothingUniformJumpskirtClerk
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+
 

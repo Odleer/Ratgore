@@ -5,21 +5,12 @@
   playTimeTracker: JobLawyer
   startingGear: LawyerGear
   icon: "JobIconLawyer"
-  supervisors: job-supervisors-cj
+  supervisors: job-supervisors-cj  # Delta V - Change supervisor to chief justice
   access:
-  - Justice
+  # - Service - DeltaV, removed from service department
+  - Justice # DeltaV - Justice dept
   - Lawyer
   - Maintenance
-  requirements:
-  - !type:CharacterEmployerRequirement
-    employers:
-    - IdrisIncorporated
-    - NanoTrasen
-  special: # Goobstation - Everyone knows lawyers are soulless.
-  - !type:AddComponentSpecial
-    components:
-    - type: Condemned
-      soulOwnedNotDevil: true
 
 - type: startingGear
   id: LawyerGear
@@ -27,21 +18,20 @@
   - LawyerPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerBlack  # TODO change jumpsuit to randomiser of the 4 variants
-    back: ClothingBackpack
+    back: ClothingBackpackLawyerFilled #DeltaV - stamp included
     shoes: ClothingShoesBootsLaceup
     id: LawyerPDA
     ears: ClothingHeadsetSecurity
     pocket1: BookSecurity
-    pocket2: BookSpaceLaw
   inhand:
-  - BriefcaseBrownFilled
-  storage:
-    back:
-    - RubberStampLawyer
+    - BriefcaseBrownFilled
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
+  satchel: ClothingBackpackSatchelLawyerFilled #DeltaV - stamp included
+  duffelbag: ClothingBackpackDuffelLawyerFilled #DeltaV - stamp included
 
 - type: startingGear
   id: LawyerPlasmamanGear
-  parent: BasePlasmamanMaskGear
+  parent: BasePlasmamanGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitEnviroslacks
     head: ClothingHeadEnvirohelmColorWhite

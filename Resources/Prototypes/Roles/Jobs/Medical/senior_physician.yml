@@ -34,9 +34,12 @@
   equipment:
     head: ClothingHeadHatBeretSeniorPhysician
     jumpsuit: ClothingUniformJumpsuitSeniorPhysician
-    back: ClothingBackpackMedical
+    back: ClothingBackpackMedicalFilled
     shoes: ClothingShoesColorBlack
     outerClothing: ClothingOuterCoatLabSeniorPhysician
     id: SeniorPhysicianPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
+  innerClothingSkirt: ClothingUniformJumpskirtSeniorPhysician
+  satchel: ClothingBackpackSatchelMedicalFilled
+  duffelbag: ClothingBackpackDuffelMedicalFilled

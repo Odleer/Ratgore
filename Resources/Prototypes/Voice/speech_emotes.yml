@@ -257,22 +257,6 @@
   # RU-Localization-End
 
 - type: emote
-  id: ClapSingle
-  name: chat-emote-name-clap-single
-  category: Hands
-  icon: Interface/Emotes/clap.png
-  whitelist:
-    components:
-    - Hands
-  blacklist:
-    components:
-    - BorgChassis
-  chatMessages: ["chat-emote-msg-clap-single"]
-  chatTriggers:
-  - clap
-  - claps their hands together
-
-- type: emote
   id: Snap
   name: chat-emote-name-snap
   category: Hands
@@ -310,38 +294,6 @@
   # RU-Localization-End
 
 - type: emote
-  id: Thump
-  name: chat-emote-name-thump
-  category: Hands
-  available: false
-  icon: Interface/Emotes/tailslap.png
-  whitelist:
-    components:
-    - Hands
-  blacklist:
-    components:
-    - BorgChassis
-  chatMessages: ["chat-emote-msg-thump"]
-  chatTriggers:
-  - thump
-  - thumps
-  - thumping
-  - thumped
-  - thump tail
-  - thumps tail
-  - thumps their tail
-  - thumps her tail
-  - thumps his tail
-  - thumps its tail
-  # RU-Localization-Start
-  - стучит хвостом
-  - стукнул хвостом
-  - стукнула хвостом
-  - стукнул своим хвостом
-  - стукнула своим хвостом
-  # RU-Localization-End
-
-- type: emote
   id: Salute
   name: chat-emote-name-salute
   category: Hands
@@ -362,18 +314,6 @@
   - отдал честь
   - отдала честь
   # RU-Localization-End
-
-- type: emote
-  id: Gasp
-  name: chat-emote-name-gasp
-  whitelist:
-    components:
-    - Respirator
-  chatMessages: ["chat-emote-msg-gasp"]
-  chatTriggers:
-  - gasp
-  - gasps
-  - gasped
 
 - type: emote
   id: DefaultDeathgasp
@@ -432,31 +372,19 @@
   name: chat-emote-name-weh
   category: Vocal
   icon: Interface/Emotes/weh.png
-  chatMessages: ["chat-emote-msg-weh"]
-
-- type: emote
-  id: Hew
-  name: chat-emote-name-hew
-  category: Vocal
-  icon: Interface/Emotes/hew.png
-  chatMessages: ["chat-emote-msg-hew"]
+  chatMessages: [ wehs ]
 
 - type: emote
   id: Chirp
   name: chat-emote-name-chirp
   category: Vocal
-  available: false
   icon: Interface/Emotes/chirp.png
   whitelist:
     requireAll: false
     components:
     - Nymph
-    - Vocal
     tags:
     - HarpyEmotes
-  blacklist:
-    components:
-    - BorgChassis
   chatMessages: ["chat-emote-msg-chirp"]
   chatTriggers:
   - chirp
@@ -497,7 +425,7 @@
     - HarpyEmotes
   chatMessages: [boops]
   chatTriggers:
-  - boops
+    - boops
 
 - type: emote
   id: Chime
@@ -577,8 +505,7 @@
     - HarpyEmotes
   chatMessages: [whirrs]
   chatTriggers:
-  - whirr
-  - whirrs
+    - whirrs
 
 - type: emote
   id: Mars
@@ -593,7 +520,7 @@
     - BorgChassis
   chatMessages: [mars]
   chatTriggers:
-  - mars
+    - mars
 
 - type: emote
   id: Wurble
@@ -608,4 +535,4 @@
     - BorgChassis
   chatMessages: [wurble]
   chatTriggers:
-  - wurble
+    - wurble

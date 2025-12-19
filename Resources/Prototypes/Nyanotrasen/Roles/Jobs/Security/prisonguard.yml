@@ -29,13 +29,16 @@
   - PrisonGuardPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitPrisonGuard
-    back: ClothingBackpackSecurity
+    back: ClothingBackpackSecurityFilled
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesSecurity
     head: ClothingHeadPrisonGuard
     id: PrisonGuardPDA
     ears: ClothingHeadsetPrisonGuard #DeltaV
     belt: ClothingBeltSecurityFilled
+  innerClothingSkirt: ClothingUniformJumpsuitPrisonGuard
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled
 
 - type: startingGear
   id: PrisonGuardPlasmamanGear
