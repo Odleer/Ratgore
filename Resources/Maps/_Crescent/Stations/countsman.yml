@@ -111071,7 +111071,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: WeaponSubMachineGunDSMTalon
+- proto: WeaponSubMachineGunC20r
   entities:
   - uid: 8445
     components:

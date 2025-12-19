@@ -47895,7 +47895,7 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
-- proto: WeaponSubMachineGunPTADrozd
+- proto: WeaponSubMachineGunDrozd
   entities:
   - uid: 2545
     components:

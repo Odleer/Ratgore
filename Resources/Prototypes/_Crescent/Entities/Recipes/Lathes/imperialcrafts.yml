@@ -317,8 +317,8 @@
     BallisticCycler: 500
 
 - type: latheRecipe
-  id: WeaponSubMachineGunDSMTalonImperial
-  result: WeaponSubMachineGunDSMTalon
+  id: WeaponSubMachineGunC20rImperial
+  result: WeaponSubMachineGunC20r
   completetime: 2
   materials:
     Steel: 1500
