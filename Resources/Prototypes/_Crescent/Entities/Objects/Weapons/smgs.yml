@@ -155,35 +155,6 @@
     maxAngle: -16
 
 - type: entity
-<<<<<<< HEAD
-  name: NCSP SR-2MP Atreides 9x19mm
-  parent: WeaponSubMachineGunAtreides
-  id: WeaponSubMachineGunNCSPAtreides
-  description: A rapid-fire submachinegun developed by the Shipfitters Union. Eats through ammo like a starving elephant.
-  components:
-  - type: Sprite
-    sprite: _Crescent/Objects/Weapons/Guns/atreides.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Gun
-    fireRate: 14
-    #someone had firerate 10 duplicate here too.
-    soundGunshot:
-      path: /Audio/_Crescent/Weapons/Guns/smg_3/smg_gunshot_2.ogg
-    fireOnDropChance: 0.3
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-
-
-- type: entity
-=======
->>>>>>> parent of 25010aa988 (re-adds and relabels lost guns)
   name: C-20R ROW
   id: WeaponSMGC20ROW
   parent: BaseItem
@@ -673,6 +644,7 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+<<<<<<< HEAD
 
 - type: entity
   name: NT WT50 Sabre 11mm
@@ -726,3 +698,5 @@
     steps: 11
     zeroVisible: true
   - type: Appearance
+=======
+>>>>>>> parent of d190401916 (Fixes Duplicates from the mergepocalypse)
