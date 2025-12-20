@@ -3,11 +3,11 @@
 
 - type: vessel
   id: Paracelsus
-  name: ICM Paracelsus
+  name: ГПИ Парацель
   description: |
-    A medium-sized expedition and rescue vessel equipped with medical rooms for long-term voyages, Comes with a crew monitoring console for finding patients.
-    LOADOUT: 2x Plasma Bolt Repeater
-    MINIMUM CREW: 1x Pilot
+    Среднее по размеру судно для экспедиций и спасения, оснащено медицинскими помещениями для длительных путешествий. Имеет пульт мониторинга экипажа для поиска пациентов.  
+    СНАРЯЖЕНИЕ: 2x плазменных болтовых репитера  
+    МИНИМАЛЬНЫЙ ЭКИПАЖ: 1 пилот  
   price: 80000
   category: Small
   group: Civilian
@@ -15,7 +15,7 @@
 
 - type: gameMap
   id: Paracelsus
-  mapName: 'ICM Paracelsus'
+  mapName: 'ГПИ Парацель'
   mapPath: /Maps/_Crescent/Shuttles/Civilian/paracelsus.yml
   minPlayers: 0
   stations:
@@ -27,7 +27,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: industrial
         - type: StationNameSetup
-          mapNameTemplate: 'ICM Paracelsus {1}'
+          mapNameTemplate: 'ГПИ Парацель {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

@@ -3,11 +3,11 @@
 
 - type: vessel
   id: Pear
-  name: ICM Pear
+  name: ГПИ Груша 
   description: |
-    An old pre-collapse cargo hauler, the pear is perfect for small scale trading, it's hull retrofitted to survive taypan.
-    LOADOUT: 2x Fixed Universal Hardpoints
-    MINIMUM CREW: 1x Pilot
+    Старый грузовик до-коллапсного периода. «Груша» идеально подходит для мелкой торговли; её корпус доработан для выживания в условиях Тайпана.  
+    СНАРЯЖЕНИЕ: 2x фиксированных универсальных оружейных узла  
+    МИНИМАЛЬНЫЙ ЭКИПАЖ: 1 пилот  
   price: 18000
   category: Small
   group: Civilian
@@ -15,7 +15,7 @@
 
 - type: gameMap
   id: Pear
-  mapName: 'ICM Pear'
+  mapName: 'ГПИ Груша'
   mapPath: /Maps/_Crescent/Shuttles/Civilian/pear.yml
   minPlayers: 0
   stations:
@@ -27,11 +27,11 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: industrial
         - type: StationNameSetup
-          mapNameTemplate: 'ICM Pear {1}'
+          mapNameTemplate: 'ГПИ Груша {1}'
           nameGenerator:
            !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: VesselDesignation
           designation: vessel-designation-expeditions
         - type: VesselDescription
-          description: The Pear was made for more peaceful times. Sadly, you're not in those times.
+          description: «Груша» была создана для более мирных времён. К сожалению, сейчас не такие времена.  

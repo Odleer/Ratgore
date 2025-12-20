@@ -1,8 +1,8 @@
-signal-port-name-space-artillery-fire = Fire Armament
-signal-port-description-space-artillery-fire = Controls Space Artillery's firing mechanism.
-signal-port-name-space-artillery-toggle-safety = Toggle Safety
-signal-port-description-space-artillery-toggle-safety = Toggles Space Artillery's safety mechanism.
-signal-port-name-space-artillery-on-safety = On Safety
-signal-port-description-space-artillery-on-safety = Enables Space Artillery's safety mechanism, preventing it from firing.
-signal-port-name-space-artillery-off-safety = Off Safety
-signal-port-description-space-artillery-off-safety = Disables Space Artillery's safety mechanism, readying it for firing.
+signal-port-name-space-artillery-fire = Огонь
+signal-port-description-space-artillery-fire = Управляет механизмом стрельбы космической артиллерии.
+signal-port-name-space-artillery-toggle-safety = Переключить предохранитель
+signal-port-description-space-artillery-toggle-safety = Переключает предохранитель космической артиллерии.
+signal-port-name-space-artillery-on-safety = Включить предохранитель
+signal-port-description-space-artillery-on-safety = Включает предохранитель космической артиллерии, не позволяя ей стрелять.
+signal-port-name-space-artillery-off-safety = Снять с предохранителя
+signal-port-description-space-artillery-off-safety = Отключает предохранитель космической артиллерии, подготавливая её к стрельбе.

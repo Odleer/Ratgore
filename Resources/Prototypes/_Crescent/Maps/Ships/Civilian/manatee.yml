@@ -3,10 +3,10 @@
 
 - type: vessel
   id: Manatee
-  name: ICM Manatee
+  name: ГПИ Ламантин
   description: |
-    An ancient pre-collapse cargo hauler design, ill-fitted for taypan, but still sees frequent use throughout the sector.
-    MINIMUM CREW: 1x Pilot
+    Древний грузовик до-коллапсного периода, плохо приспособленный к Тайпану, но всё ещё часто используемый по всему сектору.  
+  МИНИМАЛЬНЫЙ ЭКИПАЖ: 1 пилот  
   price: 47000
   category: Medium
   group: Civilian
@@ -14,7 +14,7 @@
 
 - type: gameMap
   id: Manatee
-  mapName: 'ICM Manatee'
+  mapName: 'ГПИ Ламантин'
   mapPath: /Maps/_Crescent/Shuttles/Civilian/manatee.yml
   minPlayers: 0
   stations:
@@ -26,11 +26,11 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: industrial
         - type: StationNameSetup
-          mapNameTemplate: 'ICM Manatee {1}'
+          mapNameTemplate: 'ГПИ Ламантин {1}'
           nameGenerator:
            !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: VesselDesignation
           designation: vessel-designation-expeditions
         - type: VesselDescription
-          description: The Manatee is completely unarmed, pilots usually hire escorts, or pray, before leaving port.
+          description: Ламантин полностью безоружен. Пилоты обычно нанимают охрану… или молятся перед вылетом из порта.  

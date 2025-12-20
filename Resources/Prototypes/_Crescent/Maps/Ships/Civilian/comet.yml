@@ -3,11 +3,11 @@
 
 - type: vessel
   id: Comet
-  name: ICM Comet
+  name: ГПИ Комета
   description: |
-    A medium-sized personal luxury "Yacht", modules including: Bar/Kitchen, Library, Medbay, Bedroom for two and minor self-defense capability.
-    LOADOUT: 2x SHI 400c Plasma Bolt Repeater, 4x SHI 180c "Torch" Pressure Gatling
-    MINIMUM CREW: 1x Pilot, 1x Gunner
+    Средняя по размеру личная роскошная "яхта", модули включают: бар/кухню, библиотеку, медотсек, спальню на двоих и незначительные средства самообороны.  
+    СНАРЯЖЕНИЕ: 2x SHI 400c плазменные болтовые репитеры, 4x SHI 180c "Факел" гатлинг высокого давления  
+    МИНИМАЛЬНЫЙ ЭКИПАЖ: 1 пилот, 1 стрелок  
   price: 90000
   category: Medium
   group: Civilian
@@ -15,7 +15,7 @@
 
 - type: gameMap
   id: Comet
-  mapName: 'ICM Comet'
+  mapName: 'ГПИ Комета'
   mapPath: /Maps/_Crescent/Shuttles/Civilian/comet.yml
   minPlayers: 0
   stations:
@@ -27,7 +27,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: industrial
         - type: StationNameSetup
-          mapNameTemplate: 'ICM Comet {1}'
+          mapNameTemplate: 'ГПИ Комета {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

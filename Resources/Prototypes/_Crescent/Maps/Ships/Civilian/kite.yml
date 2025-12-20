@@ -3,11 +3,11 @@
 
 - type: vessel
   id: Kite
-  name: ICM Kite
+  name: ГПИ Возмей  
   description: |
-    A small all-rounder shuttle with expedition capabilities for beginner pilots, armed with dual plasmacasters.
-    LOADOUT: 2x SHI 400c  Plasma Bolt Repeater
-    MINIMUM CREW: 1x Pilot
+    Малый универсальный шаттл с возможностями для экспедиций, предназначенный для новичков-пилотов. Вооружён парой плазмомётов.  
+    СНАРЯЖЕНИЕ: 2x SHI 400c плазменных болтовых репитера  
+    МИНИМАЛЬНЫЙ ЭКИПАЖ: 1 пилот  
   price: 35000
   category: Small
   group: Civilian
@@ -15,7 +15,7 @@
 
 - type: gameMap
   id: Kite
-  mapName: 'ICM Kite'
+  mapName: 'ГПИ Возмей'
   mapPath: /Maps/_Crescent/Shuttles/Civilian/kite.yml
   minPlayers: 0
   stations:
@@ -23,7 +23,7 @@
       stationProto: StandardCrescentExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'ICM Kite {1}'
+          mapNameTemplate: 'ГПИ Возмей {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

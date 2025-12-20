@@ -1,15 +1,14 @@
 #fallback, don't remove
 - type: crescentFactionBiome
   id: default
-  name: Taypani Abyss
+  name: Бездна Тайпани
   swapDuration: 2
   parallax: AbyssParallax
 
 #example
-
 - type: entity
   id: TestBiomeSource
-  name: test source
+  name: тестовая зона
   components:
   - type: SpaceBiomeSource
     biome: test
@@ -18,16 +17,15 @@
 
 - type: crescentFactionBiome
   id: test
-  name: Test zone
+  name: Тестовая зона
   swapDuration: 2
   parallax: Sky
   description: A zone of ample tests.
 
 #imperial
-
 - type: entity
   id: ImperialBiomeSource
-  name: imperial source
+  name: Имперская зона
   components:
   - type: SpaceBiomeSource
     biome: imperialbiome
@@ -36,15 +34,14 @@
 
 - type: crescentFactionBiome
   id: imperialbiome
-  name: Low Imperial Orbit
+  name: Низкая имперская орбита
   swapDuration: 2
   parallax: Sky
 
 #hunter
-
 - type: entity
   id: HunterBiomeSource
-  name: hunter source
+  name: Охотничья зона
   components:
   - type: SpaceBiomeSource
     biome: hunterbiome
@@ -53,15 +50,14 @@
 
 - type: crescentFactionBiome
   id: hunterbiome
-  name: The Hunter's Prowl
+  name: Охотничьи угодья
   swapDuration: 2
   parallax: AspidParallax
 
 #syndie
-
 - type: entity
   id: SyndicateBiomeSource
-  name: syndicate source
+  name: Зона Синдиката
   components:
   - type: SpaceBiomeSource
     biome: syndicatebiome
@@ -70,15 +66,14 @@
 
 - type: crescentFactionBiome
   id: syndicatebiome
-  name: The Devil's Maw
+  name: Пасть Дьявола
   swapDuration: 2
   parallax: SyndieParallax
 
 #graveyard
-
 - type: entity
   id: GraveyardBiomeSource
-  name: graveyard source
+  name: Зона кладбища
   components:
   - type: SpaceBiomeSource
     biome: graveyardbiome
@@ -87,15 +82,14 @@
 
 - type: crescentFactionBiome
   id: graveyardbiome
-  name: The Graveyard
+  name: Кладбище
   swapDuration: 2
   parallax: GraveyardParallax
 
 #corpie
-
 - type: entity
   id: CorpieBiomeSource
-  name: corpie source
+  name: Корпоративная зона
   components:
   - type: SpaceBiomeSource
     biome: corpiebiome
@@ -104,15 +98,14 @@
 
 - type: crescentFactionBiome
   id: corpiebiome
-  name: Corporate Demilitarized Zone
+  name: Корпоративная демилитаризованная зона
   swapDuration: 2
   parallax: CorpieParallax
 
 #taypan-2 / oris
-
 - type: entity
   id: OrisBiomeSource
-  name: oris source
+  name: Зона Орис
   components:
   - type: SpaceBiomeSource
     biome: orisbiome
@@ -121,15 +114,14 @@
 
 - type: crescentFactionBiome
   id: orisbiome
-  name: Taypan-2 Asteroid Belt
+  name: Пояс Орис
   swapDuration: 2
   parallax: OrisParallax
 
 #taypan-1
-
 - type: entity
   id: TaypanOneBiomeSource
-  name: taypan one source
+  name: Зона Тайпан-1
   components:
   - type: SpaceBiomeSource
     biome: taypanonebiome
@@ -138,15 +130,14 @@
 
 - type: crescentFactionBiome
   id: taypanonebiome
-  name: Taypan-1 Asteroid Belt
+  name: Пояс Тайпан-1
   swapDuration: 2
   parallax: OrisParallax
 
 # wilds
-
 - type: entity
   id: WildBiomeSource
-  name: wild source
+  name: Дикая зона
   components:
   - type: SpaceBiomeSource
     biome: wildbiome
@@ -155,15 +146,14 @@
 
 - type: crescentFactionBiome
   id: wildbiome
-  name: Taypan Wilds
+  name: Дикие просторы Тайпани
   swapDuration: 2
   parallax: WildParallax
 
 #generic debris
-
 - type: entity
   id: DebrisSource
-  name: debris source
+  name: Зона обломков
   components:
   - type: SpaceBiomeSource
     biome: debrisbiome
@@ -172,15 +162,14 @@
 
 - type: crescentFactionBiome
   id: debrisbiome
-  name: Ruined Derelict
+  name: Зона развалин
   swapDuration: 2
   parallax: DebrisParallax
 
 #deepwilds
-
 - type: entity
   id: DeepWildBiomeSource
-  name: deepwild source
+  name: Глубокая дикая зона
   components:
   - type: SpaceBiomeSource
     biome: deepwildbiome
@@ -189,7 +178,7 @@
 
 - type: crescentFactionBiome
   id: deepwildbiome
-  name: The Deepwilds
+  name: Глубокие пустоши Тайпани
   swapDuration: 2
   parallax: WildParallax
 
@@ -197,7 +186,7 @@
 
 - type: entity
   id: RuptureSource
-  name: the rupture
+  name: Зона разлома
   components:
   - type: SpaceBiomeSource
     biome: hadalbiome
@@ -206,7 +195,7 @@
 
 - type: crescentFactionBiome
   id: hadalbiome
-  name: The Fracture
+  name: Разлом Тайпана
   swapDuration: 2
   parallax: Rupture
   description: "The remnants of Taypan I."
@@ -216,7 +205,7 @@
 
 - type: entity
   id: ApproachSource
-  name: moon approach
+  name: Зона подхода к луне
   components:
   - type: SpaceBiomeSource
     biome: moonapproach
@@ -225,15 +214,16 @@
 
 - type: crescentFactionBiome
   id: moonapproach
-  name: Lunar Approach
+  name: Подход к Луне
   swapDuration: 2
   parallax: MoonApproach
+
 
 #abyss
 
 - type: entity
   id: DeadspaceSource
-  name: hadal deadspace
+  name: Зона хадал мертвого пространства
   components:
   - type: SpaceBiomeSource
     biome: hadaldeadspace
@@ -242,7 +232,7 @@
 
 - type: crescentFactionBiome
   id: hadaldeadspace
-  name: Hadal Deadspace
+  name: Хадал Мертвое Пространство
   swapDuration: 2
   parallax: Default
 
@@ -253,7 +243,7 @@
 
 - type: entity
   id: BiomeScrapyardSource
-  name: scrapyard source
+  name: Зона свалки
   components:
   - type: SpaceBiomeSource
     biome: scrapyardbiome
@@ -262,7 +252,7 @@
 
 - type: crescentFactionBiome
   id: scrapyardbiome
-  name: Scrapyard
+  name: Пояс свалка
   swapDuration: 2
   parallax: DebrisParallax
 
@@ -270,7 +260,7 @@
 
 - type: entity
   id: BiomeAsteroidFieldSource
-  name: asteroid field source
+  name: зона астероидного поля
   components:
   - type: SpaceBiomeSource
     biome: asteroidbiome
@@ -279,7 +269,7 @@
 
 - type: crescentFactionBiome
   id: asteroidbiome
-  name: Asteroid Field
+  name: Астероидное Поле
   swapDuration: 2
   parallax: OrisParallax
 
@@ -287,7 +277,7 @@
 
 - type: entity
   id: BiomeGliessSource
-  name: gliess approach source
+  name: зона подхода к ядру Тайпана
   components:
   - type: SpaceBiomeSource
     biome: gliessbiome
@@ -296,7 +286,7 @@
 
 - type: crescentFactionBiome
   id: gliessbiome
-  name: Taypan Core
+  name: Ядро Тайпана
   swapDuration: 2
   parallax: AspidParallax
 
@@ -304,7 +294,7 @@
 
 - type: entity
   id: BiomeTatsumotoSource
-  name: tatsumoto approach source
+  name: зона подхода Татсумото
   components:
   - type: SpaceBiomeSource
     biome: tatsumotobiome
@@ -313,7 +303,7 @@
 
 - type: crescentFactionBiome
   id: tatsumotobiome
-  name: Corporate Demilitarized Zone
+  name: Корпоративная Демилитаризованная Зона
   swapDuration: 2
   parallax: CorpieParallax
 
@@ -321,7 +311,7 @@
 
 - type: entity
   id: BiomeBalreskaSource
-  name: balreska approach source
+  name: зона подхода Марсовы
   components:
   - type: SpaceBiomeSource
     biome: balreskabiome
@@ -330,7 +320,7 @@
 
 - type: crescentFactionBiome
   id: balreskabiome
-  name: The Fracture
+  name: Разлом Марсовы
   swapDuration: 2
   parallax: Rupture
 
@@ -353,7 +343,7 @@
 #NCWL grace period
 - type: entity
   id: UnionfallGraceNCWLSource
-  name: unionfall grace NCWL source
+  name: Льготная зона ЛРНП
   components:
   - type: SpaceBiomeSource
     biome: unionfallGraceNCWLBiome
@@ -362,14 +352,14 @@
 
 - type: crescentFactionBiome
   id: unionfallGraceNCWLBiome
-  name: Hadal Storm
+  name: Хадальский шторм ЛРНП
   swapDuration: 2
   parallax: AbyssParallax
 
 #NCWL approaching vladzena
 - type: entity
   id: UnionfallApproachingNCWLSource
-  name: unionfall NCWL source
+  name: Зона подхода ЛРНП
   components:
   - type: SpaceBiomeSource
     biome: unionfallApproachingNCWLBiome
@@ -378,14 +368,14 @@
 
 - type: crescentFactionBiome
   id: unionfallApproachingNCWLBiome
-  name: Taypan Wilds
+  name: Дикие просторы тайпани ЛРНП
   swapDuration: 2
   parallax: AbyssParallax
 
 #DSM grace period
 - type: entity
   id: UnionfallGraceDSMSource
-  name: unionfall grace DSM source
+  name: Льготная зона БМС
   components:
   - type: SpaceBiomeSource
     biome: unionfallGraceDSMBiome
@@ -394,14 +384,14 @@
 
 - type: crescentFactionBiome
   id: unionfallGraceDSMBiome
-  name: Hadal Storm
+  name: Хадальский Шторм БМС
   swapDuration: 2
   parallax: AbyssParallax
 
 #DSM approaching vladzena
 - type: entity
   id: UnionfallApproachingDSMSource
-  name: unionfall DSM source
+  name: зона подхода БМС
   components:
   - type: SpaceBiomeSource
     biome: unionfallApproachingDSMBiome
@@ -410,6 +400,6 @@
 
 - type: crescentFactionBiome
   id: unionfallApproachingDSMBiome
-  name: Taypan Wilds
+  name: Дикие просторы тайпана БМС
   swapDuration: 2
   parallax: AbyssParallax

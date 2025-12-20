@@ -3,10 +3,10 @@
 
 - type: vessel
   id: Mercury
-  name: ICM Mercury
+  name: ГПИ Меркурий
   description: |
-    A basic techmining shuttle, ICM's version of the Termite. Equipped with a Microforge, Research Server and Computer.
-    MINIMUM CREW: 1x Pilot
+    Базовый шаттл для технодобычи — версия «Термита» от ГПИ. Оснащён микрокузницей, исследовательским сервером и бортовым компьютером.  
+    МИНИМАЛЬНЫЙ ЭКИПАЖ: 1 пилот  
   price: 25000
   category: Small
   group: Civilian
@@ -14,7 +14,7 @@
 
 - type: gameMap
   id: Mercury
-  mapName: 'ICM Mercury'
+  mapName: 'ГПИ Меркурий'
   mapPath: /Maps/_Crescent/Shuttles/Civilian/mercury.yml
   minPlayers: 0
   stations:
@@ -26,7 +26,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: industrial
         - type: StationNameSetup
-          mapNameTemplate: 'ICM Mercury {1}'
+          mapNameTemplate: 'ГПИ Меркурий {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

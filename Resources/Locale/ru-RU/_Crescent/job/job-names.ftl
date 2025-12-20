@@ -23,39 +23,39 @@ job-name-ncwl-newbie = Рабочий Союза
 
 # syndicate
 
-job-name-ringleader = Главарь
-job-name-lieutenant = Лейтенант
-job-name-infanteer = Пехотинец Gorlex
-job-name-technician = Новобранец
-job-name-coordinator = Координатор Interdyne
-job-name-ripperdoc = Чёрный хирург
-job-name-traumasec = Агент TraumaSec
-job-name-operative = Безопасность активов Cyberdawn
-job-name-cyberdawntech = Исследователь Cyberdawn
-job-name-intelligenceofficer = Патриарх
+job-name-ringleader = Главарь Горлекс
+job-name-lieutenant = Лейтенант Горлекс
+job-name-infanteer = Пехотинец Горлекс
+job-name-technician = Новобранец Горлекс
+job-name-coordinator = Координатор ТравмаСек
+job-name-ripperdoc = Хирург ТравмаСек
+job-name-traumasec = Агент ТравмаСек
+job-name-operative = Оперативник Кибердав
+job-name-cyberdawntech = Исследователь Кибердав
+job-name-intelligenceofficer = Патриарх Кибердав
+job-name-shipbreaker = Разборщик Пораблей Профсоюза
+job-name-foreman = Бригадир Профсоюза
 ghost-role-information-syndicate-cyborg-assault-name-c = CS 5401 Xigou assault cyborg
 ghost-role-information-syndicate-cyborg-Medical-name = CS 4201 Yao Wang Combat Medical cyborg
 ghost-role-information-syndicate-cyborg-saboteur-name-c = CS 3201 Sun Wukong Combat saboteur cyborg
-job-name-shipbreaker = Разборщик кораблей
-job-name-foreman = Бригадир SAW
 
 # empire
 
-name-freeholder = Колон
+job-name-freeholder = Колон
 job-name-levyman = Оруженосец
 job-name-knight = Рыцарь-баннерет
 job-name-ritter = Баронский риттер
-job-name-courtier = Куртуазье
+job-name-courtier = Придворный
 job-name-ministerlabor = Министр труда
-job-name-logisticsofficer = Министр богатства
+job-name-logisticsofficer = Министр казны
 job-name-adjutant = Имперский адъютант
-job-name-archmaester = Архимагистр-писец
+job-name-archmaester = Писарь
 job-name-governor = Лорд-адмирал
-job-name-foremanimp = Имперский бригадир
-job-name-imperialresearch = Писец
-job-name-surgeon = Полевой медик
-job-name-wealth = Казначей Гарнизона
-job-name-advocatus = Адвокат
+job-name-foremanimp = Надсмотрщик
+job-name-imperialresearch = Имперский писарь
+job-name-surgeon = Санитар
+job-name-wealth = Рыцарь-снабженец
+job-name-advocatus = Защитник
 job-name-advocatustemplar = Рыцарь-тамплиер
 
 # srm
@@ -68,14 +68,14 @@ job-name-overseer = Надзиратель охоты
 
 # shi
 
-job-name-executive = Секторный менеджер
-job-name-board = Исполнительный директор
-job-name-corpsec = Агент CorpSec
+job-name-executive = Менеджер сектора
+job-name-board = Помощник менеджера
+job-name-corpsec = Агент корпоративной безопасности
 job-name-highsec = Агент корпоративной ликвидации
-job-name-boardhr = Human Resources Officer
-job-name-hos-shi = Head of CorpSec
-job-name-employee = Офисный работник
-job-name-medtech = Исследователь MedTech
+job-name-boardhr = Специалист по кадрам
+job-name-hos-shi = Начальник корпоративной безопасности
+job-name-employee = Офисный сотрудник
+job-name-medtech = Исследователь МедТех
 
 # tsp
 

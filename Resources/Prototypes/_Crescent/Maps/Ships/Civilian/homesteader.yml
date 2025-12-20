@@ -3,10 +3,10 @@
 
 - type: vessel
   id: Homesteader
-  name: ICM Homesteader
+  name: ГПИ Поселенец
   description: |
-    An entry-level jack-of-all traits corvette-sized hull, with a research lab, Medbay, Kitchen/Bar and, a Mining bay.
-    MINIMUM CREW: 1x Pilot
+    Корпус размера корвета начального уровня, «мастер на все руки», оснащён исследовательской лабораторией, медотсеком, кухней/баром и горнодобывающим отсеком.  
+    МИНИМАЛЬНЫЙ ЭКИПАЖ: 1 пилот  
   price: 50000
   category: Small
   group: Civilian
@@ -14,7 +14,7 @@
 
 - type: gameMap
   id: Homesteader
-  mapName: 'ICM Homesteader'
+  mapName: 'ГПИ Поселенец'
   mapPath: /Maps/_Crescent/Shuttles/Civilian/homesteader.yml
   minPlayers: 0
   stations:
@@ -26,7 +26,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: industrial
         - type: StationNameSetup
-          mapNameTemplate: 'ICM Homesteader {1}'
+          mapNameTemplate: 'ГПИ Поселенец {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

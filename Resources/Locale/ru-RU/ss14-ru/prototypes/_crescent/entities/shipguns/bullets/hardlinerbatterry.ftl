@@ -1,2 +1,2 @@
-ent-PowerCageHardliner = Power Cage - Hardliner
-    .desc = A rechargeable power cage, configured for use as ammunition in "Hardliner" fixedpoint ship weaponry.
+ent-PowerCageHardliner = Энергоячейка «Хардлайнер»
+    .desc = Перезаряжаемая энергоячейка, настроенная для использования в качестве боеприпаса в корабельном стационарном вооружении «Хардлайнер».
