@@ -30,7 +30,7 @@
 ```
 # 1. Клонируйте репозиторий
 git clone https://github.com/odleer/ratgore.git
-cd ratgore
+cd Rabite
 
 # 2. Загрузите движок
 git submodule update --init --recursive
@@ -49,7 +49,7 @@ Scripts\bat\runQuickAll.bat
 ```
 # 1. Клонируйте репозиторий
 git clone https://github.com/odleer/ratgore.git
-cd ratgore
+cd Rabite
 
 # 2. Загрузите движок
 git submodule update --init --recursive
