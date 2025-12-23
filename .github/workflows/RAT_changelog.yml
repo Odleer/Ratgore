@@ -1,0 +1,171 @@
+name: RAT Changelog Update
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  update-changelog:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[AUTO]') && !contains(github.event.head_commit.message, '[MAPS]') && !contains(github.event.head_commit.message, '[maps]') && !contains(github.event.head_commit.message, '[IGNORE]')"
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install js-yaml
+
+      - name: Update RAT changelog
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const yaml = require('js-yaml');
+            
+            const { data: commit } = await github.rest.repos.getCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: context.sha
+            });
+            
+            const commitMessage = commit.commit.message;
+            const commitAuthor = commit.author?.login || commit.commit.author.name;
+            const commitDate = commit.commit.author.date;
+            
+            console.log('Commit message:', commitMessage);
+            console.log('Commit author:', commitAuthor);
+            console.log('Commit date:', commitDate);
+            
+            if (commitMessage.includes('[AUTO]') || commitMessage.toLowerCase().includes('[maps]') || commitMessage.includes('[IGNORE]')) {
+              console.log('Skipping AUTO, Maps or IGNORE commit');
+              return;
+            }
+            
+            // Проверяем, это PR или прямой коммит
+            let prUrl = null;
+            try {
+              const prs = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                commit_sha: context.sha
+              });
+              
+              if (prs.data.length > 0) {
+                prUrl = prs.data[0].html_url;
+                console.log('Associated PR:', prUrl);
+              }
+            } catch (error) {
+              console.log('No associated PR found');
+            }
+            
+            let changeType = 'Tweak';
+            let message = commitMessage.split('\n')[0];
+            
+            // Детект тегов в квадратных скобках [ADD], [FIX], etc.
+            const bracketRegex = /^\[([^\]]+)\]/;
+            const bracketMatch = message.match(bracketRegex);
+            
+            if (bracketMatch) {
+              const typeString = bracketMatch[1].toUpperCase();
+              message = message.replace(bracketRegex, '').trim();
+              
+              if (typeString.includes('ADD')) {
+                changeType = 'Add';
+              } else if (typeString.includes('FIX')) {
+                changeType = 'Fix';
+              } else if (typeString.includes('REMOVE') || typeString.includes('RMV')) {
+                changeType = 'Remove';
+              } else if (typeString.includes('TWEAK') || typeString.includes('UPD') || typeString.includes('UPDATE')) {
+                changeType = 'Tweak';
+              }
+            } else {
+              // Детект тегов без скобок с запятой: Add, Fix, Upd, Update, etc.
+              const plainRegex = /^(Add|Fix|Remove|Rmv|Tweak|Upd|Update),\s*/i;
+              const plainMatch = message.match(plainRegex);
+              
+              if (plainMatch) {
+                const typeString = plainMatch[1].toUpperCase();
+                message = message.replace(plainRegex, '').trim();
+                
+                if (typeString === 'ADD') {
+                  changeType = 'Add';
+                } else if (typeString === 'FIX') {
+                  changeType = 'Fix';
+                } else if (typeString === 'REMOVE' || typeString === 'RMV') {
+                  changeType = 'Remove';
+                } else if (typeString === 'TWEAK' || typeString === 'UPD' || typeString === 'UPDATE') {
+                  changeType = 'Tweak';
+                }
+              }
+            }
+            
+            console.log('Change type:', changeType);
+            console.log('Message:', message);
+            
+            const changelogPath = 'Resources/Changelog/rat.yml';
+            let changelogData;
+            
+            try {
+              const changelogContent = fs.readFileSync(changelogPath, 'utf8');
+              changelogData = yaml.load(changelogContent);
+            } catch (error) {
+              console.log('Creating new RAT changelog file');
+              changelogData = {
+                Name: 'Ratlog',
+                Order: -1,
+                Entries: []
+              };
+            }
+            
+            if (!changelogData.Entries) {
+              changelogData.Entries = [];
+            }
+            
+            const maxId = changelogData.Entries.length > 0 
+              ? Math.max(...changelogData.Entries.map(e => e.id)) 
+              : 0;
+            
+            const newEntry = {
+              author: commitAuthor,
+              changes: [
+                {
+                  message: message,
+                  type: changeType
+                }
+              ],
+              id: maxId + 1,
+              time: commitDate,
+              url: prUrl
+            };
+            
+            changelogData.Entries.push(newEntry);
+            
+            const formattedYaml = `Name: ${changelogData.Name}\nOrder: ${changelogData.Order}\nEntries:\n${yaml.dump(changelogData.Entries, { indent: 2, lineWidth: -1, noRefs: true })}`;
+            
+            fs.writeFileSync(changelogPath, formattedYaml, 'utf8');
+            
+            console.log('RAT changelog updated successfully');
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'Крысиный слуга'
+          git config --global user.email 'ratgore-bot@noreply.github.com'
+          git add Resources/Changelog/rat.yml
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "[AUTO] Update Changelog"
+            git push
+          fi

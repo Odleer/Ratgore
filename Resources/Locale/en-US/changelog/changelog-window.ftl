@@ -13,3 +13,6 @@ changelog-button-new-entries = Changelog (new!)
 
 changelog-tab-title-Changelog = Einstein Engines
 changelog-tab-title-Admin = Einstein Engines Admin
+
+
+changelog-tab-title-Rat = Ratgore
