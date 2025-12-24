@@ -16,12 +16,21 @@
   id: AmmoProviderShotgunShell
   abstract: true
   components:
-    - type: BallisticAmmoProvider
-      mayTransfer: true
-      whitelist:
-        tags:
-        - ShellShotgun
-      capacity: 16
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
+  - type: Item
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+      - ShellShotgun
+    capacity: 16
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: false
+  - type: Appearance
 
 # Shotgun Shells
 - type: entity
