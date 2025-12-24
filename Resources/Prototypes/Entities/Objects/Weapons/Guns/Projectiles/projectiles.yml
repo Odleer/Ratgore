@@ -3,17 +3,15 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: TimedDespawn
-    lifetime: 0.16
+    lifetime: 0.4
   - type: Sprite
     drawdepth: Effects
     offset: 0.15, 0
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: _Crescent/Objects/Effects/Muzzleflash/medium.rsi
-      state: flash
-    - sprite: _Crescent/Objects/Effects/Muzzleflash/medium.rsi
-      state: smoke
+      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      state: muzzle_bullet
   - type: EffectVisuals
   - type: Tag
     tags:
@@ -56,12 +54,13 @@
   abstract: true
   components:
   - type: Reflective
+  - type: FlyBySound
   - type: Clickable
   - type: Sprite
     noRot: false
-    sprite: _Crescent/Objects/Weapons/Projectiles/ballistic.rsi
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
-    - state: medium
+    - state: bullet
       shader: unshaded
   - type: Physics
     bodyType: Dynamic
@@ -77,6 +76,15 @@
         mask:
         - Impassable
         - BulletImpassable
+      fly-by: &flybyfixture
+        shape: !type:PhysShapeCircle
+          radius: 1.5
+        layer:
+        - Impassable
+        - MidImpassable
+        - HighImpassable
+        - LowImpassable
+        hard: False
   - type: Projectile
     impactEffect: BulletImpactEffect
     damage:
@@ -114,6 +122,7 @@
         mask:
         - Impassable
         - BulletImpassable
+      fly-by: *flybyfixture
 
 - type: entity
   id: BaseBulletPractice
@@ -162,6 +171,11 @@
     damage:
       types:
         Blunt: 14
+  - type: PointLight
+    enabled: true
+    color: "#ff4300"
+    radius: 2.0
+    energy: 7.0
   - type: IgniteOnCollide
     fireStacks: 0.25
 
@@ -234,8 +248,9 @@
     soundHit:
       path: "/Audio/Weapons/Guns/Hits/taser_hit.ogg"
     forceSound: true
-  - type: StaminaDamageOnCollide
-    damage: 34
+  - type: StunOnCollide
+    stunAmount: 5
+    knockdownAmount: 5
 
 - type: entity
   name : disabler bolt
@@ -308,6 +323,7 @@
         mask:
         - Impassable
         - BulletImpassable
+      fly-by: *flybyfixture
   - type: Ammo
   - type: StaminaDamageOnCollide
     damage: 20
@@ -435,6 +451,8 @@
         Cold: 10
   - type: TimedDespawn
     lifetime: 3
+  - type: ChangeTemperatureOnCollide
+    heat: -50000
 
 - type: entity
   name: magmawing watcher bolt
@@ -453,13 +471,9 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-<<<<<<< HEAD
-        Heat: 10
-=======
         Heat: 0
   - type: ChangeTemperatureOnCollide
-    heat: 10
->>>>>>> parent of 10099b75f0 (Реверт 12)
+    heat: 50000
 
 - type: entity
   id: BulletKinetic
@@ -583,6 +597,7 @@
         hard: false
         mask:
         - Opaque
+      fly-by: *flybyfixture
   - type: Projectile
     damage:
       types:
@@ -736,9 +751,9 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 10
-    intensitySlope: 3
-    totalIntensity: 120
+    maxIntensity: 40
+    intensitySlope: 6
+    totalIntensity: 200
     maxTileBreak: 1
   - type: PointLight
     radius: 3.5
@@ -814,14 +829,14 @@
 
 - type: entity
   id: BulletGrenadeBlast
-  name: high-yield rocket
+  name: blast grenade
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
-      - state: grenade
+    - state: grenade
   - type: ShipWeaponProjectile
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -832,34 +847,10 @@
   - type: ProjectileIFF
     visualType: SquareReticle
     color: Red
-  - type: Fixtures
-    fixtures:
-      projectile:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.15,-0.45,0.15,0.15"
-        layer:
-        - BulletImpassable
-        mask:
-        - Impassable
-        - BulletImpassable
-        hard: true
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: StructuralMetallic
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 250
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:ExplodeBehavior
 
 - type: entity
   id: BulletGrenadeFlash
-  name: flash rocket
+  name: flash grenade
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -868,7 +859,7 @@
     layers:
       - state: grenade
   - type: FlashOnTrigger
-    range: 9
+    range: 7
   - type: SpawnOnTrigger
     proto: GrenadeFlashEffect
   - type: ActiveTimerTrigger
@@ -878,39 +869,14 @@
   - type: ProjectileIFF
     visualType: SquareReticle
     color: Red
-  - type: Fixtures
-    fixtures:
-      projectile:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.15,-0.45,0.15,0.15"
-        layer:
-        - BulletImpassable
-        mask:
-        - Impassable
-        - BulletImpassable
-        hard: true
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: StructuralMetallic
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 250
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:ExplodeBehavior
 
 # This is supposed to spawn shrapnel and stuff so uhh... TODO?
 - type: entity
   id: BulletGrenadeFrag
-  name: fragmentation rocket
+  name: frag grenade
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
-  - type: ShipWeaponProjectile
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
@@ -918,7 +884,7 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 125 # about a ~6 tile radius
+    totalIntensity: 175 # about a ~6 tile radius
     intensitySlope: 1
     maxIntensity: 10
 
@@ -934,8 +900,8 @@
       - state: frag
   - type: EmpOnTrigger
     range: 5
-    energyConsumption: 5000
-    disableDuration: 8
+    energyConsumption: 50000
+    disableDuration: 10
   - type: Ammo
     muzzleFlash: null
   - type: PointLight
@@ -1221,6 +1187,7 @@
         hard: false
         mask:
         - Opaque
+      fly-by: *flybyfixture
   - type: Ammo
 
 - type: entity
@@ -1232,19 +1199,15 @@
   - type: Ammo
     muzzleFlash: MuzzleFlashEffectHeavyLaser
   - type: Sprite
-    sprite: _Crescent/Objects/Weapons/Projectiles/Laser/medium.rsi
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
-    - state: icon
+    - state: heavylaser
       shader: unshaded
-  - type: PointLight
-    enabled: true
-    color: "#ff4300"
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
         Heat: 28
-        Structural: 375
   - type: ProjectileIFF
 
 - type: entity
@@ -1339,6 +1302,7 @@
         hard: false
         mask:
         - Opaque
+      fly-by: *flybyfixture
   - type: Projectile
     impactEffect: BulletImpactEffectRedDisabler
     damage:
@@ -1395,10 +1359,14 @@
   - type: ProjectileSpread
     proto: BulletLaser
 <<<<<<< HEAD
+<<<<<<< HEAD
     count: 6 # 60 heat damage if you hit all your shots, but wide spread
     spread: 25
 =======
     count: 5 # 65 heat damage if you hit all your shots, but wide spread
+=======
+    count: 5 #65 heat damage if you hit all your shots, but wide spread
+>>>>>>> parent of 6d2a2e8d4a (Реверт 10)
     spread: 30
 >>>>>>> parent of 10099b75f0 (Реверт 12)
 
@@ -1410,7 +1378,7 @@
   components:
   - type: ProjectileSpread
     proto: BulletLaser
-    count: 4 # 60 heat damage, 20 blunt damage, and a high energy cost per shot.
+    count: 4 #60 heat damage, 20 blunt damage, and a high energy cost per shot.
     spread: 0
 
 - type: entity
@@ -1434,10 +1402,14 @@
   - type: ProjectileSpread
     proto: BulletLaser
 <<<<<<< HEAD
+<<<<<<< HEAD
     count: 3 # 45 heat damage if you hit all your shots, but narrower spread
 =======
     count: 4 # 52 heat damage if you hit all your shots, but narrower spread
 >>>>>>> parent of 10099b75f0 (Реверт 12)
+=======
+    count: 4 #52 heat damage if you hit all your shots, but narrower spread
+>>>>>>> parent of 6d2a2e8d4a (Реверт 10)
     spread: 10
 
 - type: entity
