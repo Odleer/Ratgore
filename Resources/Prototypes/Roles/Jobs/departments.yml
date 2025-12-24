@@ -5,24 +5,60 @@
 
 - type: department
   id: Logistics
+  name: department-Logistics
   description: department-Cargo-description
   color: "#A46106"
-  weight: -90
-  primary: false
+  roles:
+  - CargoTechnician
+  - Quartermaster
+  - SalvageSpecialist
+  - MailCarrier
   editorHidden: true
 
 - type: department
   id: Civilian
+  name: department-Civilian
   description: department-Civilian-description
   color: "#9FED58"
   weight: 5
   roles:
-  - GliessianDockmaster
-  - GliessianSheriff
-  - GliessianDeputy
-  - Spacer
-  - GliessianDockhand
-  editorHidden: false
+  - Bartender
+  - Botanist
+  - Boxer
+  - Chef
+  - Clown
+  - HeadOfPersonnel
+  - Janitor
+  - Mime
+  - Musician
+  - Passenger
+  - Reporter
+  - Visitor
+  - Zookeeper
+  - ServiceWorker
+  - MartialArtist
+  - Prisoner
+  - Gladiator
+  editorHidden: true
+
+- type: department
+  id: CentralCommand
+  name: department-CentralCommand
+  description: department-CentralCommand-description
+  color: "#0c344d"
+  roles:
+  - CentralCommandOfficial
+  - CBURN
+  - ERTLeader
+  - ERTChaplain
+  - ERTJanitor
+  - ERTMedical
+  - ERTSecurity
+  - ERTEngineer
+  - DeathSquad
+  editorHidden: true
+  weight: 120
+>>>>>>> parent of 293820ea6d (Реверт 5)
 
 - type: department
   id: Command
@@ -36,6 +72,22 @@
   primary: false
   weight: 100
   editorHidden: true
+<<<<<<< HEAD
+=======
+
+- type: department
+  id: Dignitary
+  name: department-Dignitary
+  description: department-Dignitary-description
+  color: "#33FE6D"
+  roles:
+  - BlueshieldOfficer
+  - NanotrasenRepresentative
+  - Magistrate
+  primary: false
+  weight: 101
+  editorHidden: true
+>>>>>>> parent of 293820ea6d (Реверт 5)
 
 - type: department
   id: Engineering
@@ -49,7 +101,19 @@
   id: Medical
   description: department-Medical-description
   color: "#52B4E9"
+<<<<<<< HEAD
   weight: -93
+=======
+  roles:
+  - Chemist
+  - ChiefMedicalOfficer
+  - MedicalDoctor
+  - MedicalIntern
+  - Psychologist
+  - Paramedic
+  - SeniorPhysician
+  - MedicalBorg
+>>>>>>> parent of 293820ea6d (Реверт 5)
   editorHidden: true
 
 - type: department
@@ -63,14 +127,41 @@
   - SecurityCadet
   - SecurityOfficer
   - Warden
+<<<<<<< HEAD
+=======
+  - PrisonGuard
+  - Brigmedic
+>>>>>>> parent of 293820ea6d (Реверт 5)
   editorHidden: true
 
 - type: department
   id: Epistemics
   description: department-Epistemics-description
   color: "#D381C9"
+<<<<<<< HEAD
   weight: -92
   primary: false
+=======
+  roles:
+  - ResearchDirector
+  - SeniorResearcher
+  - Scientist
+  - ResearchAssistant
+  - Chaplain
+  - ForensicMantis
+  - Librarian
+  - Roboticist
+  editorHidden: true
+
+- type: department
+  id: Silicon
+  name: department-Silicon
+  description: department-Silicon-description
+  color: "#D381C9"
+  roles:
+  - Borg
+  - StationAi
+>>>>>>> parent of 293820ea6d (Реверт 5)
   editorHidden: true
 
 - type: department
@@ -80,6 +171,7 @@
   weight: -91
   primary: false
   editorHidden: true
+<<<<<<< HEAD
 
 - type: department
   id: NCWL
@@ -265,3 +357,5 @@
   - ConscriptShipCaptainDSM
   - ConscriptShipCrewDSM
   editorHidden: true
+=======
+>>>>>>> parent of 293820ea6d (Реверт 5)
