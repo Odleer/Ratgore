@@ -453,7 +453,13 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
+<<<<<<< HEAD
         Heat: 10
+=======
+        Heat: 0
+  - type: ChangeTemperatureOnCollide
+    heat: 10
+>>>>>>> parent of 10099b75f0 (Реверт 12)
 
 - type: entity
   id: BulletKinetic
@@ -1388,8 +1394,13 @@
   components:
   - type: ProjectileSpread
     proto: BulletLaser
+<<<<<<< HEAD
     count: 6 # 60 heat damage if you hit all your shots, but wide spread
     spread: 25
+=======
+    count: 5 # 65 heat damage if you hit all your shots, but wide spread
+    spread: 30
+>>>>>>> parent of 10099b75f0 (Реверт 12)
 
 - type: entity
   name: laser slug
@@ -1399,7 +1410,7 @@
   components:
   - type: ProjectileSpread
     proto: BulletLaser
-    count: 4 #60 heat damage, 20 blunt damage, and a high energy cost per shot.
+    count: 4 # 60 heat damage, 20 blunt damage, and a high energy cost per shot.
     spread: 0
 
 - type: entity
@@ -1422,7 +1433,11 @@
   components:
   - type: ProjectileSpread
     proto: BulletLaser
+<<<<<<< HEAD
     count: 3 # 45 heat damage if you hit all your shots, but narrower spread
+=======
+    count: 4 # 52 heat damage if you hit all your shots, but narrower spread
+>>>>>>> parent of 10099b75f0 (Реверт 12)
     spread: 10
 
 - type: entity
