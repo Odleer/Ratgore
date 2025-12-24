@@ -127,6 +127,7 @@
     - ShellShotgun
     - ShellShotgunLight
   - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
     layers:
       - state: practice
         map: [ "enum.AmmoVisualLayers.Base" ]
