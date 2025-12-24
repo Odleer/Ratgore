@@ -95,7 +95,6 @@ Use the correct prefixes to ensure proper categorization of changes.
 [FIX] Fixed a cheese-related bug
 [REMOVE] Removed an obsolete system
 [TWEAK] Improved weapon balance
-[UPDATE] Updated textures
 
 ```
 
@@ -104,8 +103,7 @@ Use the correct prefixes to ensure proper categorization of changes.
 ```
 
 Add: added a new rat mechanic
-Fix, fixed a cheese-related bug
-Update: updated textures
+Fix: fixed a cheese-related bug
 Tweak: improved weapon balance
 
 ```

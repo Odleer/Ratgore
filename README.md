@@ -29,8 +29,8 @@
 
 ```
 # 1. Клонируйте репозиторий
-git clone https://github.com/odleer/ratgore.git
-cd Rabite
+git clone https://github.com/odleer/ratbite.git
+cd Ratbite
 
 # 2. Загрузите движок
 git submodule update --init --recursive
@@ -48,8 +48,8 @@ Scripts\bat\runQuickAll.bat
 
 ```
 # 1. Клонируйте репозиторий
-git clone https://github.com/odleer/ratgore.git
-cd Rabite
+git clone https://github.com/odleer/ratbite.git
+cd ratbite
 
 # 2. Загрузите движок
 git submodule update --init --recursive
@@ -80,16 +80,15 @@ Changelog обновляется **автоматически** через GitHu
 [FIX] Исправлен баг с сыром
 [REMOVE] Удалена устаревшая система
 [TWEAK] Улучшен баланс оружия
-[UPDATE] Обновлены текстуры
 ```
 
 #### Формат без скобок (с двоеточием или запятой)
 
 ```
 Add: Добавлена новая механика крыс
-Fix, исправлен баг с сыром
-Update: обновлены текстуры
-Tweak: улучшен баланс оружия
+Fix: Исправлен баг с сыром
+Tweak: Улучшен баланс оружия
+Remove: Удален плесневелый сыр
 ```
 
 #### Типы изменений
