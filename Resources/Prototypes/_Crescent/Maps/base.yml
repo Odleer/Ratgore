@@ -132,3 +132,15 @@
   components:
     - type: AlertLevel
       alertLevelPrototype: combatShipAlerts
+
+- type: gameMap
+  id: EmptyCrescent
+  mapName: Empty
+  mapPath: /Maps/Test/empty.yml
+  minPlayers: 0
+  stations:
+    Empty:
+      stationProto: StandardCrescentStation # hehe
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Sector Crescent"
