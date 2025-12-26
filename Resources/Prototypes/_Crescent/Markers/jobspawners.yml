@@ -278,7 +278,7 @@
       - state: green
       - state: passenger
 
-#empire
+#empire DSM
 
 - type: entity
   id: SpawnPointFreeholder
@@ -596,7 +596,7 @@
       - state: green
       - state: passenger
 
-#misc
+#misc/TAP
 
 - type: entity
   id: SpawnPointAntiquarian
@@ -708,7 +708,7 @@
       - state: green
       - state: passenger
 
-#fourfamilies
+#fourfamiliesTAP
 
 - type: entity
   id: SpawnPointProphetTAP
@@ -806,7 +806,7 @@
       - state: green
       - state: passenger
 
-#misc
+#misc/civ
 
 - type: entity
   id: SpawnPointSpacer
@@ -930,7 +930,9 @@
       - state: green
       - state: passenger
 
-# ATH
+
+##More ATH
+
 - type: entity
   id: SpawnPointStewardATH
   parent: SpawnPointJobBase
@@ -1026,3 +1028,4 @@
     layers:
     - state: green
     - state: passenger
+
