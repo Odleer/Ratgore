@@ -237,9 +237,7 @@ public sealed partial class AtmosphereSystem : SharedAtmosphereSystem
         {
             tile.ExcitedGroup = null;
             tile.Excited = false;
-            tile.PressureSpecificTarget = null;
             tile.Air = null;
-            tile.AirArchived = null;
 
             for (var i = 0; i < tile.AdjacentTiles.Length; i++)
             {
