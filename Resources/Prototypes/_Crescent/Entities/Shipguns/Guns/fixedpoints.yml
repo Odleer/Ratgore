@@ -32,20 +32,20 @@
       machine_parts: !type:Container
   - type: Gun
     fireOnDropChance: 0
-    projectileSpeed: 95
-    fireRate: 1.2
+    projectileSpeed: 120
+    fireRate: 2.0
     selectedMode: FullAuto
     availableModes:
       - FullAuto
     angleDecay: 45
-    minAngle: 5
-    maxAngle: 15
+    minAngle: 8
+    maxAngle: 22
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
       params:
         variation: 0.12
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 2
+    rechargeCooldown: 1.5
     rechargeSound:
       path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
       params:
@@ -53,8 +53,8 @@
         variation: 0.08
   - type: BasicEntityAmmoProvider
     proto: BulletMachineGunPlasmaShuttle
-    capacity: 30
-    count: 10
+    capacity: 20
+    count: 20
   - type: HardpointAnchorableOnly
     class: Energy
     size: Small
@@ -99,12 +99,12 @@
       machine_parts: !type:Container
   - type: Gun
     fireOnDropChance: 0
-    projectileSpeed: 95
-    fireRate: 2.4
+    projectileSpeed: 110
+    fireRate: 1.2
     selectedMode: SemiAuto
     angleDecay: 45
-    minAngle: 8
-    maxAngle: 15
+    minAngle: 10
+    maxAngle: 25
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -112,7 +112,7 @@
       params:
         variation: 0.12
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 6
+    rechargeCooldown: 4
     rechargeSound:
       path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
       params:
@@ -120,8 +120,8 @@
         variation: 0.08
   - type: BasicEntityAmmoProvider
     proto: BulletMachineGunIon
-    capacity: 30
-    count: 25
+    capacity: 20
+    count: 20
   - type: HardpointAnchorableOnly
     class: Energy
     size: Medium
@@ -427,7 +427,9 @@
   - type: Gun
     fireOnDropChance: 0
     fireRate: 2
-    projectileSpeed: 80
+    projectileSpeed: 55
+    minAngle: 0
+    maxAngle: 3
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/50cal.ogg
     soundEmpty:
@@ -518,8 +520,8 @@
       gun_magazine: !type:ContainerSlot
   - type: Gun
     fireOnDropChance: 0
-    fireRate: 0.7
-    projectileSpeed: 70
+    fireRate: 0.5
+    projectileSpeed: 100
     selectedMode: Burst
     availableModes:
     - Burst
@@ -527,7 +529,7 @@
       path: /Audio/Weapons/Guns/Gunshots/ship_perforator.ogg
     soundEmpty:
       path: /Audio/Items/beep.ogg
-    burstCooldown: 4
+    burstCooldown: 5
   - type: HardpointAnchorableOnly
     class: Energy
     size: Large
@@ -615,8 +617,10 @@
       - CartridgeShell
   - type: Gun
     fireOnDropChance: 0
-    fireRate: 4
-    projectileSpeed: 95
+    fireRate: 2
+    projectileSpeed: 50
+    minAngle: 0
+    maxAngle: 2
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_duster.ogg
     soundEmpty:
@@ -692,8 +696,10 @@
       - Cartridge
   - type: Gun
     fireOnDropChance: 0
-    fireRate: 0.1
-    projectileSpeed: 135
+    fireRate: 0.15
+    projectileSpeed: 60
+    minAngle: 0
+    maxAngle: 1
     soundGunshot:
       path: /Audio/Effects/railfire.ogg
     soundEmpty:
@@ -791,8 +797,10 @@
             - VulcanCartridgeBox
   - type: Gun
     fireOnDropChance: 0
-    fireRate: 12
-    projectileSpeed: 135
+    fireRate: 6
+    projectileSpeed: 60
+    minAngle: 0
+    maxAngle: 3
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
     soundEmpty:
@@ -890,10 +898,10 @@
             - VulcanCartridgeBox
   - type: Gun
     fireOnDropChance: 0
-    fireRate: 36
-    maxAngle: 4
+    fireRate: 16
+    maxAngle: 5
     minAngle: 0
-    projectileSpeed: 135
+    projectileSpeed: 60
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
     soundEmpty:

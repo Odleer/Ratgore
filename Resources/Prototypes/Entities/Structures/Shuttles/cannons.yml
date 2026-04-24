@@ -118,7 +118,10 @@
         - !type:DoActsBehavior
           acts: ["Destruction"]
   - type: Gun
-    fireRate: 5
+    projectileSpeed: 120
+    fireRate: 3
+    minAngle: 6
+    maxAngle: 18
     useKey: false
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
@@ -171,7 +174,10 @@
         - !type:DoActsBehavior
           acts: ["Destruction"]
   - type: Gun
-    fireRate: 1
+    projectileSpeed: 110
+    fireRate: 0.8
+    minAngle: 8
+    maxAngle: 20
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ship_perforator.ogg
       params:
