@@ -300,3 +300,24 @@ public sealed class WorldControllerSystem : EntitySystem
         RaiseLocalEvent(map, ref ev, broadcast: true);
     }
 }
+
+/// <summary>
+///     A directed event fired when a chunk is initially set up in the world. The chunk is not loaded at this point.
+/// </summary>
+[ByRefEvent]
+[PublicAPI]
+public readonly record struct WorldChunkAddedEvent(EntityUid Chunk, Vector2i Coords);
+
+/// <summary>
+///     A directed event fired when a chunk is loaded into the world, i.e. a player or other world loader has entered vicinity.
+/// </summary>
+[ByRefEvent]
+[PublicAPI]
+public readonly record struct WorldChunkLoadedEvent(EntityUid Chunk, Vector2i Coords);
+
+/// <summary>
+///     A directed event fired when a chunk is unloaded from the world, i.e. no world loaders remain nearby.
+/// </summary>
+[ByRefEvent]
+[PublicAPI]
+public readonly record struct WorldChunkUnloadedEvent(EntityUid Chunk, Vector2i Coords);
