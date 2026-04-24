@@ -439,7 +439,7 @@ namespace Content.Server.Decals
             var chunksInRange = _chunking.GetChunksForSession(player, ChunkSize, indexPool, viewerPool); // Forge-Change
             var staleChunks = viewerPool.Get(); // Forge-Change
             var previouslySent = _previousSentChunks[player];
-            var previouslySentRemoveBuffer = new List<NetEntity>(); // Forge-Change
+            previouslySentRemoveBuffer.Clear(); // Forge-Change
 
             // Get any chunks not in range anymore
             // Then, remove them from previousSentChunks (for stuff like grids out of range)
@@ -490,25 +490,6 @@ namespace Content.Server.Decals
                     // If the grid was deleted then don't worry about telling the client to delete the chunk.
                     oldIndices.Clear();
                     indexPool.Return(oldIndices);
-                }
-            }
-
-            foreach (var netGrid in previouslySentRemoveBuffer) // Forge-Change
-            {
-                if (!previouslySent.Remove(netGrid, out var oldIndices)) // Forge-Change
-                    continue; // Forge-Change
-
-                // Was the grid deleted?
-                if (TryGetEntity(netGrid, out var gridId) && HasComp<MapGridComponent>(gridId.Value)) // Forge-Change
-                {
-                    // no -> add it to the list of stale chunks
-                    staleChunks[netGrid] = oldIndices; // Forge-Change
-                }
-                else
-                {
-                    // If the grid was deleted then don't worry about telling the client to delete the chunk.
-                    oldIndices.Clear(); // Forge-Change
-                    indexPool.Return(oldIndices); // Forge-Change
                 }
             }
 

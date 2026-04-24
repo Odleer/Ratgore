@@ -392,10 +392,6 @@ namespace Content.Server.Atmos.EntitySystems
             // Note: This is still processed even if space wind is turned off since this handles playing the sounds.
 
             var number = 0;
-            var bodies = EntityManager.GetEntityQuery<PhysicsComponent>();
-            var xforms = EntityManager.GetEntityQuery<TransformComponent>();
-            var metas = EntityManager.GetEntityQuery<MetaDataComponent>();
-            var pressureQuery = EntityManager.GetEntityQuery<MovedByPressureComponent>();
             var projectileQuery = GetEntityQuery<ProjectileComponent>();
 
             // Doing this here because it's entirely possible the gravity component can be on the Map OR the Grid, and can even be both.
@@ -412,7 +408,7 @@ namespace Content.Server.Atmos.EntitySystems
 
             while (atmosphere.CurrentRunTiles.TryDequeue(out var tile))
             {
-                HighPressureMovements(ent, tile, bodies, xforms, pressureQuery, metas, projectileQuery, sumGravity);
+                HighPressureMovements(ent, tile, _physicsQuery, _xformQuery, _movedByPressureQuery, _metaQuery, projectileQuery, sumGravity);
                 atmosphere.HighPressureDelta.Remove(tile);
 
                 if (number++ < LagCheckIterations)
