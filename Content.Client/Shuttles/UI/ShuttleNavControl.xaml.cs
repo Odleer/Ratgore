@@ -5,6 +5,7 @@ using Content.Client.Station;
 using Content.Shared._Crescent.ShipShields;
 using Content.Shared._Crescent.Vessel;
 using Content.Shared.Crescent.Radar; // Frontier
+using Content.Shared._Mono.Radar;
 using Content.Shared.Shuttles.BUIStates;
 using Content.Shared.Shuttles.Components;
 using Content.Shared.Shuttles.Systems;
@@ -50,6 +51,7 @@ public sealed partial class ShuttleNavControl : BaseShuttleControl
     private Dictionary<NetEntity, List<DockingPortState>> _docks = new();
     private List<ProjectileState> _projectiles = new();
     private Dictionary<NetEntity, List<TurretState>> _turrets = new();
+    private List<HitscanLineState> _hitscanLines = new();
 
     internal int updateTicker = 0;
 
@@ -389,6 +391,7 @@ public sealed partial class ShuttleNavControl : BaseShuttleControl
     {
         _projectiles = state.Projectiles;
         _turrets = state.Turrets;
+        _hitscanLines = state.HitscanLines;
     }
 
     public void UpdateState(NavInterfaceState state)
@@ -487,6 +490,7 @@ public sealed partial class ShuttleNavControl : BaseShuttleControl
         }
 
         DrawProjectiles(handle, ourWorldMatrixInvert);
+        DrawHitscanLines(handle, ourWorldMatrixInvert);
         DrawShields(handle, xform, ourWorldMatrixInvert);
 
 
@@ -824,6 +828,57 @@ public sealed partial class ShuttleNavControl : BaseShuttleControl
             }
 
             handle.DrawPrimitives(visual.Topology, verts, projectile.Color);
+        }
+    }
+
+    private void DrawHitscanLines(DrawingHandleScreen handle, Matrix3x2 matrix)
+    {
+        foreach (var line in _hitscanLines)
+        {
+            Vector2 startLocal;
+            Vector2 endLocal;
+
+            if (line.Grid == null)
+            {
+                startLocal = Vector2.Transform(line.Start, matrix);
+                endLocal = Vector2.Transform(line.End, matrix);
+            }
+            else if (EntManager.TryGetEntity(line.Grid, out var gridEntity))
+            {
+                var gridToWorld = _transform.GetWorldMatrix(gridEntity.Value);
+                var gridToLocal = Matrix3x2.Multiply(gridToWorld, matrix);
+
+                startLocal = Vector2.Transform(line.Start, gridToLocal);
+                endLocal = Vector2.Transform(line.End, gridToLocal);
+            }
+            else
+            {
+                continue;
+            }
+
+            startLocal.Y = -startLocal.Y;
+            endLocal.Y = -endLocal.Y;
+
+            var startScreen = ScalePosition(startLocal);
+            var endScreen = ScalePosition(endLocal);
+
+            if (startLocal.Length() > WorldRange * 2f && endLocal.Length() > WorldRange * 2f)
+                continue;
+
+            handle.DrawLine(startScreen, endScreen, line.Color);
+
+            if (line.Thickness > 1.0f)
+            {
+                var dir = (endScreen - startScreen).Normalized();
+                var perpendicular = new Vector2(-dir.Y, dir.X) * 0.5f;
+
+                for (float i = 1; i <= line.Thickness; i += 1.0f)
+                {
+                    var offset = perpendicular * i;
+                    handle.DrawLine(startScreen + offset, endScreen + offset, line.Color);
+                    handle.DrawLine(startScreen - offset, endScreen - offset, line.Color);
+                }
+            }
         }
     }
 

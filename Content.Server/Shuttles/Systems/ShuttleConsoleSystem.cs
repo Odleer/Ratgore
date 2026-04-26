@@ -16,6 +16,8 @@ using Content.Shared.ActionBlocker;
 using Content.Shared.Alert;
 using Content.Shared._Crescent.CCvars;
 using Content.Shared.Crescent.Radar;
+using Content.Shared._Mono.Radar;
+using Content.Server._Mono.Radar;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
 using Content.Shared.Shuttles.BUIStates;
@@ -623,7 +625,8 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
     {
         var projectiles = GetProjectilesInRange(consoleUid);
         turrets ??= GetAllTurrets(consoleUid);
-        return new IFFInterfaceState(projectiles, turrets);
+        var hitscanLines = GetHitscanLinesInRange(consoleUid);
+        return new IFFInterfaceState(projectiles, turrets, hitscanLines);
     }
 
     public List<ProjectileState> GetProjectilesInRange(EntityUid consoleUid)
@@ -654,6 +657,58 @@ public sealed partial class ShuttleConsoleSystem : SharedShuttleConsoleSystem
         }
 
         return projectiles;
+    }
+
+    public List<HitscanLineState> GetHitscanLinesInRange(EntityUid consoleUid)
+    {
+        var hitscanLines = new List<HitscanLineState>();
+        var consolePosition = _transform.GetWorldPosition(consoleUid);
+        var range = SharedRadarConsoleSystem.DefaultMaxRange;
+
+        var query = EntityQueryEnumerator<HitscanRadarComponent>();
+        while (query.MoveNext(out var uid, out var hitscan))
+        {
+            if (!hitscan.Enabled)
+                continue;
+
+            var startDistance = (hitscan.StartPosition - consolePosition).Length();
+            var endDistance = (hitscan.EndPosition - consolePosition).Length();
+
+            if (startDistance > range && endDistance > range)
+                continue;
+
+            if (hitscan.OriginGrid != null && hitscan.OriginGrid.Value.IsValid())
+            {
+                var gridUid = hitscan.OriginGrid.Value;
+                var gridMatrix = _transform.GetWorldMatrix(gridUid);
+                System.Numerics.Matrix3x2.Invert(gridMatrix, out var invGridMatrix);
+
+                var localStart = System.Numerics.Vector2.Transform(hitscan.StartPosition, invGridMatrix);
+                var localEnd = System.Numerics.Vector2.Transform(hitscan.EndPosition, invGridMatrix);
+
+                hitscanLines.Add(new HitscanLineState
+                {
+                    Grid = GetNetEntity(gridUid),
+                    Start = localStart,
+                    End = localEnd,
+                    Thickness = hitscan.LineThickness,
+                    Color = hitscan.RadarColor,
+                });
+            }
+            else
+            {
+                hitscanLines.Add(new HitscanLineState
+                {
+                    Grid = null,
+                    Start = hitscan.StartPosition,
+                    End = hitscan.EndPosition,
+                    Thickness = hitscan.LineThickness,
+                    Color = hitscan.RadarColor,
+                });
+            }
+        }
+
+        return hitscanLines;
     }
 
     public Dictionary<NetEntity, List<TurretState>> GetAllTurrets(EntityUid consoleUid)
