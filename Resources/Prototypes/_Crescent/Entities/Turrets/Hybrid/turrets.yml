@@ -30,14 +30,14 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 150
-      fireRate: 8
+      projectileSpeed: 160
+      fireRate: 6
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 20
-      minAngle: 3.5
-      maxAngle: 35
+      minAngle: 6
+      maxAngle: 25
       angleIncrease: 2.75
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/laserturret.ogg
@@ -93,13 +93,13 @@
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 180
-      fireRate: 4
+      fireRate: 3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 20
-      minAngle: 3
-      maxAngle: 12
+      minAngle: 6
+      maxAngle: 18
       angleIncrease: 5.5
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/lasergatling.ogg
@@ -154,14 +154,14 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 220
-      fireRate: 1
+      projectileSpeed: 200
+      fireRate: 0.8
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 2
-      minAngle: 1
-      maxAngle: 9
+      minAngle: 7
+      maxAngle: 20
       angleIncrease: 3
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/ship_perforator.ogg

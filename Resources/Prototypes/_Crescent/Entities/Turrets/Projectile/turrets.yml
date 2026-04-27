@@ -31,13 +31,13 @@
     - type: Gun
       fireOnDropChance: 0
       fireRate: 6
-      projectileSpeed: 140
+      projectileSpeed: 60
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 1
-      minAngle: 2
-      maxAngle: 4.5
+      minAngle: 1
+      maxAngle: 3
       angleIncrease: 0.25
       soundGunshot: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
     - type: ItemSlots
@@ -96,10 +96,10 @@
     - type: Gun
       fireOnDropChance: 0
       fireRate: 6
-      projectileSpeed: 140
+      projectileSpeed: 60
       angleDecay: 1
-      minAngle: 1.5
-      maxAngle: 3
+      minAngle: 0.5
+      maxAngle: 2
       angleIncrease: 0.25
       selectedMode: FullAuto
       availableModes:
@@ -159,11 +159,11 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      fireRate: 18
-      projectileSpeed: 140
+      fireRate: 12
+      projectileSpeed: 60
       angleDecay: 0.75
-      minAngle: 1.5
-      maxAngle: 2.5
+      minAngle: 0.5
+      maxAngle: 2
       angleIncrease: 0.05
       selectedMode: FullAuto
       availableModes:
@@ -224,14 +224,14 @@
     - type: MagazineAmmoProvider
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 120
+      projectileSpeed: 55
       fireRate: 3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 1
-      minAngle: 2.5
-      maxAngle: 5.5
+      minAngle: 1
+      maxAngle: 3
       angleIncrease: 0.5
       soundGunshot: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
     - type: ContainerContainer
@@ -290,14 +290,14 @@
     - type: MagazineAmmoProvider
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 120
+      projectileSpeed: 55
       fireRate: 3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 1
-      minAngle: 2
-      maxAngle: 4.5
+      minAngle: 0.5
+      maxAngle: 2.5
       angleIncrease: 0.5
       soundGunshot: /Audio/Weapons/Guns/Gunshots/vulcan.ogg
     - type: ContainerContainer
@@ -358,14 +358,14 @@
                 collection: MetalGlassBreak
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 140
-      fireRate: 4
+      projectileSpeed: 65
+      fireRate: 3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 0.5
-      minAngle: 1.5
-      maxAngle: 3
+      minAngle: 0.5
+      maxAngle: 2
       angleIncrease: 0.25
       soundGunshot: /Audio/Weapons/Guns/Gunshots/gun_sentry.ogg
     - type: ContainerContainer
@@ -425,14 +425,14 @@
                 collection: MetalGlassBreak
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 140
-      fireRate: 4
+      projectileSpeed: 65
+      fireRate: 3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 0.5
-      minAngle: 1
-      maxAngle: 2
+      minAngle: 0.3
+      maxAngle: 1.5
       angleIncrease: 0.25
       soundGunshot: /Audio/Weapons/Guns/Gunshots/gun_sentry.ogg
     - type: ContainerContainer
@@ -495,14 +495,14 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 200
+      projectileSpeed: 70
       fireRate: 0.3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 0.1
-      minAngle: 0.5
-      maxAngle: 2
+      minAngle: 0.3
+      maxAngle: 1.5
       angleIncrease: 0.4
       soundGunshot: /Audio/Weapons/Guns/Gunshots/ship_duster.ogg
     - type: BallisticAmmoProvider
@@ -550,15 +550,15 @@
                 collection: MetalGlassBreak
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 150
-      burstFireRate: 8
+      projectileSpeed: 65
+      burstFireRate: 6
       burstCooldown: 2
       selectedMode: Burst
       availableModes:
         - Burst
       angleDecay: 0.3
-      minAngle: 1
-      maxAngle: 3.5
+      minAngle: 0.5
+      maxAngle: 2
       angleIncrease: 0.5
       soundGunshot: /Audio/Weapons/Guns/Gunshots/ship_duster.ogg
     - type: MagazineAmmoProvider
@@ -612,11 +612,11 @@
       powerLoad: 800
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 150
-      fireRate: 1.5
+      projectileSpeed: 65
+      fireRate: 1.2
       angleDecay: 0.3
-      minAngle: 0.75
-      maxAngle: 3
+      minAngle: 0.3
+      maxAngle: 1.5
       angleIncrease: 0.5
       selectedMode: FullAuto
       availableModes:
@@ -660,14 +660,14 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 250
+      projectileSpeed: 80
       fireRate: 0.2
       selectedMode: SemiAuto
       availableModes:
         - SemiAuto
       angleDecay: 0.05
-      minAngle: 0.4
-      maxAngle: 1.5
+      minAngle: 0.2
+      maxAngle: 1
       angleIncrease: 1
       soundGunshot: /Audio/Weapons/Guns/Gunshots/ship_duster.ogg
     - type: BallisticAmmoProvider
@@ -701,11 +701,11 @@
         - state: ncwl-howitzer
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 250
+      projectileSpeed: 80
       fireRate: 0.25
       angleDecay: 0.05
-      minAngle: 0.4
-      maxAngle: 1.5
+      minAngle: 0.2
+      maxAngle: 1
       angleIncrease: 1
       selectedMode: FullAuto
       availableModes:
@@ -763,7 +763,7 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 120
+      projectileSpeed: 60
       fireRate: 1.5
       selectedMode: FullAuto
       availableModes:

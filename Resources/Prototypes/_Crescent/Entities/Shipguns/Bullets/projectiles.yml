@@ -60,10 +60,10 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 65
-        Piercing: 90
+        Structural: 30
+        Piercing: 15
   - type: TimedDespawn
-    lifetime: 4
+    lifetime: 8
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -149,22 +149,22 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 80
-        Radiation: 10
-        Heat: 25
+        Structural: 130
+        Radiation: 15
+        Heat: 45
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 350
-    intensitySlope: 55
-    totalIntensity: 500
+    maxIntensity: 250
+    intensitySlope: 50
+    totalIntensity: 350
     maxTileBreak: 1
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 11
+    lifetime: 3
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/plasmahardpoint.rsi
     layers:
@@ -183,25 +183,25 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 150
-        Radiation: 25
-        Heat: 35
+        Structural: 250
+        Radiation: 40
+        Heat: 60
   - type: ProjectileIFF
     visualType: Circle
     color: Blue
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    totalIntensity: 3000
-    intensitySlope: 750
-    maxIntensity: 750
+    totalIntensity: 2500
+    intensitySlope: 600
+    maxIntensity: 600
     maxTileBreak: 4
   - type: PointLight
     radius: 3.5
     color: red
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 80
+    lifetime: 4
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/plasmaheavy.rsi
     layers:
@@ -220,21 +220,21 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Radiation: 25
-        Heat: 35
+        Radiation: 50
+        Heat: 70
   - type: ProjectileIFF
     visualType: Circle
     color: Blue
   - type: EmpOnTrigger
     range: 2
-    energyConsumption: 1000
-    disableDuration: 6
+    energyConsumption: 800
+    disableDuration: 5
   - type: PointLight
     radius: 3.5
     color: blue
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 60
+    lifetime: 3.5
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/ion.rsi
     layers:
@@ -721,26 +721,26 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 375
-        Radiation: 35
-        Heat: 40
-        Blunt: 20
+        Structural: 200
+        Radiation: 30
+        Heat: 55
+        Blunt: 15
   - type: ProjectileIFF
     visualType: Circle
     color: Blue
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 600
-    intensitySlope: 350
-    totalIntensity: 1250
+    maxIntensity: 350
+    intensitySlope: 150
+    totalIntensity: 700
     maxTileBreak: 0
   - type: PointLight
     radius: 3.5
     color: red
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 20
+    lifetime: 3.5
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/plasmaheavy.rsi
     layers:
@@ -761,20 +761,20 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 250
-        Radiation: 45
-        Blunt: 40
+        Structural: 150
+        Radiation: 35
+        Blunt: 25
   - type: Tag
     tags:
       - CompaktLens
   - type: TimedDespawn
-    lifetime: 8
+    lifetime: 3
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
       - state: base-xray
   - type: EmpOnTrigger
-    energyConsumption: 500
+    energyConsumption: 400
     range: 3
     disableDuration: 1
   - type: PointLight
@@ -800,14 +800,14 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 450
-        Radiation: 20
-        Blunt: 40
+        Structural: 180
+        Radiation: 15
+        Blunt: 25
   - type: Tag
     tags:
       - CompaktLens
   - type: TimedDespawn
-    lifetime: 25
+    lifetime: 3
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
@@ -835,14 +835,14 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 250
-        Radiation: 20
-        Blunt: 40
+        Structural: 140
+        Radiation: 15
+        Blunt: 25
   - type: Tag
     tags:
       - CompaktLens
   - type: TimedDespawn
-    lifetime: 14
+    lifetime: 3
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
@@ -868,22 +868,22 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 60
-    intensitySlope: 45
-    totalIntensity: 60
+    maxIntensity: 50
+    intensitySlope: 40
+    totalIntensity: 50
     maxTileBreak: 1
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 400
-        Radiation: 20
-        Blunt: 40
+        Structural: 160
+        Radiation: 15
+        Blunt: 25
   - type: Tag
     tags:
       - CompaktLens
   - type: TimedDespawn
-    lifetime: 14
+    lifetime: 3
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/lenses.rsi
     layers:
@@ -910,13 +910,13 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 800
-        Radiation: 40
+        Structural: 200
+        Radiation: 30
   - type: Tag
     tags:
       - CompaktLens
   - type: TimedDespawn
-    lifetime: 14
+    lifetime: 3.5
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/amcanister.rsi
     layers:
@@ -942,17 +942,17 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 300
-    intensitySlope: 100
-    totalIntensity: 500
+    maxIntensity: 200
+    intensitySlope: 80
+    totalIntensity: 350
   - type: Projectile
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 400
+        Structural: 170
         Radiation: 20
   - type: TimedDespawn
-    lifetime: 14
+    lifetime: 3.5
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/amcanisterplas.rsi
     layers:
@@ -979,16 +979,16 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 600
+        Structural: 180
         Radiation: 20
   - type: Explosive
     explosionType: Default
-    maxIntensity: 300
-    intensitySlope: 150
-    totalIntensity: 750
-    maxTileBreak: 7
+    maxIntensity: 200
+    intensitySlope: 100
+    totalIntensity: 450
+    maxTileBreak: 5
   - type: TimedDespawn
-    lifetime: 14
+    lifetime: 4
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/amcanisterguided.rsi
     layers:
@@ -1117,22 +1117,22 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 250
-        Radiation: 40
-        Heat: 65
+        Structural: 130
+        Radiation: 25
+        Heat: 45
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 150
-    intensitySlope: 50
-    totalIntensity: 300
-    maxTileBreak: 6
+    maxIntensity: 100
+    intensitySlope: 40
+    totalIntensity: 200
+    maxTileBreak: 2
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 22
+    lifetime: 3
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/plasmahardpoint.rsi
     layers:

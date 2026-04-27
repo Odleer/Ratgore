@@ -13,14 +13,14 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 50
-        Piercing: 100
+        Structural: 25
+        Piercing: 40
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 14 #1960
+    lifetime: 14
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -42,21 +42,21 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 10
-        Piercing: 40
+        Structural: 5
+        Piercing: 20
   - type: ExplodeOnTrigger
   - type: Explosive
-    explosionType: Fragmentation #basically a small grenade
-    maxIntensity: 5
-    intensitySlope: 3
-    totalIntensity: 100
+    explosionType: Fragmentation
+    maxIntensity: 3
+    intensitySlope: 2
+    totalIntensity: 60
     maxTileBreak: 0
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 14 #1960
+    lifetime: 14
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -112,14 +112,14 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 300
-        Piercing: 150
+        Structural: 120
+        Piercing: 60
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 15 #1800
+    lifetime: 15
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -141,21 +141,21 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 25
-        Piercing: 75
+        Structural: 15
+        Piercing: 35
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 15
-    intensitySlope: 10
-    totalIntensity: 350
+    maxIntensity: 10
+    intensitySlope: 7
+    totalIntensity: 200
     maxTileBreak: 0
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 15 #1800
+    lifetime: 15
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -214,14 +214,14 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 400
-        Piercing: 200
+        Structural: 150
+        Piercing: 80
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 16 #2240
+    lifetime: 16
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -242,21 +242,21 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 50
-        Piercing: 50
+        Structural: 25
+        Piercing: 25
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 25
-    intensitySlope: 15
-    totalIntensity: 500
+    maxIntensity: 15
+    intensitySlope: 10
+    totalIntensity: 300
     maxTileBreak: 0
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 16 #2240m
+    lifetime: 16
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -277,21 +277,21 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 150
-        Piercing: 150
+        Structural: 60
+        Piercing: 60
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 45
-    intensitySlope: 50
-    totalIntensity: 300
+    maxIntensity: 25
+    intensitySlope: 30
+    totalIntensity: 180
     maxTileBreak: 0
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 16 #2240m
+    lifetime: 16
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/pdtcasing.rsi
     layers:
@@ -314,21 +314,21 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 300
-        Piercing: 200
+        Structural: 150
+        Piercing: 100
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 200 #3 shot to break plastit good range
-    intensitySlope: 30
-    totalIntensity: 2000
-    maxTileBreak: 3
+    maxIntensity: 120
+    intensitySlope: 20
+    totalIntensity: 1200
+    maxTileBreak: 2
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 15 #3000m
+    lifetime: 15
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/mortarcasing.rsi
     layers:
@@ -349,14 +349,14 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 2000
-        Piercing: 500
+        Structural: 800
+        Piercing: 200
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 20 #3000m
+    lifetime: 20
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/mortarcasing.rsi
     layers:
@@ -377,21 +377,21 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 1300
-        Piercing: 200
+        Structural: 500
+        Piercing: 100
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 100
-    intensitySlope: 40
-    totalIntensity: 500
-    maxTileBreak: 3
+    maxIntensity: 60
+    intensitySlope: 25
+    totalIntensity: 300
+    maxTileBreak: 2
   - type: PointLight
     radius: 3.5
     color: orange
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 15 #2500
+    lifetime: 15
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/mortarcasing.rsi
     layers:
@@ -413,10 +413,10 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 350
-        Piercing: 150
+        Structural: 200
+        Piercing: 80
   - type: TimedDespawn
-    lifetime: 20 #4000m
+    lifetime: 20
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/630_armorpiercing_shell_casing.rsi
     layers:
@@ -424,10 +424,10 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 400
-    intensitySlope: 200
-    totalIntensity: 5000
-    maxTileBreak: 5
+    maxIntensity: 250
+    intensitySlope: 120
+    totalIntensity: 3000
+    maxTileBreak: 4
   - type: PointLight
     radius: 3.5
     color: orange
@@ -448,10 +448,10 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 750
-        Piercing: 250
+        Structural: 350
+        Piercing: 120
   - type: TimedDespawn
-    lifetime: 20 #4000m
+    lifetime: 20
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/630_armorpiercing_shell_casing.rsi
     layers:
@@ -481,10 +481,10 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 250
-        Piercing: 250
+        Structural: 120
+        Piercing: 120
   - type: TimedDespawn
-    lifetime: 20 #4000m
+    lifetime: 20
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/630_armorpiercing_shell_casing.rsi
     layers:
@@ -515,9 +515,9 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 1000
+        Structural: 500
   - type: TimedDespawn
-    lifetime: 20 #5000m
+    lifetime: 20
   - type: Sprite
     sprite: _NF/Objects/SpaceArtillery/1000_armorpiercing_rail_casing.rsi
     layers:
@@ -525,10 +525,10 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 800
-    intensitySlope: 200
-    totalIntensity: 9000
-    maxTileBreak: 15
+    maxIntensity: 500
+    intensitySlope: 150
+    totalIntensity: 6000
+    maxTileBreak: 10
   - type: PointLight
     radius: 3.5
     color: orange
@@ -551,13 +551,13 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 100
-        Blunt: 150
+        Structural: 50
+        Blunt: 70
   - type: Tag
     tags:
       - FlakShell
   - type: TimedDespawn
-    lifetime: 15 #1500m
+    lifetime: 15
   - type: Sprite
     sprite: _Crescent/Objects/ShuttleWeapons/flak.rsi
     layers:

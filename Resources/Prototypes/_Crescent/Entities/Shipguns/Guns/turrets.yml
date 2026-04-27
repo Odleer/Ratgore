@@ -31,8 +31,10 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 145
-      fireRate: 5
+      projectileSpeed: 65
+      fireRate: 4
+      minAngle: 0
+      maxAngle: 3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -68,8 +70,10 @@
   components:
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 145
-      fireRate: 5.5
+      projectileSpeed: 65
+      fireRate: 4.5
+      minAngle: 0
+      maxAngle: 3
     - type: Machine
       board: WeaponTurretPDTAdvancedCircuitboard
 
@@ -106,8 +110,10 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      fireRate: 12
-      projectileSpeed: 135
+      fireRate: 6
+      projectileSpeed: 60
+      minAngle: 0
+      maxAngle: 3
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -438,14 +444,16 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 95
-      fireRate: 8
+      projectileSpeed: 120
+      fireRate: 3
+      minAngle: 6
+      maxAngle: 18
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/lasergatling.ogg
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2
+      rechargeCooldown: 1.5
       rechargeSound:
         path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
         params:
@@ -453,8 +461,8 @@
           variation: 0.08
     - type: BasicEntityAmmoProvider
       proto: BulletEnergyTurretLaser
-      capacity: 40
-      count: 15
+      capacity: 25
+      count: 25
     - type: ApcPowerReceiver
       powerLoad: 3000
     - type: HardpointAnchorableOnly
@@ -1096,14 +1104,16 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 75
-      fireRate: 1.7
+      projectileSpeed: 110
+      fireRate: 1.0
+      minAngle: 8
+      maxAngle: 22
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/ship_friendship.ogg
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2
+      rechargeCooldown: 3
       rechargeSound:
         path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
         params:
@@ -1111,8 +1121,8 @@
           variation: 0.08
     - type: BasicEntityAmmoProvider
       proto: BulletPlasmaBlaster
-      capacity: 20
-      count: 20
+      capacity: 15
+      count: 15
     - type: ApcPowerReceiver
       powerLoad: 3000
     - type: HardpointAnchorableOnly
@@ -1158,8 +1168,10 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 95
-      fireRate: 12
+      projectileSpeed: 115
+      fireRate: 3
+      minAngle: 7
+      maxAngle: 20
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -1238,8 +1250,10 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 95
-      fireRate: 3.5
+      projectileSpeed: 110
+      fireRate: 1.5
+      minAngle: 8
+      maxAngle: 22
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -1686,14 +1700,16 @@
         ballistic-ammo: !type:Container
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 95
-      fireRate: 3
+      projectileSpeed: 120
+      fireRate: 2.0
+      minAngle: 7
+      maxAngle: 20
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       soundGunshot: /Audio/Weapons/Guns/Gunshots/lasergatling.ogg
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 2
+      rechargeCooldown: 1.5
       rechargeSound:
         path: /Audio/Weapons/Guns/Bolt/lmg_bolt_closed.ogg
         params:
@@ -1701,8 +1717,8 @@
           variation: 0.08
     - type: BasicEntityAmmoProvider
       proto: BulletMachineGunPlasmaKomodo
-      capacity: 20
-      count: 10
+      capacity: 15
+      count: 15
     - type: ApcPowerReceiver
       powerLoad: 3000
     - type: HardpointAnchorableOnly

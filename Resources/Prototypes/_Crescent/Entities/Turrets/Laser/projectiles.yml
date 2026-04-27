@@ -12,12 +12,12 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 30
-        Structural: 35
+        Blunt: 40
+        Structural: 50
   - type: Ammo
     muzzleFlash: HitscanEffect
   - type: TimedDespawn
-    lifetime: 1.5
+    lifetime: 2
   - type: PointLight
     radius: 2.5
     color: white
@@ -40,7 +40,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Heat: 75
+        Heat: 120
   - type: ProjectileIFF
     visualType: Circle
     color: Blue
@@ -53,7 +53,7 @@
     color: blue
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 9 #1080
+    lifetime: 3.5
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
@@ -71,7 +71,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Heat: 100
+        Heat: 150
   - type: ProjectileIFF
     visualType: Circle
     color: Red
@@ -80,7 +80,7 @@
     color: blue
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 14 #2800
+    lifetime: 3
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/lasers.rsi
     layers:
@@ -98,7 +98,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Heat: 250
+        Heat: 300
   - type: ProjectileIFF
     visualType: Circle
     color: Red
@@ -107,7 +107,7 @@
     color: blue
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 16 #3200m
+    lifetime: 3.5
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/lasers.rsi
     layers:
@@ -125,7 +125,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Heat: 200
+        Heat: 350
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
@@ -140,7 +140,7 @@
     color: blue
     energy: 0.5
   - type: TimedDespawn
-    lifetime: 18 #3600m
+    lifetime: 4
   - type: Sprite
     sprite: _Crescent/Objects/Turrets/Ammunition/Projectiles/lasers.rsi
     layers:

@@ -31,12 +31,12 @@
       machine_parts: !type:Container
   - type: Gun
     fireOnDropChance: 0
-    projectileSpeed: 65
+    projectileSpeed: 100
     fireRate: 3
     selectedMode: SemiAuto
     angleDecay: 45
-    minAngle: 5
-    maxAngle: 15
+    minAngle: 8
+    maxAngle: 20
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -96,14 +96,14 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 120
+      projectileSpeed: 150
       fireRate: .5
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 0
-      minAngle: 5
-      maxAngle: 5
+      minAngle: 8
+      maxAngle: 20
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/laserturret.ogg
         params:
@@ -155,14 +155,14 @@
           ents: []
     - type: Gun
       fireOnDropChance: 0
-      projectileSpeed: 120
+      projectileSpeed: 150
       fireRate: .5
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 0
-      minAngle: 5
-      maxAngle: 5
+      minAngle: 7
+      maxAngle: 18
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/laserturret.ogg
         params:
@@ -217,13 +217,13 @@
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 200
-      fireRate: 6
+      fireRate: 4
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 0
-      minAngle: 0.1
-      maxAngle: 0.1
+      minAngle: 6
+      maxAngle: 18
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/laserturret.ogg
         params:
@@ -276,13 +276,13 @@
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 200
-      fireRate: 6
+      fireRate: 4
       selectedMode: FullAuto
       availableModes:
         - FullAuto
       angleDecay: 0
-      minAngle: 0.1
-      maxAngle: 0.1
+      minAngle: 5
+      maxAngle: 16
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/laserturret.ogg
         params:
@@ -337,15 +337,15 @@
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 200
-      burstFireRate: 20 #6.67 effective RPS
+      burstFireRate: 15
       burstCooldown: 1
       shotsPerBurst: 10
       selectedMode: Burst
       availableModes:
         - Burst
       angleDecay: 0
-      minAngle: 0.1
-      maxAngle: 0.1
+      minAngle: 7
+      maxAngle: 20
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/lasergatling.ogg
         params:
@@ -398,15 +398,15 @@
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 200
-      burstFireRate: 40 #8 effective RPS
+      burstFireRate: 20
       burstCooldown: 1
       shotsPerBurst: 10
       selectedMode: Burst
       availableModes:
         - Burst
       angleDecay: 0
-      minAngle: 0.1
-      maxAngle: 0.1
+      minAngle: 6
+      maxAngle: 18
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/lasergatling.ogg
         params:
@@ -461,9 +461,9 @@
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 200
-      fireRate: 2.5
-      minAngle: 0.1
-      maxAngle: 0.1
+      fireRate: 1.5
+      minAngle: 8
+      maxAngle: 22
       selectedMode: FullAuto
       availableModes:
         - FullAuto
@@ -519,9 +519,9 @@
     - type: Gun
       fireOnDropChance: 0
       projectileSpeed: 200
-      minAngle: 0.1
-      maxAngle: 0.1
-      fireRate: 3
+      minAngle: 7
+      maxAngle: 20
+      fireRate: 1.8
       selectedMode: FullAuto
       availableModes:
         - FullAuto
