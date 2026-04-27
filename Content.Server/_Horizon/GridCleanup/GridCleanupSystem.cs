@@ -40,6 +40,7 @@ public sealed class GridCleanupSystem : EntitySystem
 
     // Dictionary to track grids scheduled for deletion
     private readonly Dictionary<EntityUid, TimeSpan> _pendingCleanup = new();
+    private readonly List<EntityUid> _pendingCleanupRemoveBuffer = new();
 
     // Set of grids that were skipped due to players - need to be rechecked periodically
     private readonly HashSet<EntityUid> _skippedDueToPlayers = new();
@@ -195,14 +196,14 @@ public sealed class GridCleanupSystem : EntitySystem
             return;
 
         // Check if any grids need to be cleaned up
-        var toRemove = new List<EntityUid>();
+        _pendingCleanupRemoveBuffer.Clear();
 
         foreach (var (gridUid, targetTime) in _pendingCleanup)
         {
             // Skip gateway destination grids
             if (HasComp<GatewayGeneratorDestinationComponent>(gridUid))
             {
-                toRemove.Add(gridUid);
+                _pendingCleanupRemoveBuffer.Add(gridUid);
                 continue;
             }
 
@@ -213,7 +214,7 @@ public sealed class GridCleanupSystem : EntitySystem
             // Check if the entity still exists
             if (!EntityManager.EntityExists(gridUid))
             {
-                toRemove.Add(gridUid);
+                _pendingCleanupRemoveBuffer.Add(gridUid);
                 continue;
             }
 
@@ -221,7 +222,7 @@ public sealed class GridCleanupSystem : EntitySystem
             if (HasComp<SalvageExpeditionComponent>(gridUid))
             {
                 _sawmill.Debug($"Update: Removing expedition grid {gridUid} from cleanup queue");
-                toRemove.Add(gridUid);
+                _pendingCleanupRemoveBuffer.Add(gridUid);
                 continue;
             }
 
@@ -235,7 +236,7 @@ public sealed class GridCleanupSystem : EntitySystem
                 if (HasComp<SalvageExpeditionComponent>(mapUid))
                 {
                     _sawmill.Debug($"Update: Removing grid {gridUid} on expedition map {mapUid} from cleanup queue");
-                    toRemove.Add(gridUid);
+                    _pendingCleanupRemoveBuffer.Add(gridUid);
                     continue;
                 }
 
@@ -243,7 +244,7 @@ public sealed class GridCleanupSystem : EntitySystem
                 if (HasComp<BiomeComponent>(mapUid))
                 {
                     _sawmill.Debug($"Update: Removing grid {gridUid} on biome map {mapUid} from cleanup queue - tiles generated dynamically");
-                    toRemove.Add(gridUid);
+                    _pendingCleanupRemoveBuffer.Add(gridUid);
                     continue;
                 }
             }
@@ -251,7 +252,7 @@ public sealed class GridCleanupSystem : EntitySystem
             // Verify it still has a grid component
             if (!TryComp<MapGridComponent>(gridUid, out var grid))
             {
-                toRemove.Add(gridUid);
+                _pendingCleanupRemoveBuffer.Add(gridUid);
                 continue;
             }
 
@@ -261,7 +262,7 @@ public sealed class GridCleanupSystem : EntitySystem
                 _sawmill.Debug($"Update: Removing grid {gridUid} from cleanup queue - players present");
                 // Add to recheck list so we can check again when players leave
                 _skippedDueToPlayers.Add(gridUid);
-                toRemove.Add(gridUid);
+                _pendingCleanupRemoveBuffer.Add(gridUid);
                 continue;
             }
 
@@ -269,18 +270,18 @@ public sealed class GridCleanupSystem : EntitySystem
             var tileCount = CountTiles((gridUid, grid));
             if (tileCount >= MinimumTiles)
             {
-                toRemove.Add(gridUid);
+                _pendingCleanupRemoveBuffer.Add(gridUid);
                 continue;
             }
 
             // Queue the grid for deletion
             QueueDel(gridUid);
             _sawmill.Debug($"Update: Queuing grid {gridUid} for deletion with {CountTiles((gridUid, grid))} tiles");
-            toRemove.Add(gridUid);
+            _pendingCleanupRemoveBuffer.Add(gridUid);
         }
 
         // Remove processed grids from the pending list
-        foreach (var gridUid in toRemove)
+        foreach (var gridUid in _pendingCleanupRemoveBuffer)
         {
             _pendingCleanup.Remove(gridUid);
         }
