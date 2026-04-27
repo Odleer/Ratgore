@@ -28,6 +28,7 @@ using Content.Shared._Crescent.Hardpoints;
 using Content.Shared.Physics;
 using Content.Shared.Popups;
 using Content.Shared.Crescent.Radar;
+using Content.Shared._Mono.Radar;
 
 namespace Content.Server.PointCannons;
 
@@ -53,6 +54,8 @@ public sealed class PointCannonSystem : EntitySystem
 
     private readonly Dictionary<EntityUid, float> _gridUpdateCooldown = new();
     private const float GridUpdateCooldownTime = 0.5f; // seconds
+    private const float AimLineLength = 256f;
+    private static readonly Color AimLineColor = Color.LimeGreen;
     private int CannonCheckRange = 25;
     private HashSet<EntityUid> QueuedGrids = new();
 
@@ -344,6 +347,8 @@ public sealed class PointCannonSystem : EntitySystem
         IFFInterfaceState iffState = _shuttleConSys.GetIFFState(uid,
             console.RegenerateCannons ? null : console.PrevState?.IFFState.Turrets);
 
+        AddCannonAimLines(console, iffState);
+
         List<string>? groups = console.RegenerateCannons ? console.CannonGroups.Keys.ToList() : null;
 
         var consoleState = new TargetingConsoleBoundUserInterfaceState(
@@ -354,6 +359,32 @@ public sealed class PointCannonSystem : EntitySystem
         console.RegenerateCannons = false;
         console.PrevState = consoleState;
         _uiSys.SetUiState(uid, TargetingConsoleUiKey.Key, consoleState);
+    }
+
+    private void AddCannonAimLines(TargetingConsoleComponent console, IFFInterfaceState iffState)
+    {
+        foreach (var cannonUid in console.CurrentGroup)
+        {
+            if (Deleted(cannonUid))
+                continue;
+
+            var form = Transform(cannonUid);
+            if (form.GridUid is not { } gridUid)
+                continue;
+
+            var localPos = form.LocalPosition;
+            var direction = form.LocalRotation.RotateVec(new Vector2(0, -1));
+            var endPos = localPos + direction * AimLineLength;
+
+            iffState.HitscanLines.Add(new HitscanLineState
+            {
+                Grid = GetNetEntity(gridUid),
+                Start = localPos,
+                End = endPos,
+                Thickness = 1.0f,
+                Color = AimLineColor,
+            });
+        }
     }
 
     private void OnConsoleFire(EntityUid uid, TargetingConsoleComponent console, TargetingConsoleFireMessage ev)
