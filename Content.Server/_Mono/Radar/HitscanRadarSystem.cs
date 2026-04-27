@@ -1,7 +1,6 @@
 using System.Numerics;
-using Content.Server._Crescent.SpaceArtillery;
+using Content.Shared.Crescent.Radar;
 using Content.Shared._Mono.Radar;
-using Content.Shared.PointCannons;
 using Content.Shared.Weapons.Ranged.Events;
 using Robust.Shared.Map;
 using Robust.Shared.Physics.Components;
@@ -20,8 +19,7 @@ public sealed partial class HitscanRadarSystem : EntitySystem
     {
         base.Initialize();
         SubscribeLocalEvent<HitscanFiredEvent>(OnHitscanFired);
-        SubscribeLocalEvent<PointCannonComponent, AmmoShotEvent>(OnPointCannonShot);
-        SubscribeLocalEvent<SpaceArtilleryComponent, AmmoShotEvent>(OnSpaceArtilleryShot);
+        SubscribeLocalEvent<TurretIFFComponent, AmmoShotEvent>(OnShipWeaponShot);
     }
 
     private void OnHitscanFired(HitscanFiredEvent ev)
@@ -47,12 +45,7 @@ public sealed partial class HitscanRadarSystem : EntitySystem
         despawn.Lifetime = hitscanRadar.LifeTime;
     }
 
-    private void OnPointCannonShot(EntityUid uid, PointCannonComponent comp, AmmoShotEvent args)
-    {
-        CreateProjectileRadarLines(uid, args);
-    }
-
-    private void OnSpaceArtilleryShot(EntityUid uid, SpaceArtilleryComponent comp, AmmoShotEvent args)
+    private void OnShipWeaponShot(EntityUid uid, TurretIFFComponent comp, AmmoShotEvent args)
     {
         CreateProjectileRadarLines(uid, args);
     }
