@@ -25,6 +25,7 @@ public sealed partial class RadarConsoleSystem : SharedRadarConsoleSystem
 
             console.LastUpdatedState.IFFState.Turrets = _console.GetAllTurrets(uid);
             console.LastUpdatedState.IFFState.Projectiles = _console.GetProjectilesInRange(uid);
+            console.LastUpdatedState.IFFState.HitscanLines = _console.GetHitscanLinesInRange(uid);
         }
     }
 
